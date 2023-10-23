@@ -1,13 +1,14 @@
 version: '3.8'
 services:
-  web:
-    build:
-      context: ./
-      target: runner
-    volumes:
-      - .:/app
-    # command: npm run dev
+  nextapp:
+    image: teallen_front-nextapp  # use the pre-built image
     ports:
       - "3000:3000"
     environment:
       NODE_ENV: production
+    networks:
+      - teallen
+
+networks:
+  teallen:
+    external: true
