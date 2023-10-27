@@ -1,4 +1,4 @@
-import type { Config } from 'tailwindcss'
+import type { Config } from 'tailwindcss';
 
 const config: Config = {
   content: [
@@ -8,13 +8,28 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      gridTemplateColumns: {
+        // Simple 18 column grid to allow for 2 / 3 column layouts
+        '18': 'repeat(18, minmax(0, 1fr))',
+      },
+      gridColumnStart: {
+        '13': '13',
+        '14': '14',
+        '15': '15',
+        '16': '16',
+        '17': '17',
+        '18': '18',
+      },
+      gridColumnEnd: {
+        '13': '13',
+        '14': '14',
+        '15': '15',
+        '16': '16',
+        '17': '17',
+        '18': '18',
       },
     },
   },
   plugins: [],
-}
-export default config
+};
+export default config;
