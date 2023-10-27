@@ -39,15 +39,15 @@ export default function RootLayout({
           </Link>
           <Link
             className="mx-2"
-            href="/blog"
-          >
-            blog
-          </Link>
-          <Link
-            className="mx-2"
             href="/contact"
           >
             contact
+          </Link>
+          <Link
+            className="mx-2"
+            href="/blog"
+          >
+            blog
           </Link>
         </nav>
         <div>{children}</div>
