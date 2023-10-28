@@ -1,4 +1,5 @@
 import type { Config } from 'tailwindcss';
+const defaultTheme = require('tailwindcss/defaultTheme');
 
 const config: Config = {
   content: [
@@ -11,6 +12,7 @@ const config: Config = {
       gridTemplateColumns: {
         // Simple 18 column grid to allow for 2 / 3 column layouts
         '18': 'repeat(18, minmax(0, 1fr))',
+        home: '1fr, auto, 1fr, auto, 1fr',
       },
       gridColumnStart: {
         '13': '13',
@@ -30,6 +32,6 @@ const config: Config = {
       },
     },
   },
-  plugins: [],
+  plugins: [require('daisyui')],
 };
 export default config;
