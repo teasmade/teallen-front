@@ -15,45 +15,5 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
-  return (
-    <html lang="en">
-      <body className={inter.className}>
-        <nav className="absolute bg-transparent text-white font-bold">
-          <Link
-            className="mx-2"
-            href="/"
-          >
-            home
-          </Link>
-          <Link
-            className="mx-2"
-            href="/developer"
-          >
-            developer
-          </Link>
-          <Link
-            className="mx-2"
-            href="/teacher"
-          >
-            teacher
-          </Link>
-          <Link
-            className="mx-2"
-            href="/contact"
-          >
-            contact
-          </Link>
-          <Link
-            className="mx-2"
-            href="/blog"
-          >
-            blog
-          </Link>
-        </nav>
-        <div>{children}</div>
-      </body>
-    </html>
-  );
+  return children;
 }
-
-// TODO: compose placeholder nav
