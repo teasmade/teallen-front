@@ -14,7 +14,7 @@ export default function BlogHome() {
           <span className="absolute">Tom</span>
         </h1> */}
         <span className="justify-self-start self-end ml-4 text-white text-4xl opacity-0 ">
-          and I'm a :
+          {''}
         </span>
       </div>
     </main>
