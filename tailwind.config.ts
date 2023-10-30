@@ -9,6 +9,16 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        slab: [
+          '"Rockwell"',
+          '"Rockwell Nova"',
+          '"Roboto Slab"',
+          '"DejaVu Serif"',
+          '"Sitka Small"',
+          '"serif"',
+        ],
+      },
       gridTemplateColumns: {
         // Simple 18 column grid to allow for 2 / 3 column layouts
         '18': 'repeat(18, minmax(0, 1fr))',
