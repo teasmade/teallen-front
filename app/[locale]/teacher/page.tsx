@@ -1,4 +1,4 @@
-export default function DeveloperHome() {
+export default function TeacherHome() {
   return (
     <main className="pl-2 lg:pl-0 lg:pt-12 h-screen flex flex-col lg:items-center bg-gradient-to-r from-orange-600 via-orange-700 to-orange-800">
       <div className="lg:grid lg:grid-cols-3 lg:justify-items-center group transition-all duration-1000 ease-in-out hover:opacity-100">

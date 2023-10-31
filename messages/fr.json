@@ -4,13 +4,13 @@
       "hello": "hello I'm",
       "name": "Thomas",
       "initials": ".teallen",
-      "and": "and I'm a :"
+      "and": "et je suis :"
     },
     "dev": {
-      "title": "software developer"
+      "title": "développeur logiciels"
     },
     "teach": {
-      "title": "language teacher"
+      "title": "professeur de langue"
     }
   }
 }
