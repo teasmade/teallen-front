@@ -20,42 +20,44 @@ export default function LocaleLayout({ children, params: { locale } }: Props) {
   return (
     <html lang={locale}>
       <body className={inter.className}>
-        <nav className="absolute bg-transparent text-white font-bold flex flex-row justify-between w-full">
-          <div>
-            <Link
-              className="mx-2"
-              href={'/'}
-            >
-              home
-            </Link>
-            <Link
-              className="mx-2"
-              href={`/developer`}
-            >
-              developer
-            </Link>
-            <Link
-              className="mx-2"
-              href={`/teacher`}
-            >
-              teacher
-            </Link>
-            <Link
-              className="mx-2"
-              href={`/contact`}
-            >
-              contact
-            </Link>
-            <Link
-              className="mx-2"
-              href={`/blog`}
-            >
-              blog
-            </Link>
-          </div>
-          <LocaleSwitch />
-        </nav>
-        <div>{children}</div>
+        <header>
+          <nav className="absolute bg-transparent text-white font-bold flex flex-row justify-between w-full">
+            <div>
+              <Link
+                className="mx-2 hidden lg:inline"
+                href={'/'}
+              >
+                home
+              </Link>
+              <Link
+                className="mx-2 hidden lg:inline"
+                href={`/developer`}
+              >
+                developer
+              </Link>
+              <Link
+                className="mx-2 hidden lg:inline"
+                href={`/teacher`}
+              >
+                teacher
+              </Link>
+              <Link
+                className="mx-2 hidden lg:inline"
+                href={`/contact`}
+              >
+                contact
+              </Link>
+              <Link
+                className="mx-2 hidden lg:inline"
+                href={`/blog`}
+              >
+                blog
+              </Link>
+            </div>
+            <LocaleSwitch />
+          </nav>
+        </header>
+        <>{children}</>
       </body>
     </html>
   );

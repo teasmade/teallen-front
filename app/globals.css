@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  html {
+    @apply text-white;
+  }
+}
+
+@layer components {
+  .btn-indicator-blue {
+    @apply normal-case text-white bg-blue-600 hover:bg-blue-800;
+  }
+}
