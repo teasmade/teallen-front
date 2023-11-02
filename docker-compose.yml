@@ -2,6 +2,7 @@ version: '3.8'
 services:
   nextapp:
     image: teallen_front-nextapp  # use the pre-built image
+    restart: unless-stopped
     ports:
       - "3000:3000"
     environment:
