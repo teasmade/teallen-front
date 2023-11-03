@@ -1,23 +1,22 @@
-import Image from 'next/image';
-import TypescriptSVG from '@/svgs/TypescriptSVG';
-import ReactSVG from '@/svgs/ReactSVG';
-import NextSVG from '@/svgs/NextSVG';
-import VueSVG from '@/svgs/VueSVG';
-import VuetifySVG from '@/svgs/VuetifySVG';
-import TailwindSVG from '@/svgs/TailwindSVG';
-import PhpSVG from '@/svgs/PhpSVG';
-import LaravelSVG from '@/svgs/LaravelSVG';
-import GatsbySVG from '@/svgs/GatsbySVG';
-import NginxSVG from '@/svgs/NginxSVG';
-import MySqlSVG from '@/svgs/MySqlSVG';
-import PostgresSVG from '@/svgs/PostgresSVG';
-import NodeSVG from '@/svgs/NodeSVG';
-import ExpressSVG from '@/svgs/ExpressSVG';
-import FirebaseSVG from '@/svgs/FirebaseSVG';
-import ApacheSVG from '@/svgs/ApacheSVG';
-import DockerSVG from '@/svgs/DockerSVG';
+import TypescriptSVG from '@/icons/svgs/TypescriptSVG';
+import ReactSVG from '@/icons/svgs/ReactSVG';
+import NextSVG from '@/icons/svgs/NextSVG';
+import VueSVG from '@/icons/svgs/VueSVG';
+import VuetifySVG from '@/icons/svgs/VuetifySVG';
+import TailwindSVG from '@/icons/svgs/TailwindSVG';
+import PhpSVG from '@/icons/svgs/PhpSVG';
+import LaravelSVG from '@/icons/svgs/LaravelSVG';
+import GatsbySVG from '@/icons/svgs/GatsbySVG';
+import NginxSVG from '@/icons/svgs/NginxSVG';
+import MySqlSVG from '@/icons/svgs/MySqlSVG';
+import PostgresSVG from '@/icons/svgs/PostgresSVG';
+import NodeSVG from '@/icons/svgs/NodeSVG';
+import ExpressSVG from '@/icons/svgs/ExpressSVG';
+import FirebaseSVG from '@/icons/svgs/FirebaseSVG';
+import ApacheSVG from '@/icons/svgs/ApacheSVG';
+import DockerSVG from '@/icons/svgs/DockerSVG';
 
-export default function DevSkillCard() {
+export default function SkillcardDev() {
   return (
     <div className="scale-[0.9] lg:scale-100 mb-4 lg:mt-0">
       {/* Row 1 - Front & CSS */}
@@ -27,7 +26,7 @@ export default function DevSkillCard() {
           <TypescriptSVG
             width="50"
             height="50"
-            className={'border border-blue-700'}
+            className={'border border-sky-700'}
           />
         </div>
 
@@ -88,7 +87,7 @@ export default function DevSkillCard() {
           <PhpSVG
             width="50"
             height="50"
-            className="bg-slate-300 lg:bg-slate-600 border border-blue-700 rounded"
+            className="bg-slate-300 lg:bg-slate-600 border border-sky-700 rounded"
           />
         </div>
 
@@ -97,7 +96,7 @@ export default function DevSkillCard() {
           <LaravelSVG
             width="50"
             height="50"
-            className="opacity-60 border border-blue-700 rounded"
+            className="opacity-60 border border-sky-700 rounded"
           />
         </div>
 
@@ -132,7 +131,7 @@ export default function DevSkillCard() {
           <MySqlSVG
             width="50"
             height="50"
-            className="bg-slate-300 lg:bg-slate-300 border border-blue-700 rounded"
+            className="bg-slate-300 lg:bg-slate-300 border border-sky-700 rounded"
           />
         </div>
 
@@ -177,7 +176,7 @@ export default function DevSkillCard() {
 
         {/* CTA Link */}
         <div className="flex flex-row col-start-4 col-end-8 justify-end items-center">
-          <span className="bg-blue-600 p-4 rounded text-xs xl:text-sm hover:scale-110 hover:-translate-x-2 ease-in duration-[150ms] hover:underline hover:cursor-pointer">
+          <span className="bg-sky-600 py-4 px-2 rounded text-[0.8rem] xl:text-base hover:scale-110 hover:-translate-x-2 ease-in duration-[150ms] underline lg:no-underline hover:underline hover:cursor-pointer hover:bg-sky-900">
             CV, History, Portfolio...
           </span>
         </div>
