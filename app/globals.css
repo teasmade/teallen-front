@@ -9,11 +9,15 @@
 }
 
 @layer components {
-  .btn-indicator-blue {
-    @apply normal-case text-white bg-blue-600 hover:bg-blue-800;
+  .btn-indicator-sky {
+    @apply normal-case text-white bg-sky-600 hover:bg-sky-800;
   }
 
   .skillcard-dev-item {
     @apply flex flex-col-reverse items-center ease-in duration-[1250ms] lg:opacity-0 lg:group-hover/dev:opacity-100;
+  }
+
+  .btn-home-bottomnav {
+    @apply py-2 px-4 rounded hover:underline hover:cursor-pointer hover:bg-sky-900;
   }
 }
