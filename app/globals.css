@@ -14,7 +14,7 @@
   }
 
   .skillcard-dev-item {
-    @apply flex flex-col-reverse items-center ease-in duration-[1250ms] lg:opacity-0 lg:group-hover/dev:opacity-100;
+    @apply flex flex-col-reverse items-center ease-in duration-[1250ms] lg:opacity-0 lg:group-hover/dev:opacity-100 scale-[0.9] lg:scale-100;
   }
 
   .btn-home-bottomnav {

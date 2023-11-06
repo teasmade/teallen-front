@@ -7,10 +7,18 @@
       "and": "and I'm a :"
     },
     "dev": {
-      "title": "software developer"
+      "title": "software developer",
+      "p1": "💡 I love the work of continuous learning, understanding dynamic contexts & exploring new environments - these challenges are what drove my career switch into the tech world.",
+      "p2": "💪 Self-development: widening & deepening my skillset, learning & collaborating, tackling problems & finding solutions across a wide range of projects & teams.",
+      "p3": "🖥️ I have applied skills & experience across the stack, & have delivered projects using:",
+      "btn-cta": "CV, History, Portfolio..."
     },
     "teach": {
-      "title": "language teacher"
+      "title": "language teacher",
+      "p1": "🎓 I'm also an English language teacher, CELTA qualified, with experience teaching groups & 1 on 1 in France & the UK.",
+      "p2": "💪 Self-development: understanding that effective communication, structured goals & applied empathy are equally important from either side of a whiteboard, a career change, or a screen. ",
+      "p3": "🚀 Through dedicated lessons & coaching, or as a bonus to ongoing collaboration, I can boost you & your team’s English communication, confidence & fluency.",
+      "btn-cta": "Learn more..."
     }
   }
 }

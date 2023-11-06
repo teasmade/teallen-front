@@ -7,10 +7,18 @@
       "and": "et je suis :"
     },
     "dev": {
-      "title": "développeur logiciels"
+      "title": "développeur logiciels",
+      "p1": "💡 Je m'épanouis dans l'apprentissage continu, la compréhension des contextes dynamiques et l'exploration de nouveaux environnements - ces défis ont motivé ma reconversion dans le monde tech.",
+      "p2": "💪 Auto-développement : élargir et approfondir mes compétences, apprendre et collaborer, résoudre des problèmes et trouver des solutions dans une grande variété de projets et d'équipes.",
+      "p3": "🖥️ J'ai des compétences et de l'expérience fullstack, ayant livré des projets en utilisant:",
+      "btn-cta": "CV, Parcours, Portfolio..."
     },
     "teach": {
-      "title": "professeur de langue"
+      "title": "professeur de langue",
+      "p1": "🎓 Je suis également professeur d'anglais, qualifié CELTA, avec une expérience d'enseignement en groupe et individuel en France et au Royaume-Uni.",
+      "p2": "💪 Auto-développement : comprendre que la communication efficace, les objectifs structurés et l'empathie appliquée sont tout aussi importants de part et d'autre d'un tableau blanc, lors d'un changement de carrière ou devant un écran.",
+      "p3": "🚀 À travers des leçons dédiées, du coaching, ou en tant que bonus lors d'une collaboration continue, je peux améliorer la communication, la confiance et la fluidité en anglais de vous et de votre équipe.",
+      "btn-cta": "En savoir plus..."
     }
   }
 }

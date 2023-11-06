@@ -16,9 +16,13 @@ import FirebaseSVG from '@/icons/svgs/FirebaseSVG';
 import ApacheSVG from '@/icons/svgs/ApacheSVG';
 import DockerSVG from '@/icons/svgs/DockerSVG';
 
-export default function SkillcardDev() {
+import { useTranslations } from 'next-intl';
+
+export default function SkillcardDev(ctaTitle: string) {
+  const t = useTranslations('Home.dev');
+
   return (
-    <div className="scale-[0.9] lg:scale-100 mb-4 lg:mt-0">
+    <div className="mx-2 mb-4 lg:mt-0">
       {/* Row 1 - Front & CSS */}
       <div className="gap-6 lg:gap-0 grid grid-cols-7 justify-around">
         <div className="skillcard-dev-item">
@@ -175,9 +179,9 @@ export default function SkillcardDev() {
         </div>
 
         {/* CTA Link */}
-        <div className="flex flex-row col-start-4 col-end-8 justify-end items-center">
-          <span className="bg-sky-600 py-4 px-2 rounded text-[0.8rem] xl:text-base hover:scale-110 hover:-translate-x-2 ease-in duration-[150ms] underline lg:no-underline hover:underline hover:cursor-pointer hover:bg-sky-900">
-            CV, History, Portfolio...
+        <div className="flex flex-row col-start-5 col-end-8 justify-end items-center self-end -mr-2 lg:mr-0">
+          <span className="bg-sky-600 py-4 px-2 rounded text-[0.8rem] xl:text-sm hover:scale-110 hover:-translate-x-2 ease-in duration-[150ms] underline lg:no-underline hover:underline hover:cursor-pointer hover:bg-sky-900">
+            {t('btn-cta')}
           </span>
         </div>
       </div>
