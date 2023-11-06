@@ -18,7 +18,7 @@ import DockerSVG from '@/icons/svgs/DockerSVG';
 
 import { useTranslations } from 'next-intl';
 
-export default function SkillcardDev(ctaTitle: string) {
+export default function SkillcardDev() {
   const t = useTranslations('Home.dev');
 
   return (

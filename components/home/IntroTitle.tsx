@@ -4,7 +4,7 @@ export default function IntroTitle() {
   const t = useTranslations('Home.title');
 
   return (
-    <section className="mt-6 lg:mt-0 flex flex-row lg:grid lg:grid-rows-none lg:grid-cols-7 justify-items-center pl-2 lg:pl-0 transition-all duration-600 ease-in-out hover:opacity-100">
+    <section className="mt-8 lg:mt-4 flex flex-row lg:grid lg:grid-rows-none lg:grid-cols-7 justify-items-center pl-2 lg:pl-0 transition-all duration-600 ease-in-out hover:opacity-100">
       <span className="self-end lg:self-start lg:justify-self-start text-2xl lg:text-4xl font-bold text-white lg:opacity-0 group-hover:opacity-100 duration-1000 ease-in-out 2xl:pl-8 lg:col-start-2 2xl:col-start-3">
         {t('hello')}
       </span>

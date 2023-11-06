@@ -10,10 +10,12 @@ export default function LocaleSwitch() {
   const pathname = usePathname();
   const locale = useLocale();
   return (
-    <div className="flex flex-row items-center bg-[#64748b88] rounded-full px-1 scale-[0.75] lg:scale-100 lg:mt-2 lg:mr-2">
+    <div className="flex flex-row items-center bg-[#64748bee] rounded-full px-1 scale-[0.75] lg:scale-100 lg:mt-2 lg:mb-2 lg:mr-2">
       <button
         className={
-          (locale === 'en' ? 'bg-sky-900' : 'bg-gray-600 opacity-50') +
+          (locale === 'en'
+            ? 'bg-gray-900'
+            : 'bg-gray-600 opacity-50 hover:opacity-100') +
           ' rounded-full p-1 my-1 mr-1 text-gray-200'
         }
       >
@@ -31,7 +33,9 @@ export default function LocaleSwitch() {
       </button>
       <button
         className={
-          (locale === 'fr' ? 'bg-sky-900' : 'bg-gray-600 opacity-50') +
+          (locale === 'fr'
+            ? 'bg-gray-900'
+            : 'bg-gray-600 opacity-50 hover:opacity-100') +
           ' rounded-full p-1 my-1 text-gray-200'
         }
       >
