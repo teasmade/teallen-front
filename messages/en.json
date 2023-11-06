@@ -33,5 +33,12 @@
       "link-contact": "contact",
       "link-hr": "hiring managers"
     }
+  },
+  "Essentials": {
+    "layout": {
+      "domain": ".teallen",
+      "name": "Thomas",
+      "title": "/essentials"
+    }
   }
 }

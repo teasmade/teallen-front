@@ -10,7 +10,7 @@ export default function IntroTitle() {
       </span>
 
       <h1 className="justify-self-start lg:justify-self-center relative text-3xl lg:text-7xl lg:col-start-4 font-bold text-white">
-        <span className="absolute left-4 opacity-0 lg:opacity-100 group-hover:opacity-0 duration-300 ease-out">
+        <span className="absolute left-4 opacity-0 lg:opacity-100 group-hover:opacity-0 duration-300 ease-out font-extrabold">
           {t('initials')}
         </span>
 

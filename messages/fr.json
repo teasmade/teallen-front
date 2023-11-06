@@ -33,5 +33,12 @@
       "link-contact": "contact",
       "link-hr": "recruteurs"
     }
+  },
+  "Essentials": {
+    "layout": {
+      "domain": ".teallen",
+      "name": "Thomas",
+      "title": "/essentiels"
+    }
   }
 }
