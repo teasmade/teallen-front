@@ -48,44 +48,52 @@ export default function LocaleLayout({ children, params: { locale } }: Props) {
                 tabIndex={0}
                 className="flex flex-col lg:flex-row lg:h-full lg:items-center dropdown-content z-[1] p-2 pr-4 bg-[#94a3b8ee] lg:bg-transparent rounded-br-md -ml-2 lg:ml-0"
               >
-                <li className="mt-2 pb-1  lg:mt-0 mr-4 text-xl underline lg:no-underline lg:hover:underline bg-[#64748b88] rounded">
+                <li className="mt-2 pb-1  lg:mt-0 mr-4 text-xl underline lg:no-underline lg:hover:underline bg-[#64748b88] rounded flex">
                   <Link
-                    className="mx-2 lg:inline"
+                    className="mx-2 lg:inline w-full flex-grow"
                     href={'/'}
                   >
                     {t('home')}
                   </Link>
                 </li>
-                <li className="mt-2 pb-1  lg:mt-0 mr-4 text-xl underline lg:no-underline lg:hover:underline bg-[#64748b88] rounded">
+                <li className="mt-2 pb-1  lg:mt-0 mr-4 text-xl underline lg:no-underline lg:hover:underline bg-[#64748b88] rounded flex">
                   <Link
-                    className="mx-2 lg:inline"
+                    className="mx-2 lg:inline w-full flex-grow"
                     href={`/developer`}
                   >
                     {t('developer')}
                   </Link>
                 </li>
-                <li className="mt-2 pb-1  lg:mt-0 mr-4 text-xl underline lg:no-underline lg:hover:underline bg-[#64748b88] rounded">
+                <li className="mt-2 pb-1  lg:mt-0 mr-4 text-xl underline lg:no-underline lg:hover:underline bg-[#64748b88] rounded flex">
                   <Link
-                    className="mx-2 lg:inline"
+                    className="mx-2 lg:inline w-full flex-grow"
                     href={`/teacher`}
                   >
                     {t('teacher')}
                   </Link>
                 </li>
-                <li className="mt-2 pb-1  lg:mt-0 mr-4 text-xl underline lg:no-underline lg:hover:underline bg-[#64748b88] rounded">
+                <li className="mt-2 pb-1  lg:mt-0 mr-4 text-xl underline lg:no-underline lg:hover:underline bg-[#64748b88] rounded flex">
                   <Link
-                    className="mx-2 lg:inline"
+                    className="mx-2 lg:inline w-full flex-grow"
                     href={`/contact`}
                   >
                     {t('contact')}
                   </Link>
                 </li>
-                <li className="mt-2 pb-1  lg:mt-0 mr-4 text-xl underline lg:no-underline lg:hover:underline bg-[#64748b88] rounded">
+                <li className="mt-2 pb-1  lg:mt-0 mr-4 text-xl underline lg:no-underline lg:hover:underline bg-[#64748b88] rounded flex">
                   <Link
-                    className="mx-2 lg:inline"
+                    className="mx-2 lg:inline w-full flex-grow"
                     href={`/blog`}
                   >
                     {t('blog')}
+                  </Link>
+                </li>
+                <li className="mt-2 pb-1  lg:mt-0 mr-4 text-xl underline lg:no-underline lg:hover:underline bg-[#64748b88] rounded flex">
+                  <Link
+                    className="mx-2 lg:inline w-full flex-grow"
+                    href={`/essentials`}
+                  >
+                    {t('essentials')}
                   </Link>
                 </li>
               </ul>
