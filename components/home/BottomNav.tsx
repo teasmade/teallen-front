@@ -1,6 +1,8 @@
 import { Link } from '../../navigation';
+import { useTranslations } from 'next-intl';
 
 export default function BottomNav() {
+  const t = useTranslations('Home.footer-nav');
   return (
     <nav className="w-full flex-grow flex flex-row justify-between lg:grid lg:grid-cols-18 pr-2 lg:pr-0 items-end justify-items-end lg:justify-items-center lg:items-start text-white font-bold">
       <div className="pl-2 lg:col-start-1 lg:col-end-5 lg:order-none text-sm lg:text-2xl lg:self-end pb-4 lg:pb-8 hover:scale-110 ease-in duration-[150ms]">
@@ -9,7 +11,7 @@ export default function BottomNav() {
           href="/blog"
         >
           <span className="underline lg:no-underline lg:hover:underline">
-            blog
+            {t('link-blog')}
           </span>
           <span> 📜</span>
         </Link>
@@ -20,7 +22,7 @@ export default function BottomNav() {
           href="/contact"
         >
           <span className="underline lg:no-underline lg:hover:underline">
-            contact
+            {t('link-contact')}
           </span>
           <span> 📡</span>
         </Link>
@@ -31,7 +33,8 @@ export default function BottomNav() {
           href="/essentials"
         >
           <span className="underline lg:no-underline lg:hover:underline">
-            hiring managers 👋
+            {t('link-hr')}
+            <span> 👋</span>
           </span>
         </Link>
       </div>

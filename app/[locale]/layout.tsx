@@ -2,6 +2,7 @@ import { notFound } from 'next/navigation';
 import { Inter } from 'next/font/google';
 import { ReactNode } from 'react';
 import { Link } from '../../navigation';
+import { useTranslations } from 'next-intl';
 
 import LocaleSwitch from '@/components/LocaleSwitch';
 
@@ -16,6 +17,7 @@ type Props = {
 export default function LocaleLayout({ children, params: { locale } }: Props) {
   // Validate that the incoming `locale` parameter is valid
   if (!locales.includes(locale as any)) notFound();
+  const t = useTranslations('Nav');
 
   return (
     <html lang={locale}>
@@ -51,7 +53,7 @@ export default function LocaleLayout({ children, params: { locale } }: Props) {
                     className="mx-2 lg:inline"
                     href={'/'}
                   >
-                    home
+                    {t('home')}
                   </Link>
                 </li>
                 <li className="mt-2 pb-1  lg:mt-0 mr-4 text-xl underline lg:no-underline lg:hover:underline bg-[#64748b88] rounded">
@@ -59,7 +61,7 @@ export default function LocaleLayout({ children, params: { locale } }: Props) {
                     className="mx-2 lg:inline"
                     href={`/developer`}
                   >
-                    developer
+                    {t('developer')}
                   </Link>
                 </li>
                 <li className="mt-2 pb-1  lg:mt-0 mr-4 text-xl underline lg:no-underline lg:hover:underline bg-[#64748b88] rounded">
@@ -67,7 +69,7 @@ export default function LocaleLayout({ children, params: { locale } }: Props) {
                     className="mx-2 lg:inline"
                     href={`/teacher`}
                   >
-                    teacher
+                    {t('teacher')}
                   </Link>
                 </li>
                 <li className="mt-2 pb-1  lg:mt-0 mr-4 text-xl underline lg:no-underline lg:hover:underline bg-[#64748b88] rounded">
@@ -75,7 +77,7 @@ export default function LocaleLayout({ children, params: { locale } }: Props) {
                     className="mx-2 lg:inline"
                     href={`/contact`}
                   >
-                    contact
+                    {t('contact')}
                   </Link>
                 </li>
                 <li className="mt-2 pb-1  lg:mt-0 mr-4 text-xl underline lg:no-underline lg:hover:underline bg-[#64748b88] rounded">
@@ -83,7 +85,7 @@ export default function LocaleLayout({ children, params: { locale } }: Props) {
                     className="mx-2 lg:inline"
                     href={`/blog`}
                   >
-                    blog
+                    {t('blog')}
                   </Link>
                 </li>
               </ul>
