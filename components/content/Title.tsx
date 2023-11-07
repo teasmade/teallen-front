@@ -10,15 +10,17 @@ export default function Title({
   const t = useTranslations(`${contentSection}.layout`);
 
   const colorVariants: { [key: string]: string } = {
-    teal: 'lg:bg-teal-700',
+    // teal: 'lg:bg-teal-700',
     slate: 'lg:bg-slate-700',
     sky: 'lg:bg-sky-700',
-    violet: 'lg:bg-violet-700',
-    green: 'lg:bg-green-700',
-    orange: 'lg:bg-orange-700',
-    stone: 'lg:bg-stone-700',
-    amber: 'lg:bg-amber-700',
-    cyan: 'lg:bg-cyan-700',
+    sky_dark: 'lg:bg-sky-800',
+    sky_darker: 'lg:bg-sky-900',
+    // violet: 'lg:bg-violet-700',
+    // green: 'lg:bg-green-700',
+    // orange: 'lg:bg-orange-700',
+    // stone: 'lg:bg-stone-700',
+    // amber: 'lg:bg-amber-700',
+    // cyan: 'lg:bg-cyan-700',
   };
 
   return (
