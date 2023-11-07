@@ -1,6 +1,6 @@
 export default function EssentialsHome() {
   return (
-    <div className="w-full text-white">
+    <div className="w-full">
       <div>
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet debitis
         et asperiores est blanditiis. Dolorem eaque ab expedita, voluptatem

@@ -19,15 +19,18 @@ export default function LocaleLayout({ children, params: { locale } }: Props) {
   if (!locales.includes(locale as any)) notFound();
   const t = useTranslations('Nav');
 
-  // TODO: nav to component, make client to allow more dynamic nav menu
+  // TODO: nav to component, ??? make client to allow more dynamic nav menu, else back to label version i.e. hide menu on click outside, better ux on mobile.
 
   return (
     <html lang={locale}>
       <body className={inter.className}>
         <header className="sticky top-0 z-50">
-          <nav className="absolute bg-[#94a3b8ee] lg:bg-transparent text-white font-bold flex flex-row justify-between w-full">
-            <details className="dropdown lg:dropdown-right lg:dropdown-end ml-2 mt-1 lg:mt-2">
-              <summary className="btn btn-sm lg:btn-md btn-ghost btn-circle bg-[#64748bee] lg:bg-[#5d728bcc]">
+          <nav className="absolute bg-[#94a3b8dd] backdrop-blur-xl bg-opacity-20 lg:bg-transparent text-white font-bold flex flex-row justify-between w-full">
+            <div className="dropdown lg:dropdown-right lg:dropdown-end ml-2 mt-1 lg:mt-2">
+              <label
+                tabIndex={0}
+                className="btn btn-sm lg:btn-md btn-ghost btn-circle bg-[#64748bee] lg:bg-[#5d728bcc]"
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   className="h-5 w-5 lg:h-8 lg:w-8"
@@ -42,61 +45,61 @@ export default function LocaleLayout({ children, params: { locale } }: Props) {
                     d="M4 6h16M4 12h16M4 18h16"
                   />
                 </svg>
-              </summary>
+              </label>
               <ul
                 tabIndex={0}
-                className="flex flex-col lg:flex-row lg:h-full lg:items-center dropdown-content z-[1] p-2 pr-4 bg-[#94a3b8ee] lg:bg-transparent rounded-br-md -ml-2 lg:ml-0"
+                className="flex flex-col lg:flex-row lg:h-full lg:items-center dropdown-content z-[1] p-2 pr-4 bg-[#94a3b8dd] lg:bg-transparent rounded-br-md -ml-2 lg:ml-0 mt-[3px] lg:mt-0"
               >
-                <li className="mt-2 pb-1  lg:mt-0 mr-4 text-xl underline lg:no-underline lg:hover:underline bg-[#64748b88] rounded flex">
+                <li className="mt-0 mb-2 pb-1  lg:my-0 mr-4 text-xl underline lg:no-underline lg:hover:underline btn-ghost bg-[#64748b88] rounded-br-lg lg:rounded-none flex lg:mx-0">
                   <Link
-                    className="mx-2 lg:inline w-full flex-grow"
+                    className="mx-2 lg:inline lg:px-4 w-full flex-grow lg:mx-0"
                     href={'/'}
                   >
                     {t('home')}
                   </Link>
                 </li>
-                <li className="mt-2 pb-1  lg:mt-0 mr-4 text-xl underline lg:no-underline lg:hover:underline bg-[#64748b88] rounded flex">
+                <li className="mt-2 mb-2 pb-1  lg:my-0 mr-4 text-xl underline lg:no-underline lg:hover:underline btn-ghost bg-[#64748b88] rounded-br-lg lg:rounded-none flex lg:mx-0">
                   <Link
-                    className="mx-2 lg:inline w-full flex-grow"
+                    className="mx-2 lg:inline lg:px-4 w-full flex-grow lg:mx-0"
                     href={`/developer`}
                   >
                     {t('developer')}
                   </Link>
                 </li>
-                <li className="mt-2 pb-1  lg:mt-0 mr-4 text-xl underline lg:no-underline lg:hover:underline bg-[#64748b88] rounded flex">
+                <li className="mt-2 mb-2 pb-1  lg:my-0 mr-4 text-xl underline lg:no-underline lg:hover:underline btn-ghost bg-[#64748b88] rounded-br-lg lg:rounded-none flex lg:mx-0">
                   <Link
-                    className="mx-2 lg:inline w-full flex-grow"
+                    className="mx-2 lg:inline lg:px-4 w-full flex-grow lg:mx-0"
                     href={`/teacher`}
                   >
                     {t('teacher')}
                   </Link>
                 </li>
-                <li className="mt-2 pb-1  lg:mt-0 mr-4 text-xl underline lg:no-underline lg:hover:underline bg-[#64748b88] rounded flex">
+                <li className="mt-2 mb-2 pb-1  lg:my-0 mr-4 text-xl underline lg:no-underline lg:hover:underline btn-ghost bg-[#64748b88] rounded-br-lg lg:rounded-none flex lg:mx-0">
                   <Link
-                    className="mx-2 lg:inline w-full flex-grow"
+                    className="mx-2 lg:inline lg:px-4 w-full flex-grow lg:mx-0"
                     href={`/contact`}
                   >
                     {t('contact')}
                   </Link>
                 </li>
-                <li className="mt-2 pb-1  lg:mt-0 mr-4 text-xl underline lg:no-underline lg:hover:underline bg-[#64748b88] rounded flex">
+                <li className="mt-2 mb-2 pb-1  lg:my-0 mr-4 text-xl underline lg:no-underline lg:hover:underline btn-ghost bg-[#64748b88] rounded-br-lg lg:rounded-none flex lg:mx-0">
                   <Link
-                    className="mx-2 lg:inline w-full flex-grow"
+                    className="mx-2 lg:inline lg:px-4 w-full flex-grow lg:mx-0"
                     href={`/blog`}
                   >
                     {t('blog')}
                   </Link>
                 </li>
-                <li className="mt-2 pb-1  lg:mt-0 mr-4 text-xl underline lg:no-underline lg:hover:underline bg-[#64748b88] rounded flex">
+                <li className="mt-2 mb-2 pb-1  lg:my-0 mr-4 text-xl underline lg:no-underline lg:hover:underline btn-ghost bg-[#64748b88] rounded-br-lg flex lg:mx-0">
                   <Link
-                    className="mx-2 lg:inline w-full flex-grow"
+                    className="mx-2 lg:inline lg:px-4 w-full flex-grow lg:mx-0"
                     href={`/essentials`}
                   >
                     {t('essentials')}
                   </Link>
                 </li>
               </ul>
-            </details>
+            </div>
             <div></div>
             <LocaleSwitch />
           </nav>

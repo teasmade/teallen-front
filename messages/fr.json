@@ -5,7 +5,7 @@
     "teacher": "professeur",
     "contact": "contact",
     "blog": "blog",
-    "essentials": "...?"
+    "essentials": "..?"
   },
   "Home": {
     "title": {
@@ -39,6 +39,34 @@
       "domain": ".teallen",
       "name": "Thomas",
       "title": "/essentiels"
+    }
+  },
+  "Teacher": {
+    "layout": {
+      "domain": ".teallen",
+      "name": "Thomas",
+      "title": "/professeur"
+    }
+  },
+  "Blog": {
+    "layout": {
+      "domain": ".teallen",
+      "name": "Thomas",
+      "title": "/blog"
+    }
+  },
+  "Contact": {
+    "layout": {
+      "domain": ".teallen",
+      "name": "Thomas",
+      "title": "/contact"
+    }
+  },
+  "Developer": {
+    "layout": {
+      "domain": ".teallen",
+      "name": "Thomas",
+      "title": "/développeur"
     }
   }
 }

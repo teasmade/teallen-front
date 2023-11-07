@@ -41,7 +41,7 @@ export default function Skills() {
 
       {/* Teach subtitle */}
 
-      <div className="text-4xl lg:text-6xl self-end lg:self-auto lg:relative pl-2 lg:px-6 lg:py-2 pb-4 lg:block group/teach lg:group-hover:bg-sky-700 duration-700">
+      <div className="text-4xl lg:text-6xl self-end lg:self-auto lg:relative pl-2 lg:px-6 lg:py-2 pb-4 lg:block group/teach lg:group-hover:bg-sky-700 duration-700 lg:max-h-[76px]">
         <div className="lg:flex lg:flex-row flex flex-row justify-between bg-sky-700 lg:bg-transparent -ml-2 lg:ml-0">
           <span className="opacity-100 lg:group-hover:opacity-100 transition-all duration-1000 ease-in lg:bg-sky-600 lg:group-hover/teach:bg-sky-900 lg:px-4 rounded">
             <span className="relative bottom-[3px] lg:bottom-[6px]">
