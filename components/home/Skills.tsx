@@ -25,7 +25,7 @@ export default function Skills() {
 
         {/* Dev info */}
 
-        <div className="text-sm lg:text-base lg:absolute mt-4 lg:mt-0 lg:left-0 pr-2 lg:px-8 lg:py-4 lg:rounded text-[0.775rem] lg:text-base lg:opacity-0 lg:group-hover/dev:opacity-100 lg:group-hover/dev:bg-sky-700 duration-[800ms] ease-in font-mono">
+        <div className="text-sm lg:text-base lg:absolute mt-4 lg:mt-0 lg:left-0 pr-2 lg:px-8 lg:py-4 lg:rounded text-[0.775rem] lg:text-base lg:opacity-0 lg:group-hover/dev:opacity-100 lg:group-hover/dev:bg-sky-700 duration-[950ms] ease-in font-mono">
           <div className="mb-8 lg:mb-4">{t('dev.p1')}</div>
           <div className="mb-8 lg:mb-4">{t('dev.p2')}</div>
           <div className="mb-2 lg:mb-4">{t('dev.p3')}</div>
@@ -59,7 +59,7 @@ export default function Skills() {
 
         {/* Teach info */}
 
-        <div className="lg:absolute mt-4 lg:mt-0 lg:left-0 pr-2 lg:px-8 lg:py-4 lg:rounded text-sm lg:text-base lg:opacity-0 lg:group-hover/teach:opacity-100 lg:group-hover/teach:bg-sky-700 duration-[800ms] ease-in font-sans font-medium antialiased mb-4 lg:mb-0">
+        <div className="lg:absolute mt-4 lg:mt-0 lg:left-0 pr-2 lg:px-8 lg:py-4 lg:rounded text-sm lg:text-base lg:opacity-0 lg:group-hover/teach:opacity-100 lg:group-hover/teach:bg-sky-700 duration-[950ms] ease-in font-sans font-medium antialiased mb-4 lg:mb-0">
           <div className="mb-8 lg:mb-4">{t('teach.p1')}</div>
           <div className="mb-8 lg:mb-4">{t('teach.p2')}</div>
           <div className="grid grid-cols-7 justify-between">
