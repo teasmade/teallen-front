@@ -1,5 +1,9 @@
 import { useTranslations } from 'next-intl';
 import SkillcardDev from '@/components/home/SkillcardDev';
+import TeachSVG from '@/icons/svgs/undraw/TeachSVG';
+import LearnersTwoSVG from '@/icons/svgs/undraw/LearnersTwoSVG';
+import LearnersThreeSVG from '@/icons/svgs/undraw/LearnersThreeSVG';
+import LearnersOneSVG from '@/icons/svgs/undraw/LearnersOneSVG';
 
 export default function Skills() {
   const t = useTranslations('Home');
@@ -25,10 +29,10 @@ export default function Skills() {
 
         {/* Dev info */}
 
-        <div className="text-sm lg:text-base lg:absolute mt-4 lg:mt-0 lg:left-0 pr-2 lg:px-8 lg:py-4 lg:rounded text-[0.775rem] lg:text-base lg:opacity-0 lg:group-hover/dev:opacity-100 lg:group-hover/dev:bg-sky-700 duration-[950ms] ease-in font-mono">
+        <div className="text-sm lg:text-base lg:absolute mt-4 lg:mt-0 lg:left-0 pr-2 lg:px-8 lg:py-4 lg:rounded text-[0.775rem] lg:text-base lg:opacity-0 lg:group-hover/dev:opacity-100 lg:group-hover/dev:bg-sky-700 duration-[950ms] ease-in font-sans font-medium antialised">
           <div className="mb-8 lg:mb-4">{t('dev.p1')}</div>
           <div className="mb-8 lg:mb-4">{t('dev.p2')}</div>
-          <div className="mb-2 lg:mb-4">{t('dev.p3')}</div>
+          <div className="mb-4 lg:mb-4">{t('dev.p3')}</div>
           <SkillcardDev />
         </div>
       </div>
@@ -61,7 +65,18 @@ export default function Skills() {
 
         <div className="lg:absolute mt-4 lg:mt-0 lg:left-0 pr-2 lg:px-8 lg:py-4 lg:rounded text-sm lg:text-base lg:opacity-0 lg:group-hover/teach:opacity-100 lg:group-hover/teach:bg-sky-700 duration-[950ms] ease-in font-sans font-medium antialiased mb-4 lg:mb-0">
           <div className="mb-8 lg:mb-4">{t('teach.p1')}</div>
+          <div className="flex flex-row justify-around mt-6 mb-8">
+            <TeachSVG className="h-20 w-40" />
+          </div>
+
           <div className="mb-8 lg:mb-4">{t('teach.p2')}</div>
+
+          <div className="flex flex-row justify-around mt-6 mb-8">
+            <LearnersTwoSVG className="h-20 w-40 hidden md:block" />
+            <LearnersThreeSVG className="h-20 w-40" />
+            <LearnersOneSVG className="h-20 w-40" />
+          </div>
+
           <div className="grid grid-cols-7 justify-between">
             <div className="mr-4 col-span-5">{t('teach.p3')}</div>
             <div className="flex flex-row col-start-6 col-end-8 justify-end items-center">

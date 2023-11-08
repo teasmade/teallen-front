@@ -22,7 +22,7 @@ export default function SkillcardDev() {
   const t = useTranslations('Home.dev');
 
   return (
-    <div className="mx-2 mb-4 lg:mt-0">
+    <div className="mx-2 mb-4 lg:mt-0 font-mono font-bold">
       {/* Row 1 - Front & CSS */}
       <div className="gap-6 lg:gap-0 grid grid-cols-7 justify-around">
         <div className="skillcard-dev-item">
@@ -180,7 +180,7 @@ export default function SkillcardDev() {
 
         {/* CTA Link */}
         <div className="flex flex-row col-start-5 col-end-8 justify-end items-center self-end -mr-2 lg:mr-0">
-          <span className="bg-sky-600 py-4 px-2 rounded text-[0.8rem] xl:text-sm hover:scale-110 hover:-translate-x-2 ease-in duration-[150ms] underline lg:no-underline hover:underline hover:cursor-pointer hover:bg-sky-900">
+          <span className="bg-sky-600 py-4 px-2 rounded text-[0.8rem] xl:text-sm hover:scale-110 hover:-translate-x-2 ease-in duration-[150ms] underline lg:no-underline hover:underline hover:cursor-pointer hover:bg-sky-900 font-sans font-bold antialised">
             {t('btn-cta')}
           </span>
         </div>
