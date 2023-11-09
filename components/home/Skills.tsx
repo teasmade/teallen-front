@@ -80,7 +80,7 @@ export default function Skills() {
           <div className="grid grid-cols-7 justify-between">
             <div className="mr-4 col-span-5">{t('teach.p3')}</div>
             <div className="flex flex-row col-start-6 col-end-8 justify-end items-center">
-              <span className="bg-sky-600 py-4 px-2 rounded text-[0.8rem] font-sans lg:text-base font-bold hover:scale-110 hover:-translate-x-2 ease-in duration-[150ms] underline lg:no-underline hover:underline hover:cursor-pointer hover:bg-sky-900">
+              <span className="bg-sky-600 py-4 px-2 rounded text-[0.8rem] font-sans xl:text-base font-bold hover:scale-110 hover:-translate-x-2 ease-in duration-[150ms] underline lg:no-underline hover:underline hover:cursor-pointer hover:bg-sky-900">
                 {t('teach.btn-cta')}
               </span>
             </div>
