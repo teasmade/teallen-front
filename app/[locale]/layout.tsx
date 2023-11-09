@@ -48,9 +48,9 @@ export default function LocaleLayout({ children, params: { locale } }: Props) {
               </label>
               <ul
                 tabIndex={0}
-                className="flex flex-col lg:flex-row lg:h-full lg:items-center dropdown-content z-[1] p-2 pr-4 bg-[#94a3b8dd] lg:bg-transparent rounded-br-md -ml-2 lg:ml-0 mt-[3px] lg:mt-0"
+                className="flex flex-col lg:flex-row lg:h-full lg:items-center dropdown-content z-[1] p-2 pr-4 bg-[#94a3b8dd] lg:bg-transparent rounded-br-lg rounded-l-sm -ml-2 lg:ml-0 mt-[3px] lg:mt-0"
               >
-                <li className="mt-0 mb-2 pb-1  lg:my-0 mr-4 text-xl underline lg:no-underline lg:hover:underline btn-ghost bg-[#64748b88] rounded-br-lg lg:rounded-none flex lg:mx-0">
+                <li className="mt-0 mb-2 pb-1  lg:my-0 mr-4 text-xl underline lg:no-underline lg:hover:underline btn-ghost bg-[#64748b88] rounded-br-lg rounded-l-sm lg:rounded-none flex lg:mx-0">
                   <Link
                     className="mx-2 lg:inline lg:px-4 w-full flex-grow lg:mx-0"
                     href={'/'}
@@ -58,7 +58,7 @@ export default function LocaleLayout({ children, params: { locale } }: Props) {
                     {t('home')}
                   </Link>
                 </li>
-                <li className="mt-2 mb-2 pb-1  lg:my-0 mr-4 text-xl underline lg:no-underline lg:hover:underline btn-ghost bg-[#64748b88] rounded-br-lg lg:rounded-none flex lg:mx-0">
+                <li className="mt-2 mb-2 pb-1  lg:my-0 mr-4 text-xl underline lg:no-underline lg:hover:underline btn-ghost bg-[#64748b88] rounded-br-lg rounded-l-sm lg:rounded-none flex lg:mx-0">
                   <Link
                     className="mx-2 lg:inline lg:px-4 w-full flex-grow lg:mx-0"
                     href={`/developer`}
@@ -66,7 +66,7 @@ export default function LocaleLayout({ children, params: { locale } }: Props) {
                     {t('developer')}
                   </Link>
                 </li>
-                <li className="mt-2 mb-2 pb-1  lg:my-0 mr-4 text-xl underline lg:no-underline lg:hover:underline btn-ghost bg-[#64748b88] rounded-br-lg lg:rounded-none flex lg:mx-0">
+                <li className="mt-2 mb-2 pb-1  lg:my-0 mr-4 text-xl underline lg:no-underline lg:hover:underline btn-ghost bg-[#64748b88] rounded-br-lg rounded-l-sm lg:rounded-none flex lg:mx-0">
                   <Link
                     className="mx-2 lg:inline lg:px-4 w-full flex-grow lg:mx-0"
                     href={`/teacher`}
@@ -74,7 +74,7 @@ export default function LocaleLayout({ children, params: { locale } }: Props) {
                     {t('teacher')}
                   </Link>
                 </li>
-                <li className="mt-2 mb-2 pb-1  lg:my-0 mr-4 text-xl underline lg:no-underline lg:hover:underline btn-ghost bg-[#64748b88] rounded-br-lg lg:rounded-none flex lg:mx-0">
+                <li className="mt-2 mb-2 pb-1  lg:my-0 mr-4 text-xl underline lg:no-underline lg:hover:underline btn-ghost bg-[#64748b88] rounded-br-lg rounded-l-sm lg:rounded-none flex lg:mx-0">
                   <Link
                     className="mx-2 lg:inline lg:px-4 w-full flex-grow lg:mx-0"
                     href={`/contact`}
@@ -82,7 +82,7 @@ export default function LocaleLayout({ children, params: { locale } }: Props) {
                     {t('contact')}
                   </Link>
                 </li>
-                <li className="mt-2 mb-2 pb-1  lg:my-0 mr-4 text-xl underline lg:no-underline lg:hover:underline btn-ghost bg-[#64748b88] rounded-br-lg lg:rounded-none flex lg:mx-0">
+                <li className="mt-2 mb-2 pb-1  lg:my-0 mr-4 text-xl underline lg:no-underline lg:hover:underline btn-ghost bg-[#64748b88] rounded-br-lg rounded-l-sm lg:rounded-none flex lg:mx-0">
                   <Link
                     className="mx-2 lg:inline lg:px-4 w-full flex-grow lg:mx-0"
                     href={`/blog`}
@@ -90,7 +90,7 @@ export default function LocaleLayout({ children, params: { locale } }: Props) {
                     {t('blog')}
                   </Link>
                 </li>
-                <li className="mt-2 mb-2 pb-1  lg:my-0 mr-4 text-xl underline lg:no-underline lg:hover:underline btn-ghost bg-[#64748b88] rounded-br-lg flex lg:mx-0">
+                <li className="mt-2 mb-2 pb-1  lg:my-0 mr-4 text-xl underline lg:no-underline lg:hover:underline btn-ghost bg-[#64748b88] rounded-br-lg rounded-l-sm flex lg:mx-0">
                   <Link
                     className="mx-2 lg:inline lg:px-4 w-full flex-grow lg:mx-0"
                     href={`/essentials`}
