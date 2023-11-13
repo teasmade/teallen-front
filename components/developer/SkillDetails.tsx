@@ -21,20 +21,20 @@ export default function SkillDetails() {
 
   return (
     <>
-      <div className="flex flex-row">
+      <div className="flex flex-col items-start xl:items-stretch xl:flex-row">
         {/* Sidebar */}
-        <div className="flex flex-col">
+        <div className="flex flex-row flex-wrap sm:flex-nowrap xl:flex-col xl:gap-0 origin-left scale-[0.7] sm:scale-[0.8] md:scale-[0.9] xl:scale-100">
           {/* Btn-Front */}
           <div
             className={
-              'w-fit border-t border-r border-l hover:border-b border-white rounded-tl-3xl hover:scale-110 origin-top-left transition-scale ease-in duration-200' +
+              'w-fit border-t border-r border-l hover:border-b border-b xl:border-b-0 border-white rounded-tl-3xl hover:scale-110 origin-top xl:origin-top-left transition-scale ease-in duration-200 basis-6/12' +
               (selectedSection === 'front' ? ' bg-sky-500' : ' bg-sky-700')
             }
           >
             <button
               onClick={() => onSelectSection('front')}
               className={
-                `border-t border-l border-r border-b border-transparent hover:border-white hover:rounded-br-3xl rounded-tl-3xl p-4 hover:bg-sky-800 hover:scale-110 hover:translate-x-2 hover:translate-y-2 origin-top-left transition-scale ease-in duration-200` +
+                `w-full border-t border-l border-r border-b border-transparent hover:border-white hover:rounded-br-3xl rounded-tl-3xl sm:p-2 xl:p-4 hover:bg-sky-800 hover:scale-110 xl:hover:translate-x-2 hover:translate-y-2 origin-top xl:origin-top-left transition-scale ease-in duration-200` +
                 (selectedSection === 'front' ? ' bg-sky-500' : ' bg-sky-700')
               }
             >
@@ -51,14 +51,14 @@ export default function SkillDetails() {
           {/* Btn-Back */}
           <div
             className={
-              'w-fit border-l border-r border-t hover:border-b border-white hover:scale-110 origin-top-left transition-scale ease-in duration-200' +
+              'w-fit border-l border-r border-t hover:border-b border-b xl:border-b-0 border-white hover:scale-110 origin-top xl:origin-top-left transition-scale ease-in duration-200 basis-6/12' +
               (selectedSection === 'back' ? ' bg-sky-500' : ' bg-sky-700')
             }
           >
             <button
               onClick={() => onSelectSection('back')}
               className={
-                'border-l border-r border-t hover:border-b border-transparent hover:border-white hover:rounded-br-3xl p-4 hover:bg-sky-800 hover:scale-110 hover:translate-x-2 hover:translate-y-2 origin-top-left transition-scale ease-in duration-200' +
+                'w-full border-l border-r border-t hover:border-b border-transparent hover:border-white hover:rounded-br-3xl sm:p-2 xl:p-4 hover:bg-sky-800 hover:scale-110 xl:hover:translate-x-2 hover:translate-y-2 origin-top xl:origin-top-left transition-scale ease-in duration-200' +
                 (selectedSection === 'back' ? ' bg-sky-500' : ' bg-sky-700')
               }
             >
@@ -75,14 +75,14 @@ export default function SkillDetails() {
           {/* Btn-Full */}
           <div
             className={
-              'w-fit border-l border-r border-t hover:border-b border-white hover:scale-110 origin-top-left transition-scale ease-in duration-200' +
+              'w-fit border-l border-r border-t hover:border-b border-b xl:border-b-0 border-white hover:scale-110 origin-top xl:origin-top-left transition-scale ease-in duration-200 basis-6/12' +
               (selectedSection === 'full' ? ' bg-sky-500' : ' bg-sky-700')
             }
           >
             <button
               onClick={() => onSelectSection('full')}
               className={
-                'border-l border-r border-t hover:border-b border-transparent hover:border-white hover:rounded-br-3xl p-4 hover:bg-sky-800 hover:scale-110 hover:translate-x-2 hover:translate-y-2 origin-top-left transition-scale ease-in duration-200' +
+                'w-full border-l border-r border-t hover:border-b border-transparent hover:border-white hover:rounded-br-3xl sm:p-2 xl:p-4 hover:bg-sky-800 hover:scale-110 xl:hover:translate-x-2 hover:translate-y-2 origin-top xl:origin-top-left transition-scale ease-in duration-200' +
                 (selectedSection === 'full' ? ' bg-sky-500' : ' bg-sky-700')
               }
             >
@@ -99,14 +99,14 @@ export default function SkillDetails() {
           {/* Btn-Soft */}
           <div
             className={
-              'w-fit border-t border-l border-r border-b border-white border-b hover:scale-110 origin-top-left transition-scale ease-in duration-200' +
+              'w-fit border-t border-l border-r border-b border-white border-b hover:scale-110 origin-top xl:origin-top-left transition-scale ease-in duration-200 basis-6/12 rounded-br-3xl xl:rounded-br-none' +
               (selectedSection === 'soft' ? ' bg-sky-500' : ' bg-sky-700')
             }
           >
             <button
               onClick={() => onSelectSection('soft')}
               className={
-                'border-t border-l border-r hover:border-b border-transparent hover:border-white p-4 hover:bg-sky-800 hover:scale-110 hover:translate-x-2 hover:translate-y-2 hover:rounded-br-3xl origin-top-left transition-scale ease-in duration-200' +
+                'w-full border-t border-l border-r hover:border-b border-transparent hover:border-white sm:p-2 xl:p-4 hover:bg-sky-800 hover:scale-110 xl:hover:translate-x-2 hover:translate-y-2 hover:rounded-br-3xl origin-top xl:origin-top-left transition-scale ease-in duration-200 rounded-br-3xl xl:rounded-br-none' +
                 (selectedSection === 'soft' ? ' bg-sky-500' : ' bg-sky-700')
               }
             >
@@ -122,7 +122,7 @@ export default function SkillDetails() {
         </div>
 
         {/* Content */}
-        <div className="w-full border-r border-t border-b rounded-br-3xl flex flex-row items-center justify-center">
+        <div className="mt-24 border-none xl:border-solid xl:mt-0 w-full h-80 xl:h-auto border-r border-t border-b rounded-br-3xl flex flex-row items-center justify-center">
           <SkillContent selectedSkill={selectedSection} />
         </div>
       </div>
