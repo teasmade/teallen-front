@@ -1,8 +1,9 @@
 'use client';
 
-import CvSVG from '@/icons/svgs/CvSVG';
-import HistorySVG from '@/icons/svgs/HistorySVG';
-import SkillsSVG from '@/icons/svgs/SkillsSVG';
+import CvSVG from '@/icons/svgs/iconscout/CvSVG';
+import HistorySVG from '@/icons/svgs/iconscout/HistorySVG';
+import SkillsSVG from '@/icons/svgs/iconscout/SkillsSVG';
+import SkillDetails from '@/components/developer/SkillDetails';
 
 export default function DeveloperHome() {
   const scrollToSection = (sectionId: string) => {
@@ -35,44 +36,50 @@ export default function DeveloperHome() {
         id="jump-nav"
         className="mt-24 flex flex-row justify-around"
       >
-        <div className="border border-white rounded-tl-3xl rounded-br-3xl p-4 bg-sky-700 hover:bg-sky-800 hover:scale-110 origin-top-left transition-all ease-in duration-200">
-          <div className="flex flex-row justify-around w-32">
-            <CvSVG
-              width="72"
-              height="72"
-            />
+        <div className="bg-sky-700 hover:border border-white rounded-tl-3xl rounded-br-3xl hover:scale-110 origin-top-left transition-all ease-in duration-200">
+          <div className="border border-white rounded-tl-3xl rounded-br-3xl p-4 bg-sky-700 hover:bg-sky-800 hover:scale-110 hover:translate-x-2 hover:translate-y-2 origin-top-left transition-all ease-in duration-200">
+            <div className="flex flex-row justify-around w-32">
+              <CvSVG
+                width="72"
+                height="72"
+              />
+            </div>
+            <p className="mt-4 font-mono">cv_dev_en.pdf</p>
           </div>
-          <p className="mt-4 font-mono">cv_dev_en.pdf</p>
         </div>
 
-        <button
-          onClick={() => scrollToSection('skills-section')}
-          className="border border-white rounded-tl-3xl rounded-br-3xl p-4 bg-sky-700 hover:bg-sky-800 hover:scale-110 origin-top-left transition-all ease-in duration-200"
-        >
-          <div className="flex flex-row justify-around w-32">
-            <SkillsSVG
-              width="72"
-              height="72"
-            />
-          </div>
-          <p className="mt-4 font-mono">skillset</p>
-        </button>
+        <div className="bg-sky-700 hover:border border-white rounded-tl-3xl rounded-br-3xl hover:scale-110 origin-top-left transition-all ease-in duration-200">
+          <button
+            onClick={() => scrollToSection('skills-section')}
+            className="border border-white rounded-tl-3xl rounded-br-3xl p-4 bg-sky-700 hover:bg-sky-800 hover:scale-110 hover:translate-x-2 hover:translate-y-2 origin-top-left transition-all ease-in duration-200"
+          >
+            <div className="flex flex-row justify-around w-32">
+              <SkillsSVG
+                width="72"
+                height="72"
+              />
+            </div>
+            <p className="mt-4 font-mono">skillset</p>
+          </button>
+        </div>
 
-        <button
-          onClick={() => scrollToSection('history-section')}
-          className="border border-white rounded-tl-3xl rounded-br-3xl p-4 bg-sky-700 hover:bg-sky-800 hover:scale-110 origin-top-left transition-all ease-in duration-200"
-        >
-          <div className="flex flex-row justify-around w-32">
-            <HistorySVG
-              width="72"
-              height="72"
-            />
-          </div>
-          <p className="mt-4 font-mono">background</p>
-        </button>
+        <div className="bg-sky-700 hover:border border-white rounded-tl-3xl rounded-br-3xl hover:scale-110 origin-top-left transition-all ease-in duration-200">
+          <button
+            onClick={() => scrollToSection('history-section')}
+            className="border border-white rounded-tl-3xl rounded-br-3xl p-4 bg-sky-700 hover:bg-sky-800 hover:scale-110 hover:translate-x-2 hover:translate-y-2 origin-top-left transition-all ease-in duration-200"
+          >
+            <div className="flex flex-row justify-around w-32">
+              <HistorySVG
+                width="72"
+                height="72"
+              />
+            </div>
+            <p className="mt-4 font-mono">background</p>
+          </button>
+        </div>
       </div>
 
-      <p className="w-48">
+      <p className="w-48 mt-24">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, impedit.
         Accusantium consectetur ipsum quaerat facere cum corporis recusandae
         vero, dolores, sit natus vitae maiores architecto animi laboriosam
@@ -94,9 +101,10 @@ export default function DeveloperHome() {
 
       <div
         id="skills-section"
-        className="text-2xl my-8"
+        className="my-8"
       >
-        <p className="pt-32">SKILLS</p>
+        <p className="text-2xl pt-32">SKILLS</p>
+        <SkillDetails />
       </div>
 
       <p className="w-48">
@@ -123,7 +131,7 @@ export default function DeveloperHome() {
         id="history-section"
         className="text-2xl my-8"
       >
-        <p>HISTORY</p>
+        <p className="pt-32">HISTORY</p>
       </div>
 
       <p className="w-48">
