@@ -82,7 +82,7 @@ export default function LocaleLayout({ children, params: { locale } }: Props) {
                     {t('contact')}
                   </Link>
                 </li>
-                <li className="mt-2 mb-2 pb-1  lg:my-0 mr-4 text-xl underline lg:no-underline lg:hover:underline btn-ghost bg-[#64748b88] rounded-br-lg rounded-l-sm lg:rounded-none flex lg:mx-0">
+                {/* <li className="mt-2 mb-2 pb-1  lg:my-0 mr-4 text-xl underline lg:no-underline lg:hover:underline btn-ghost bg-[#64748b88] rounded-br-lg rounded-l-sm lg:rounded-none flex lg:mx-0">
                   <Link
                     className="mx-2 lg:inline lg:px-4 w-full flex-grow lg:mx-0"
                     href={`/blog`}
@@ -97,7 +97,7 @@ export default function LocaleLayout({ children, params: { locale } }: Props) {
                   >
                     {t('essentials')}
                   </Link>
-                </li>
+                </li> */}
               </ul>
             </div>
             <div></div>

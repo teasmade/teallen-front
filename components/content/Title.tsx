@@ -23,6 +23,14 @@ export default function Title({
     // cyan: 'lg:bg-cyan-700',
   };
 
+  const fontVariants: { [key: string]: string } = {
+    Developer: 'font-mono',
+    Teacher: 'font-slab',
+    Blog: '',
+    Contact: '',
+    Essentials: '',
+  };
+
   return (
     <div
       className={`mt-0 pt-12 lg:pt-0 lg:mt-4 lg:pb-2 lg:grid lg:grid-cols-3 lg:justify-items-center ${colorVariants[sectionColor]}`}
@@ -31,9 +39,11 @@ export default function Title({
         {''}
       </span>
       <h1 className="justify-self-center relative text-5xl lg:text-7xl font-extrabold">
-        <span className="opacity-100 absolute lg:left-[14px] mx-2">
+        <span className={`opacity-100 absolute lg:left-[14px] mx-2`}>
           {t('domain')}
-          <span className="text-2xl lg:text-4xl font-semibold">
+          <span
+            className={`text-2xl lg:text-4xl font-semibold ${fontVariants[contentSection]}`}
+          >
             {t('title')}
           </span>
         </span>

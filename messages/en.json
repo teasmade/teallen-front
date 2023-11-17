@@ -19,7 +19,7 @@
       "p1": "💡 I love the work of continuous learning, understanding dynamic contexts & exploring new environments - these challenges are what drove my career switch into the tech world.",
       "p2": "💪 Self-development: widening & deepening my skillset, learning & collaborating, tackling problems & finding solutions across a wide range of projects & teams.",
       "p3": "🖥️ I have applied skills & experience across the stack, & have delivered projects using:",
-      "btn-cta": "CV, Projects, History"
+      "btn-cta": "Learn more..."
     },
     "teach": {
       "title": "language teacher",
@@ -109,7 +109,7 @@
         "apache_title": "Apache",
         "apache_p1": "I've used Apache on a range of projects and have worked on ssl setup, configuring vhosts for development environments and setting up reverse proxies to provide a range of services from a single domain.",
         "docker_title": "Docker",
-        "docker_p1": "I've set up development environments and deployed services to production using Docker and Docker Compose. It's my preferred approach and the one I use for all my personal projects.",
+        "docker_p1": "I've set up development environments and deployed services to production using Docker and Docker Compose. It's my preferred approach and the one I use for almost all my personal projects.",
         "other_title": "other platforms",
         "other_p1": "I've also worked with Nginx deployments, https tunnelling setups, Azure app config and have experience managing servers and DNS. The site you're on now runs on an Ubuntu VPS using automated LetsEncrypt SSL and an Apache reverse proxy serving a Dockerised Nginx / Node / NextJS stack."
       },
@@ -123,7 +123,7 @@
         "p4": "Personal skills and motivation are important, but they don't exist in isolation. I've seen how pupils in a classroom can thrive through interacting with and supporting each other; that sense of joint purpose, mutual aid and freedom to share problems is transformative and can bring just as much benefit as one on one time with a skilled teacher.",
         "p5": "I believe this spirit should be fostered as much as possible in all teamwork; it's a virtuous circle where self development and team development feed into each other. Willingness to communicate about what you don't know, learning through understanding others' perspectives and staying grounded in the human context are essential parts of this process.",
         "title_4": "// PS:",
-        "p6": "I actively enjoy writing up specifications, documentation and commit notes 😱"
+        "p6": "I actively enjoy writing up specifications, documentation and commit messages 😱"
       }
     }
   }
