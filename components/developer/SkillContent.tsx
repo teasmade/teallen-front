@@ -1,14 +1,30 @@
+import { useTranslations } from 'next-intl';
 import { motion, AnimatePresence } from 'framer-motion';
+import ReactSVG from '@/icons/svgs/ReactSVG';
+import VueSVG from '@/icons/svgs/VueSVG';
+import LaravelSVG from '@/icons/svgs/LaravelSVG';
+import NodeSVG from '@/icons/svgs/NodeSVG';
+import PostgresSVG from '@/icons/svgs/PostgresSVG';
+import ApacheSVG from '@/icons/svgs/ApacheSVG';
+import DockerSVG from '@/icons/svgs/DockerSVG';
+import ShareSVG from '@/icons/svgs/iconscout/ShareSVG';
+import ExchangeSVG from '@/icons/svgs/iconscout/Exchange';
+import SoftSVG from '@/icons/svgs/iconscout/SoftSVG';
+import FullSVG from '@/icons/svgs/iconscout/FullSVG';
+import BackSVG from '@/icons/svgs/iconscout/BackSVG';
+import FrontSVG from '@/icons/svgs/iconscout/FrontSVG';
 
 export default function SkillContent({
   selectedSkill,
 }: {
   selectedSkill: string;
 }) {
+  const t = useTranslations();
+
   const containerStyle =
-    'xl:ml-12 relative flex items-center justify-center w-full h-full';
+    'xl:ml-16 xl:mr-4 2xl:mr-36 relative flex items-center justify-center w-full h-full';
   const childStyle =
-    'absolute w-full h-full flex items-start xl:items-center bottom-12 xl:bottom-0 justify-start pr-12';
+    'absolute w-full h-full flex items-start xl:items-center bottom-12 xl:bottom-0 justify-start pr-2 lg:pr-8';
 
   const transition = {
     x: { type: 'spring', stiffness: 300, damping: 30 },
@@ -31,7 +47,7 @@ export default function SkillContent({
               transition={transition}
               className={
                 childStyle +
-                ' text-xs md:text-sm mb-8 xl:mb-0 xl:text-xl text-[#ffffff55] xl:w-1/8 xl:block -ml-28 xl:ml-0'
+                ' text-xs md:text-sm mb-8 xl:mb-0 xl:text-xl text-[#ffffff55] xl:w-1/8 xl:block -ml-28 xl:ml-0 pt-12 lg:pt-0'
               }
             >
               {`
@@ -66,36 +82,41 @@ export default function SkillContent({
             transition={transition}
             className={childStyle}
           >
-            <div>
-              <h2 className="text-2xl mb-4">I CAN DEV</h2>
-              <p className="mb-4">
-                I IS DEV Lorem ipsum dolor, sit amet consectetur adipisicing
-                elit. Eaque ratione sint facere, nostrum ad magnam temporibus,
-                dolore neque, magni quaerat voluptatum sequi reprehenderit qui
-                reiciendis totam ipsa quis provident voluptatem! Hic, officia!
-                Ducimus aut voluptas perspiciatis dicta corporis porro assumenda
-                quibusdam voluptatibus fuga minima libero, quis in excepturi
-                nostrum explicabo. Asperiores inventore voluptate eligendi fuga
-                eius. Sapiente nam autem consequuntur! Sequi fugit eos,
-                excepturi accusamus deleniti id unde ipsum reiciendis mollitia
-                at hic iure quibusdam distinctio nobis possimus beatae ipsa
-                perferendis natus numquam! Modi repellat nam quam in. Atque,
-                sint! Dolorem deserunt dolor ratione ipsam nobis soluta
-                voluptate possimus, odio maiores eius similique officia facilis
-                voluptates sint veritatis beatae itaque consequatur, saepe rem.
-                Natus porro reprehenderit mollitia suscipit corporis. Earum!
-                Voluptatibus, enim nisi odio maiores, eveniet ex, qui inventore
-                illo maxime sint voluptates? Reprehenderit totam repellat ex
-                aliquam aperiam rem velit dignissimos! Beatae hic eius expedita
-                ducimus. Dolorum, maxime mollitia?
-              </p>
-              <ul className="text-xl mb-4">
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>React</li>
-                <li>Next.js</li>
-              </ul>
+            <div className="text-justify text-sm xl:text-base">
+              <h2 className="text-xl lg:text-2xl mt-4 mb-2 font-mono">
+                <FrontSVG
+                  width="36"
+                  height="36"
+                  className="mr-2 inline"
+                />
+                {t('skills.front.title')}
+              </h2>
+              <p className="mb-2">{t('skills.front.p1')}</p>
+              <h2 className="text-xl lg:text-2xl mt-4 mb-2 flex items-center font-mono">
+                <ReactSVG
+                  width="36"
+                  height="36"
+                  className="mr-2 inline"
+                />
+                {t('skills.front.react_title')}
+              </h2>
+              <p className="mb-2">{t('skills.front.react_p1')}</p>
+              <p className="mb-2">{t('skills.front.react_p2')}</p>
+              <h2 className="text-xl lg:text-2xl mt-4 mb-2 flex items-center font-mono">
+                <VueSVG
+                  width="36"
+                  height="36"
+                  className="mr-2 inline"
+                />
+                {t('skills.front.vue_title')}
+              </h2>
+              <p className="mb-2">{t('skills.front.vue_p1')}</p>
+              <p className="mb-2">{t('skills.front.vue_p2')}</p>
+              <h2 className="text-xl lg:text-2xl mt-4 mb-2 flex items-center font-mono">
+                <span className="text-4xl ml-1 mr-3 font-semibold">& </span>
+                {t('skills.front.other_title')}
+              </h2>
+              <p className="mb-2">{t('skills.front.other_p1')}</p>
             </div>
           </motion.div>
         )}
@@ -108,14 +129,49 @@ export default function SkillContent({
             transition={transition}
             className={childStyle}
           >
-            BACK Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe
-            quod molestiae dolor eum officiis. BACK Lorem ipsum dolor sit amet
-            consectetur, adipisicing elit. Saepe quod molestiae dolor eum
-            officiis. BACK Lorem ipsum dolor sit amet consectetur, adipisicing
-            elit. Saepe quod molestiae dolor eum officiis. BACK Lorem ipsum
-            dolor sit amet consectetur, adipisicing elit. Saepe quod molestiae
-            dolor eum officiis. BACK Lorem ipsum dolor sit amet consectetur,
-            adipisicing elit. Saepe quod molestiae dolor eum officiis.
+            <div className="text-justify text-sm xl:text-base">
+              <h2 className="text-xl lg:text-2xl mt-4 mb-2 font-mono">
+                <BackSVG
+                  width="36"
+                  height="36"
+                  className="mr-2 inline"
+                />
+                {t('skills.back.title')}
+              </h2>
+              <p className="mb-2">{t('skills.back.p1')}</p>
+              <h2 className="text-xl lg:text-2xl mt-4 mb-2 flex items-center font-mono">
+                <LaravelSVG
+                  width="36"
+                  height="36"
+                  className="mr-2 inline"
+                />
+                {t('skills.back.laravel_title')}
+              </h2>
+              <p className="mb-2">{t('skills.back.laravel_p1')}</p>
+              <h2 className="text-xl lg:text-2xl mt-4 mb-2 flex items-center font-mono">
+                <NodeSVG
+                  width="36"
+                  height="36"
+                  className="mr-2 inline"
+                />
+                {t('skills.back.node_title')}
+              </h2>
+              <p className="mb-2">{t('skills.back.node_p1')}</p>
+              <h2 className="text-xl lg:text-2xl mt-4 mb-2 flex items-center font-mono">
+                <PostgresSVG
+                  width="36"
+                  height="36"
+                  className="mr-2 inline"
+                />
+                {t('skills.back.postgres_title')}
+              </h2>
+              <p className="mb-2">{t('skills.back.postgres_p1')}</p>
+              <h2 className="text-xl lg:text-2xl mt-4 mb-2 flex items-center font-mono">
+                <span className="text-4xl ml-1 mr-3 font-semibold">& </span>
+                {t('skills.back.other_title')}
+              </h2>
+              <p className="mb-2">{t('skills.back.other_p1')}</p>
+            </div>
           </motion.div>
         )}
         {selectedSkill === 'full' && (
@@ -127,14 +183,41 @@ export default function SkillContent({
             transition={transition}
             className={childStyle}
           >
-            FULL Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe
-            quod molestiae dolor eum officiis. FULL Lorem ipsum dolor sit amet
-            consectetur, adipisicing elit. Saepe quod molestiae dolor eum
-            officiis. FULL Lorem ipsum dolor sit amet consectetur, adipisicing
-            elit. Saepe quod molestiae dolor eum officiis. FULL Lorem ipsum
-            dolor sit amet consectetur, adipisicing elit. Saepe quod molestiae
-            dolor eum officiis. FULL Lorem ipsum dolor sit amet consectetur,
-            adipisicing elit. Saepe quod molestiae dolor eum officiis.
+            <div className="text-justify text-sm xl:text-base">
+              <h2 className="text-xl lg:text-2xl mt-4 mb-2 font-mono">
+                <FullSVG
+                  width="36"
+                  height="36"
+                  className="mr-2 inline"
+                />
+                {t('skills.full.title')}
+              </h2>
+              <p className="mb-2">{t('skills.full.p1')}</p>
+              <p className="mb-2">{t('skills.full.p2')}</p>
+              <h2 className="text-xl lg:text-2xl mt-4 mb-2 flex items-center font-mono">
+                <ApacheSVG
+                  width="36"
+                  height="36"
+                  className="mr-2 inline"
+                />
+                {t('skills.full.apache_title')}
+              </h2>
+              <p className="mb-2">{t('skills.full.apache_p1')}</p>
+              <h2 className="text-xl lg:text-2xl mt-4 mb-2 flex items-center font-mono">
+                <DockerSVG
+                  width="36"
+                  height="36"
+                  className="mr-2 inline"
+                />
+                {t('skills.full.docker_title')}
+              </h2>
+              <p className="mb-2">{t('skills.full.docker_p1')}</p>
+              <h2 className="text-xl lg:text-2xl mt-4 mb-2 flex items-center font-mono">
+                <span className="text-4xl ml-1 mr-3 font-semibold">& </span>
+                {t('skills.full.other_title')}
+              </h2>
+              <p className="mb-2">{t('skills.full.other_p1')}</p>
+            </div>
           </motion.div>
         )}
         {selectedSkill === 'soft' && (
@@ -146,14 +229,43 @@ export default function SkillContent({
             transition={transition}
             className={childStyle}
           >
-            SOFT Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe
-            quod molestiae dolor eum officiis. SOFT Lorem ipsum dolor sit amet
-            consectetur, adipisicing elit. Saepe quod molestiae dolor eum
-            officiis. SOFT Lorem ipsum dolor sit amet consectetur, adipisicing
-            elit. Saepe quod molestiae dolor eum officiis. SOFT Lorem ipsum
-            dolor sit amet consectetur, adipisicing elit. Saepe quod molestiae
-            dolor eum officiis. SOFT Lorem ipsum dolor sit amet consectetur,
-            adipisicing elit. Saepe quod molestiae dolor eum officiis.
+            <div className="text-justify text-sm xl:text-base">
+              <h2 className="text-xl lg:text-2xl mt-4 mb-2 font-mono">
+                <SoftSVG
+                  width="36"
+                  height="36"
+                  className="mr-2 inline"
+                />
+                {t('skills.soft.title')}
+              </h2>
+              <p className="mb-2">{t('skills.soft.p1')}</p>
+              <p className="mb-2">{t('skills.soft.p2')}</p>
+              <h2 className="text-xl lg:text-2xl mt-4 mb-2 font-mono">
+                <ExchangeSVG
+                  width="36"
+                  height="36"
+                  className="mr-2 inline"
+                />
+                {t('skills.soft.title_2')}
+              </h2>
+              <p className="mb-2">{t('skills.soft.p3')}</p>
+              <h2 className="text-xl lg:text-2xl mt-4 mb-2 font-mono">
+                <ShareSVG
+                  width="36"
+                  height="36"
+                  className="mr-2 inline"
+                />
+                {t('skills.soft.title_3')}
+              </h2>
+              <p className="mb-2">{t('skills.soft.p4')}</p>
+              <p className="mb-2">{t('skills.soft.p5')}</p>
+              <h2 className="text-xs mt-4 mb-2 font-mono">
+                {t('skills.soft.title_4')}
+                <span className="text-xs font-sans pl-2 mb-2">
+                  {t('skills.soft.p6')}
+                </span>
+              </h2>
+            </div>
           </motion.div>
         )}
       </AnimatePresence>

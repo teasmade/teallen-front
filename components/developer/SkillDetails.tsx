@@ -1,5 +1,7 @@
 'use client';
 
+import { useTranslations } from 'next-intl';
+
 import BackSVG from '@/icons/svgs/iconscout/BackSVG';
 import FrontSVG from '@/icons/svgs/iconscout/FrontSVG';
 import FullSVG from '@/icons/svgs/iconscout/FullSVG';
@@ -9,6 +11,8 @@ import SkillContent from './SkillContent';
 import { useState } from 'react';
 
 export default function SkillDetails() {
+  const t = useTranslations();
+
   const [selectedSection, setSelectedSection] = useState('initial');
 
   const onSelectSection = (sectionName: string) => {
@@ -21,9 +25,9 @@ export default function SkillDetails() {
 
   return (
     <>
-      <div className="flex flex-col items-start xl:items-stretch xl:flex-row">
+      <div className="flex flex-col items-start -mt-8 xl:mt-0 xl:items-stretch xl:flex-row">
         {/* Sidebar */}
-        <div className="flex flex-row flex-wrap sm:flex-nowrap xl:flex-col xl:gap-0 origin-left scale-[0.7] sm:scale-[0.8] md:scale-[0.9] xl:scale-100">
+        <div className="flex flex-row flex-wrap sm:flex-nowrap xl:flex-col xl:gap-0 origin-left scale-[0.7] sm:scale-[0.8] md:scale-[0.9] xl:scale-100 sm:mb-6 xl:mb-0">
           {/* Btn-Front */}
           <div
             className={
@@ -122,7 +126,7 @@ export default function SkillDetails() {
         </div>
 
         {/* Content */}
-        <div className="mt-24 border-none xl:border-solid xl:mt-0 w-full h-80 xl:h-auto border-r border-t border-b rounded-br-3xl flex flex-row items-center justify-center">
+        <div className="mt-8 border-none xl:border-solid xl:mt-0 w-full h-80 xl:h-auto border-r border-t border-b rounded-br-3xl flex flex-row items-center justify-center">
           <SkillContent selectedSkill={selectedSection} />
         </div>
       </div>
