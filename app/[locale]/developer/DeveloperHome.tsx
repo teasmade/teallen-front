@@ -6,6 +6,7 @@ import CvSVG from '@/icons/svgs/iconscout/CvSVG';
 import HistorySVG from '@/icons/svgs/iconscout/HistorySVG';
 import SkillsSVG from '@/icons/svgs/iconscout/SkillsSVG';
 import SkillDetails from '@/components/developer/SkillDetails';
+import History from '@/components/developer/History';
 
 export default function DeveloperHome() {
   const t = useTranslations();
@@ -84,7 +85,7 @@ export default function DeveloperHome() {
                 height="72"
               />
             </div>
-            <p className="mt-4 font-mono text-lg lg:text-base">background</p>
+            <p className="mt-4 font-mono text-lg lg:text-base">history</p>
           </button>
         </div>
       </div>
@@ -102,30 +103,13 @@ export default function DeveloperHome() {
 
       <div
         id="history-section"
-        className="text-2xl my-96"
+        className="text-2xl mt-96 pb-12"
       >
-        <p className="pt-12">HISTORY</p>
+        <p className="text-3xl xl:pl-6 pt-12 lg:pt-24 sm:pb-8 xl:pb-0 xl:pt-24 font-mono">
+          project history:
+        </p>
+        <History />
       </div>
-
-      <p className="pb-12">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, impedit.
-        Accusantium consectetur ipsum quaerat facere cum corporis recusandae
-        vero, dolores, sit natus vitae maiores architecto animi laboriosam
-        aspernatur deleniti nulla. Ipsam saepe dolores dolore dignissimos,
-        consequatur maiores nulla explicabo voluptates et esse sequi quae,
-        provident voluptatum at nemo omnis iusto, nesciunt similique libero quo.
-        Sed, rem? Inventore sint laboriosam dolor. Similique esse ipsa repellat
-        sed atque commodi, necessitatibus harum quod exercitationem enim aperiam
-        voluptates dolorem possimus dolor veniam unde illum nulla! Est fugit
-        voluptate corporis sequi corrupti voluptates amet harum? Iure laudantium
-        unde possimus dignissimos. Sit molestiae suscipit quis sint omnis
-        laboriosam commodi fugit, quasi libero maiores modi, cumque, totam
-        eveniet harum unde veniam id aliquid porro tempora? Praesentium,
-        aspernatur! Voluptas hic veritatis similique in unde debitis, aut veniam
-        quaerat illo ullam vel odit sed autem quasi asperiores natus. Fugit
-        reprehenderit iusto accusamus sint alias, commodi minima cupiditate qui
-        nulla.
-      </p>
     </div>
   );
 }

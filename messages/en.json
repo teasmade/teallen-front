@@ -77,7 +77,7 @@
       "intro_li_5": "I'm always open to interesting new projects and can work on a flexible freelance or longer-term contract basis."
     },
     "skills": {
-      "title": "skillset",
+      "title": "skillset:",
       "front": {
         "title": "Modern JS/TS Web Application Development",
         "p1": "I have experience building responsive, accessible, and performant web applications at a range of scales, using:",
@@ -124,6 +124,39 @@
         "p5": "I believe this spirit should be fostered as much as possible in all teamwork; it's a virtuous circle where self development and team development feed into each other. Willingness to communicate about what you don't know, learning through understanding others' perspectives and staying grounded in the human context are essential parts of this process.",
         "title_4": "// PS:",
         "p6": "I actively enjoy writing up specifications, documentation and commit messages 😱"
+      }
+    },
+    "history": {
+      "keys": "Connect_bot,Flwid,Connect_api",
+      "Connect_bot": {
+        "title": "Connect.bot",
+        "role": " - Module Lead",
+        "client": " - Searocco x Onepoint",
+        "dates": "2022-2023",
+        "tech": "Node,Express,Botpress,SQLite,Postgres,OpenAI,Teams,Apache",
+        "content_1": "I led development of a conversational chatbot module for tech support / automated ticketing for the information systems department of an IT consultancy.",
+        "content_2": "This was full stack, end to end project work including a technological benchmark, system design, proof of concept, iterative usecase development, integration with existing systems, management of deployment, migration from dev (SQLite) to production (Postgres) environments and documenting for hand-off to the client's internal developer team.",
+        "content_3": "The system's core service was built using Botpress, Node and Express, integrated with an existing Laravel API and Vue frontend. It served chat in MS Teams, WhatsApp and Webchat channels. The system was extended with 3rd party API functionality - MS Graph for user calendar and device data, OpenAI for natural language processing and Adaptive Cards for rich templated content tailored for MS Teams.",
+        "content_4": "A remote development environment maintaining secure connections to MS Teams / Azure instances and API services behind a corporate VPN were setup using Ngrok and Apache reverse https proxying."
+      },
+      "Connect_api": {
+        "title": "Connect.api",
+        "client": "Searocco x Onepoint",
+        "dates": "2022 - 2023",
+        "tech": "Laravel, Postgres",
+        "p1": "EES A MESS OF TABLES IN TABLES IN TABLES",
+        "p2": "BLAH"
+      },
+      "Flwid": {
+        "title": "FLWID",
+        "role": " - Fullstack Developer",
+        "client": " - Searocco",
+        "dates": "2023",
+        "tech": "React,Next,OpenAI,Laravel,Postgres",
+        "content_1": "I worked in a combined web / data team to develop a platform for AI chat-assisted social sharing, discussion and analysis of tech news and media.",
+        "content_2": "The project comprised a Laravel / Postgres backend collecting and processing data from a Discord server, and a React (NextJS) frontend providing an interface for sharing and analysis of links and media posted to Discord channels.",
+        "content_3": "I extended the interface on the frontend with a chatbot service using OpenAI apis to provide tailroed conversations with a range of pre-defined agents.",
+        "content_4": "I also put in place a conversation history keyword search service using Postgres tsvector / tsquery functions."
       }
     }
   }
