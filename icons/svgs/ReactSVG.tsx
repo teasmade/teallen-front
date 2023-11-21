@@ -11,7 +11,7 @@ const ReactSVG: React.FunctionComponent<React.SVGProps<SVGSVGElement>> = ({
     viewBox="0 0 128 128"
     className={className}
   >
-    {' '}
+    <title>React</title>
     <g fill="#61DAFB">
       <circle
         cx="64"

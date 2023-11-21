@@ -11,6 +11,7 @@ const VuetifySVG: React.FunctionComponent<React.SVGProps<SVGSVGElement>> = ({
     viewBox="0 0 128 128"
     className={className}
   >
+    <title>Vuetify</title>
     <path
       d="M64.004 0H34.102l29.902 61.848"
       fill="#1697F6"

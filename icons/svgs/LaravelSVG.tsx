@@ -11,6 +11,7 @@ const LaravelSVG: React.FunctionComponent<React.SVGProps<SVGSVGElement>> = ({
     viewBox="0 0 128 128"
     className={className}
   >
+    <title>Laravel</title>
     <path
       fillRule="evenodd"
       clipRule="evenodd"
