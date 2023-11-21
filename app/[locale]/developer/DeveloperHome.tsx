@@ -1,5 +1,5 @@
 'use client';
-
+import { Link } from '@/navigation';
 import { useTranslations } from 'next-intl';
 
 import CvSVG from '@/icons/svgs/iconscout/CvSVG';
@@ -7,6 +7,7 @@ import HistorySVG from '@/icons/svgs/iconscout/HistorySVG';
 import SkillsSVG from '@/icons/svgs/iconscout/SkillsSVG';
 import SkillDetails from '@/components/developer/SkillDetails';
 import History from '@/components/developer/History';
+import BottomNav from '@/components/home/BottomNav';
 
 export default function DeveloperHome() {
   const t = useTranslations();
@@ -103,12 +104,29 @@ export default function DeveloperHome() {
 
       <div
         id="history-section"
-        className="text-2xl mt-96 pb-12"
+        className="text-2xl mt-96 pb-24"
       >
         <p className="text-3xl xl:pl-6 pt-12 lg:pt-24 sm:pb-8 xl:pb-0 xl:pt-24 font-mono">
-          project history:
+          dev.work.history
         </p>
         <History />
+      </div>
+
+      <div
+        id="end-section"
+        className="flex w-full flex-grow flex flex-row justify-center pr-2 lg:pr-0 items-end justify-items-end lg:justify-items-center lg:items-start text-white font-bold"
+      >
+        <div className="lg:col-start-8 lg:col-end-12 text-sm lg:text-2xl lg:self-end pb-4 lg:pb-8 hover:scale-110 ease-in duration-[150ms]">
+          <Link
+            className="lg:bg-sky-600 lg:btn-home-bottomnav rounded-tl-2xl rounded-br-2xl bg-sky-600 py-1 px-2"
+            href="/contact"
+          >
+            <span className="underline lg:no-underline lg:hover:underline font-mono font-semibold">
+              Interested ? Interesting ? Interact...
+            </span>
+            <span> 📡</span>
+          </Link>
+        </div>
       </div>
     </div>
   );

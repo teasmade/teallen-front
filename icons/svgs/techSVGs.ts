@@ -1,5 +1,6 @@
 // SVGs to export: Apache, Docker, Express, Firebase, Gatsby, Laravel, MySql, Next, Nginx, Node, Php, Postgres, React, Tailwind, Typescript, Vue, Vuetify
 
+export { default as Angular } from './AngularSVG';
 export { default as React } from './ReactSVG';
 export { default as Next } from './NextSVG';
 export { default as Gatsby } from './GatsbySVG';
