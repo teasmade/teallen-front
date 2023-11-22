@@ -1,0 +1,130 @@
+{
+  "Nav": {
+    "home": "accueil",
+    "developer": "développeur",
+    "teacher": "professeur",
+    "contact": "contact",
+    "blog": "blog",
+    "essentials": "..?"
+  },
+  "Home": {
+    "title": {
+      "hello": "hello I'm",
+      "name": "Thomas",
+      "initials": ".teallen",
+      "and": "et je suis :"
+    },
+    "dev": {
+      "title": "développeur logiciels",
+      "p1": "💡 Je m'épanouis dans l'apprentissage continu, la compréhension des contextes dynamiques et l'exploration de nouveaux environnements - ce sont ces défis qui ont motivé mon changement de carrière dans le monde de la technologie.",
+      "p2": "💪 Auto-développement : élargissement et approfondissement de mes compétences, apprentissage et collaboration, résolution de problèmes et recherche de solutions dans le cadre d'un large éventail de projets et d'équipes.",
+      "p3": "🖥️ J'ai acquis des compétences et de l'expérience transverse fullstack, ayant livré des projets en utilisant:",
+      "btn-cta": "En savoir plus..."
+    },
+    "teach": {
+      "title": "professeur de langue",
+      "p1": "🎓 Je suis également professeur d'anglais, diplômée CELTA, et j'ai de l'expérience dans l'enseignement en groupe et individuel en France et au Royaume-Uni.",
+      "p2": "💪 Auto-développement : comprendre qu'une communication efficace, des objectifs structurés et une empathie appliquée sont tout aussi importants d'un côté ou de l'autre d'un tableau blanc, d'un changement de carrière ou d'un écran.",
+      "p3": "🚀 Par le biais de cours et de coaching dédiés, ou en tant que bonus à une collaboration continue, je peux améliorer votre communication, confiance et aisance en anglais, ainsi que celles de votre équipe.",
+      "btn-cta": "En savoir plus..."
+    },
+    "footer-nav": {
+      "link-blog": "blog",
+      "link-contact": "contact",
+      "link-hr": "recruteurs"
+    }
+  },
+  "Essentials": {
+    "layout": {
+      "domain": ".teallen",
+      "name": "Thomas",
+      "title": "/essentiels"
+    }
+  },
+  "Teacher": {
+    "layout": {
+      "domain": ".teallen",
+      "name": "Thomas",
+      "title": "/professeur"
+    }
+  },
+  "Blog": {
+    "layout": {
+      "domain": ".teallen",
+      "name": "Thomas",
+      "title": "/blog"
+    }
+  },
+  "Contact": {
+    "layout": {
+      "domain": ".teallen",
+      "name": "Thomas",
+      "title": "/contact"
+    }
+  },
+  "Developer": {
+    "layout": {
+      "domain": ".teallen",
+      "name": "Thomas",
+      "title": "/développeur"
+    },
+    "home": {
+      "title": "En bref...",
+      "intro_li_1": "Je suis un développeur fullstack avec de l'expérience dans plusieurs langages et frameworks;",
+      "intro_li_2": "Je me suis reconverti dans la tech après une carrière dans la gestion des ventes et l'enseignement de l'anglais;",
+      "intro_li_3": "Cette expérience de la communication en langue naturelle renforce et augmente mes compétences techniques;",
+      "intro_li_4": "La découverte de nouveaux contextes techniques et humains motive mon passion du développement et de l'apprentissage;",
+      "intro_li_5": "Je suis toujours ouverte à de nouveaux projets intéressants, disponible en tant que freelance ou pour des contrats à plus long terme."
+    },
+    "skills": {
+      "title": "skillset:",
+      "front": {
+        "title": "Développement d'applications web modernes JS/TS",
+        "p1": "J'ai de l'expérience dans la construction d'applications web réactives, accessibles et performantes à différentes échelles, en utilisant :",
+        "react_title": "React",
+        "react_p1": "J'ai travaillé sur une gamme variée de projets utilisant React vanille, Gatsby et NextJS, avec un éventail d'objectifs techniques allant du prototypage rapide d'applications à l'intégration d'api externes, la migration de composants serveur à l'échafaudage d'un générateur de site statique extensible.",
+        "react_p2": "Cela a impliqué un travail avec diverses technologies de soutien, notamment Tailwind, Contentful, GraphQL, Firebase, Google Cloud et Stripe.",
+        "vue_title": "Vue",
+        "vue_p1": "J'ai de l'expérience dans le développement Vue à grande échelle en tant que membre de l'équipe principale qui construit le système de gestion pour la DSI d'une grande société de conseil. En travaillant avec Vuex et Vuetify, j'ai dirigé le développement d'un système de wrappers avec état pour étendre la fonctionnalité des tables de données et d'autres composants complexes à travers l'application",
+        "vue_p2": "J'ai également développé de nouvelles fonctionnalités modulaires pour onboarding, la gestion des appareils et l'assistance technique automatisée, et j'ai travaillé à la normalisation de la qualité du code et des pratiques de test.",
+        "other_title": "autres plateformes",
+        "other_p1": "J'ai également travaillé sur des projets plus petits avec Angular, et j'ai intégré des sites statiques de PME avec des CMS, y compris Wordpress et Webflow. Mes projets personnels actuels comportent de l'apprentissage et de l'expérimentation en Svelte et une comparaison de SolidJS vs. Next. "
+      },
+      "back": {
+        "title": "Développement API et backend",
+        "p1": "J'ai de l'expérience dans la conception, la construction et le déploiement de divers services backend en utilisant :",
+        "laravel_title": "Laravel / Lumen",
+        "laravel_p1": "J'ai travaillé sur un large éventail de fonctionnalités pour une application Laravel à grande échelle, y compris l'authentification, l'extension modulaire de l'API, les alertes automatisées, les usines de modèles et les suites de tests. J'ai également dirigé le développement de services intégrant des API externes, notamment MS Graph, Bot Framework et Adaptive Cards.",
+        "node_title": "Node",
+        "node_p1": "J'ai conçu et construit une gamme de services utilisant des plateformes API Node comme Express et Restify, y compris une service complète de chatbot d'assistance technique intégrant les API Botpress et OpenAI et desservant les canaux MS Teams, WhatsApp et Webchat.",
+        "postgres_title": "Postgres",
+        "postgres_p1": "J'ai beaucoup travaillé avec Postgres dans divers contextes, du simple stockage à la modélisation des données, les requêtes complexes, l'optimisation des fonctions de recherche et l'extension du stockage et du traitement du langage naturel avec pgvector.",
+        "other_title": "autres platformes",
+        "other_p1": "J'ai également travaillé sur des projets utilisant MySQL, Firebase et Google Cloud Functions. J'ai récemment acquis une expérience substantielle dans le développement de services de chatbot utilisant Botpress, OpenAI et MS Bot Framework."
+      },
+      "full": {
+        "title": "Conception, développement et déploiement",
+        "p1": "En plus de développer mon expérience dans le contexte de technologies spécifiques, j'ai également travaillé en tant que module lead sur l'ensemble du processus de conception, de design, de développement et de déploiement d'un service de chatbot d'assistance technique pour un grand cabinet de conseil",
+        "p2": "Il s'agissait d'une benchmark technologique, de concevoir et de construire le service en utilisant Botpress / Node / Express, de brancher le service sur une API Laravel existante et un frontend Vue, d'intégrer des API dans le système, y compris MS Graph, OpenAI et Adaptive Cards et de connecter le tout aux canaux MS Teams, WhatsApp et Webchat. J'ai également géré le processus de déploiement et de migration de ce projet d'un environnement de développement à un environnement de production",
+        "apache_title": "Apache",
+        "apache_p1": "J'ai utilisé Apache dans le cadre de plusieurs projets, en travaillant sur le setup SSL, la config de vhosts pour les environnements de développement et la mise en place de proxys inversés pour fournir une gamme de services à partir d'un seul domaine.",
+        "docker_title": "Docker",
+        "docker_p1": "J'ai mis en place des environnements de développement et déployé des services en production à l'aide de Docker et de Docker Compose. C'est mon approche préférée et celle que j'utilise pour presque tous mes projets personnels.",
+        "other_title": "autres plateformes",
+        "other_p1": "J'ai également travaillé sur des déploiements Nginx, la configuration de tunnels https et d'applications Azure, et j'ai de l'expérience dans la gestion de serveurs et de DNS. Le site sur lequel vous vous trouvez fonctionne sur un VPS Ubuntu, avec SSL automatisé LetsEncrypt et un proxy inverse Apache desservant un stack Dockerisée Nginx / Node / NextJS."
+      },
+      "soft": {
+        "title": "Interaction et compréhension humaines",
+        "p1": "Mon travail antécédent dans la vente et l'enseignement des langues m'a donné une base solide de compétences et d'expérience en communication; le passage des langues naturelles aux langues formelles n'a pas diminué cela, mais a plutôt ouvert une nouvelle fenêtre sur l'importance de la clarté, de la structure et de la connexion dans l'interaction humaine à travers n'importe quel médium",
+        "p2": "Le travail de production du code propre qui réponde aux spécifications comporte, en fin de compte, des connexions humaines qui entrent et sortent et se tissent à travers tout le processus. De la même manière qu'un bon professeur construit un pont entre un étudiant et ses futures capacités, un bon développeur construit un pont entre les idées et leurs futurs utilisateurs.",
+        "title_2": "Communication claire et efficace",
+        "p3": "Concrètement, cela fait de moi un communicateur efficace, capable de s'adapter à une diversité de contextes et de publics. Mon expérience en classe se traduit par une forte capacité à vulgariser des concepts complexes, et mon expérience de la vente signifie que je suis à l'aise en travail avec des clients, des acteurs et des utilisateurs finaux afin de comprendre et de répondre à leurs besoins",
+        "title_3": "Collaboration, travail d'équipe et soutien",
+        "p4": "Les compétences et la motivation personelle sont importantes, mais elles ne sont pas isolées. J'ai vu comment les élèves peuvent s'épanouir en interagissant les uns avec les autres et en se soutenant mutuellement; cet esprit d'objectif commun, d'entraide et de partage de problèmes est transformateur, et peut apporter autant de bénéfices que les cours en solo avec un enseignant.",
+        "p5": "Je crois que cet esprit devrait être encouragé dans tout travail d'équipe ; c'est un cercle vertueux où le développement personnel et le développement de l'équipe se nourrissent l'un l'autre. La volonté de communiquer sur ce que l'on ne sait pas, d'apprendre en comprenant le point de vue des autres et de rester ancré dans le contexte humain sont des éléments clés de ce processus",
+        "title_4": "// PS :",
+        "p6": "J'aime très sincèrement rédiger des spécifications, de la documentation et des messages de commit 😱"
+      }
+    }
+  }
+}

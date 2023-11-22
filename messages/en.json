@@ -1,0 +1,202 @@
+{
+  "Nav": {
+    "home": "home",
+    "developer": "developer",
+    "teacher": "teacher",
+    "contact": "contact",
+    "blog": "blog",
+    "essentials": "..?"
+  },
+  "Home": {
+    "title": {
+      "hello": "hello I'm",
+      "name": "Thomas",
+      "initials": ".teallen",
+      "and": "and I'm a :"
+    },
+    "dev": {
+      "title": "software developer",
+      "p1": "💡 I love the work of continuous learning, understanding dynamic contexts & exploring new environments - these challenges are what drove my career switch into the tech world.",
+      "p2": "💪 Self-development: widening & deepening my skillset, learning & collaborating, tackling problems & finding solutions across a wide range of projects & teams.",
+      "p3": "🖥️ I have applied skills & experience across the stack, & have delivered projects using:",
+      "btn-cta": "Learn more..."
+    },
+    "teach": {
+      "title": "language teacher",
+      "p1": "🎓 I'm also an English language teacher, CELTA qualified, with experience teaching groups & 1 on 1 in France & the UK.",
+      "p2": "💪 Self-development: understanding that effective communication, structured goals & applied empathy are equally important from either side of a whiteboard, a career change, or a screen. ",
+      "p3": "🚀 Through dedicated lessons & coaching, or as a bonus to ongoing collaboration, I can boost you & your team’s English communication, confidence & fluency.",
+      "btn-cta": "Learn more..."
+    },
+    "footer-nav": {
+      "link-blog": "blog",
+      "link-contact": "contact",
+      "link-hr": "hiring managers"
+    }
+  },
+  "Essentials": {
+    "layout": {
+      "domain": ".teallen",
+      "name": "Thomas",
+      "title": "/essentials"
+    }
+  },
+  "Teacher": {
+    "layout": {
+      "domain": ".teallen",
+      "name": "Thomas",
+      "title": "/teacher"
+    }
+  },
+  "Blog": {
+    "layout": {
+      "domain": ".teallen",
+      "name": "Thomas",
+      "title": "/blog"
+    }
+  },
+  "Contact": {
+    "layout": {
+      "domain": ".teallen",
+      "name": "Thomas",
+      "title": "/contact"
+    }
+  },
+  "Developer": {
+    "layout": {
+      "domain": ".teallen",
+      "name": "Thomas",
+      "title": "/developer"
+    },
+    "home": {
+      "title": "In short...",
+      "intro_li_1": "I'm a fullstack developer with experience in a range of languages and frameworks;",
+      "intro_li_2": "I moved into tech following careers in sales management and English language teaching;",
+      "intro_li_3": "This background in natural language communication strengthens and augments my tech skills;",
+      "intro_li_4": "Self-discovery through new technical and human contexts drives my love of development and learning;",
+      "intro_li_5": "I'm always open to interesting new projects and can work on a flexible freelance or longer-term contract basis."
+    },
+    "skills": {
+      "title": "dev.skills",
+      "front": {
+        "title": "Modern JS/TS Web Application Development",
+        "p1": "I have experience building responsive, accessible, and performant web applications at a range of scales, using:",
+        "react_title": "React",
+        "react_p1": "I've worked on a diverse range of projects using vanilla React, Gatsby and NextJS, with a range of technical goals from rapid app prototyping through external api integration and server component migration to scaffolding an extensible static site generator.",
+        "react_p2": "This has involved work with supporting technologies including Tailwind, Contentful, GraphQL, Firebase, Google Cloud and Stripe.",
+        "vue_title": "Vue",
+        "vue_p1": "I have experience in large scale Vue development as part of the core team building the management system for the IS department of a major consultancy. Working with Vuex and Vuetify, I led the development of a system of stateful wrappers to extend the functionality of data tables and other complex components across the application.",
+        "vue_p2": "I also developed new modular features for on-boarding, device management and automated support and worked on standardising code quality and testing practices.",
+        "other_title": "other platforms",
+        "other_p1": "I've also worked on smaller projects with Angular, and have integrated static small business sites with CMSs including Wordpress and Webflow. Current personal project work includes learning and experimenting with Svelte and comparing the approach of SolidJS vs. Next. "
+      },
+      "back": {
+        "title": "API & Backend Service Development",
+        "p1": "I have experience designing, building and deploying diverse backend services using:",
+        "laravel_title": "Laravel / Lumen",
+        "laravel_p1": "I've worked on a wide range of features for a large scale Laravel application, including authentication, modular API extension, automised alerts, template factories and testing suites. I've also led development of services integrating external APIs including MS Graph, Bot Framework and Adaptive Cards.",
+        "node_title": "Node",
+        "node_p1": "I've designed and built a range of services using Node-based platforms like Express and Restify, including an extensive tech-support chatbot service integrating Botpress and OpenAI APIs and serving MS Teams, WhatsApp and Webchat channels.",
+        "postgres_title": "Postgres",
+        "postgres_p1": "I've worked extensively with Postgres in a range of contexts, from simple storage to data modelling, complex querying, optimising search functions and extending natural language storage and processing with pgvector.",
+        "other_title": "other platforms",
+        "other_p1": "I've also worked on projects using MySQL, Firebase and Google Cloud Functions. I have substantial recent experience developing chatbot services using Botpress, OpenAI and MS Bot Framework."
+      },
+      "full": {
+        "title": "Design, Development & Deployment",
+        "p1": "As well as building my experience in the context of specific technologies, I've also worked as module lead on the entire process of conception, design, development and deployment of a tech support chatbot service for a major consultancy.",
+        "p2": "This involved benchmarking technologies, designing and building the service using Botpress / Node / Express, plugging this service into an existing core Laravel API and Vue frontend, integrating APIs across the system including MS Graph, OpenAI and Adaptive Card templates and connecting to MS Teams, WhatsApp and Webchat channels. I also managed the process of deployment and migration of this project from a development to a production environment.",
+        "apache_title": "Apache",
+        "apache_p1": "I've used Apache on a range of projects and have worked on ssl setup, configuring vhosts for development environments and setting up reverse proxies to provide a range of services from a single domain.",
+        "docker_title": "Docker",
+        "docker_p1": "I've set up development environments and deployed services to production using Docker and Docker Compose. It's my preferred approach and the one I use for almost all my personal projects.",
+        "other_title": "other platforms",
+        "other_p1": "I've also worked with Nginx deployments, https tunnelling setups, Azure app config and have experience managing servers and DNS. The site you're on now runs on an Ubuntu VPS using automated LetsEncrypt SSL and an Apache reverse proxy serving a Dockerised Nginx / Node / NextJS stack."
+      },
+      "soft": {
+        "title": "Human Interaction & Understanding",
+        "p1": "My pre-tech work in sales and language teaching has given me a strong foundation of applied communication skills and experience; the move from natural to formal languages hasn't diminshed this, but rather opened a new window on the importance of clarity, structure and connection in human interaction through any medium.",
+        "p2": "Working to output clean, functional code that meets specifications is ultimately about the human connections that lead in and out and weave through the whole process. In the same way that a good teacher structures a bridge between a student and their future abilities, a good developer structures a bridge between ideas and their future users.",
+        "title_2": "Clear, Effective Communication",
+        "p3": "In practical terms, this makes me an effective communicator, able to adapt to a wide range of contexts and audiences. My classroom experience translates to a strong ability to work through complex concepts at an appropriate level, and my sales experience means I'm comfortable working with clients, stakeholders and end-users to understand and meet their needs.",
+        "title_3": "Collaboration, Teamwork & Support",
+        "p4": "Personal skills and motivation are important, but they don't exist in isolation. I've seen how pupils in a classroom can thrive through interacting with and supporting each other; that sense of joint purpose, mutual aid and freedom to share problems is transformative and can bring just as much benefit as one on one time with a skilled teacher.",
+        "p5": "I believe this spirit should be fostered as much as possible in all teamwork; it's a virtuous circle where self development and team development feed into each other. Willingness to communicate about what you don't know, learning through understanding others' perspectives and staying grounded in the human context are essential parts of this process.",
+        "title_4": "// PS:",
+        "p6": "I actively enjoy writing up specifications, documentation and commit messages 😱"
+      }
+    },
+    "history": {
+      "keys": "Connect_bot,Flwid,Connect,Connect_api,IM_Site,Blind_Valet,Plus2Bad",
+      "Connect_bot": {
+        "title": "Connect.bot",
+        "role": " - Module Lead",
+        "client": " - Searocco x Onepoint",
+        "dates": "2022-2023",
+        "tech": "Node,Express,Botpress,SQLite,Postgres,OpenAI,Teams,Apache",
+        "content_1": "I led development of a conversational chatbot module for tech support / automated ticketing for the information systems department of an IT consultancy.",
+        "content_2": "This was full stack, end to end project work including a technological benchmark, system design, proof of concept, iterative usecase development, integration with existing systems, management of deployment, migration from dev (SQLite) to production (Postgres) environments and documenting for hand-off to the client's internal developer team.",
+        "content_3": "The system's core service was built using Botpress, Node and Express, integrated with an existing Laravel API and Vue frontend. It served chat in MS Teams, WhatsApp and Webchat channels. The system was extended with 3rd party API functionality - MS Graph for user calendar and device data, OpenAI for natural language processing and Adaptive Cards for rich templated content tailored for MS Teams.",
+        "content_4": "A remote development environment maintaining secure connections to MS Teams / Azure instances and API services behind a corporate VPN was setup using Ngrok and Apache reverse https proxying."
+      },
+      "Connect": {
+        "title": "Connect",
+        "role": " - Frontend Developer",
+        "client": "Searocco x Onepoint",
+        "dates": "2022 - 2023",
+        "tech": "Vue,Vuetify",
+        "content_1": "I worked as part of a consultant developer team, working within the IT Department on development of their services & support platform interface (Vue, Vuex, Vuetify). ",
+        "content_2": "I implemented new modules (onboarding, equipment management) from-scratch and worked on code quality and CI/CD pipelines.",
+        "content_3": "I led work on improving developer experience by standardising component usage across the app. This involved refactoring the system of generic wrappers used for Vuetify library components; I then extended this system, linking component lifecycle to a dedicated Vuex store module. This allowed me to deliver completely new features in complex components such as data tables, including persistent per-user ui state, custom filtering and column selection."
+      },
+      "Connect_api": {
+        "title": "Connect.api",
+        "role": " - API Developer",
+        "client": " - Searocco x Onepoint",
+        "dates": "2022 - 2023",
+        "tech": "Php,Laravel,Postgres",
+        "content_1": "I worked as part of a consultant developer team, expanding the API (Laravel / Postgres) for an IT department services & support platform.",
+        "content_2": "I designed & implemented new database structure & API modules to serve a range of platform data (thousands of users / devices, tens of thousands of support tickets), and extended the API with services connecting to MS Bot Framework & MS Graph.",
+        "content_3": "I led work extending alerting (MS Teams, email) functionality and logging services, and scaffolding functional and unit testing from scratch for the project's legacy code."
+      },
+      "Flwid": {
+        "title": "FLWID",
+        "role": " - Fullstack Developer",
+        "client": " - Searocco",
+        "dates": "2023",
+        "tech": "React,Next,OpenAI,Laravel,Postgres,Tailwind",
+        "content_1": "I worked in a combined web / data team to develop a platform for AI chat-assisted social sharing, discussion and analysis of tech news and media.",
+        "content_2": "The project comprised a Laravel / Postgres backend collecting and processing data from a Discord server, and a React (NextJS) frontend providing an interface for sharing and analysis of links and media posted to Discord channels.",
+        "content_3": "I extended the interface on the frontend with a chatbot service using OpenAI apis to provide tailored conversations with a range of pre-defined agents.",
+        "content_4": "I also put in place a conversation history keyword search service using Postgres tsvector / tsquery functions."
+      },
+      "IM_Site": {
+        "title": "Imagination Machine",
+        "role": " - Developer (Intern)",
+        "client": " - Imagination Machine",
+        "dates": "2021",
+        "tech": "React,Gatsby,Tailwind",
+        "content_1": "",
+        "content_2": ""
+      },
+      "Blind_Valet": {
+        "title": "Blind Valet",
+        "role": " - Developer (Intern)",
+        "client": " - Brick River Labs",
+        "dates": "2021",
+        "tech": "Angular,Firebase,Tailwind",
+        "content_1": "",
+        "content_2": ""
+      },
+      "Plus2Bad": {
+        "title": "Plus2Bad Pricing System",
+        "role": " - Student Developer",
+        "client": " - Plus2Bad",
+        "dates": "2021",
+        "tech": "React,Node,Express,MySql",
+        "content_1": "",
+        "content_2": ""
+      }
+    }
+  }
+}
