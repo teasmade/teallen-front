@@ -7,7 +7,6 @@ import HistorySVG from '@/icons/svgs/iconscout/HistorySVG';
 import SkillsSVG from '@/icons/svgs/iconscout/SkillsSVG';
 import SkillDetails from '@/components/developer/SkillDetails';
 import History from '@/components/developer/History';
-import BottomNav from '@/components/home/BottomNav';
 
 export default function DeveloperHome() {
   const t = useTranslations();

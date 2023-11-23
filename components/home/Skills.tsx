@@ -1,4 +1,5 @@
 import { useTranslations } from 'next-intl';
+import { Link } from '../../navigation';
 import SkillcardDev from '@/components/home/SkillcardDev';
 import TeachSVG from '@/icons/svgs/undraw/TeachSVG';
 import LearnersTwoSVG from '@/icons/svgs/undraw/LearnersTwoSVG';
@@ -18,9 +19,7 @@ export default function Skills() {
       <div className="text-4xl lg:text-6xl self-start lg:self-auto lg:relative pl-2 lg:px-6 lg:py-2 group/dev lg:group-hover:bg-sky-700 duration-700 mb-4 lg:mb-0">
         <div className="lg:flex lg:flex-row-reverse flex flex-row justify-between bg-sky-700 lg:bg-transparent -ml-2 lg:ml-0">
           <span className="opacity-100 lg:group-hover:opacity-100 duration-1000 ease-in lg:bg-sky-600 lg:group-hover/dev:bg-sky-900 lg:px-4 rounded-tl-3xl rounded-br-3xl">
-            <span className="relative bottom-[3px] lg:bottom-[6px]">
-              {'</>'}
-            </span>
+            <span className="">{'</>'}</span>
           </span>
           <span className="lg:opacity-0 group-hover:opacity-100 duration-1000 ease-in-out lg:text-2xl lg:leading-tight xl:text-3xl 2xl:text-4xl text-xl pr-4 font-mono pl-6 lg:pl-0">
             {t('dev.title')}
@@ -48,7 +47,7 @@ export default function Skills() {
       <div className="text-4xl lg:text-6xl self-end lg:self-auto lg:relative pl-2 lg:px-6 lg:py-2 pb-4 lg:block group/teach lg:group-hover:bg-sky-700 duration-700 lg:max-h-[76px]">
         <div className="lg:flex lg:flex-row flex flex-row justify-between bg-sky-700 lg:bg-transparent -ml-2 lg:ml-0">
           <span className="opacity-100 lg:group-hover:opacity-100 transition-all duration-1000 ease-in lg:bg-sky-600 lg:group-hover/teach:bg-sky-900 lg:px-4 rounded-tl-3xl rounded-br-3xl">
-            <span className="relative bottom-[3px] lg:bottom-[6px]">
+            <span className="">
               <span className="text-4xl lg:text-5xl mx-1 lg:mr-2 font-slab">
                 en
               </span>
@@ -81,7 +80,7 @@ export default function Skills() {
             <div className="mr-4 col-span-5">{t('teach.p3')}</div>
             <div className="flex flex-row col-start-6 col-end-8 justify-end items-center">
               <span className="bg-sky-600 py-4 lg:py-2 px-2 rounded-l-sm rounded-tl-2xl rounded-br-2xl text-[0.8rem] font-sans xl:text-base font-bold hover:scale-110 hover:-translate-x-2 ease-in duration-[150ms] underline lg:no-underline hover:underline hover:cursor-pointer hover:bg-sky-900">
-                {t('teach.btn-cta')}
+                <Link href="/teacher">{t('teach.btn-cta')}</Link>
               </span>
             </div>
           </div>
