@@ -46,6 +46,14 @@
       "domain": ".teallen",
       "name": "Thomas",
       "title": "/teacher"
+    },
+    "home": {
+      "title": "In short...",
+      "intro_li_1": "Before my career switch into tech, I studied languages and linguistics and worked teaching English as a foreign language.",
+      "intro_li_2": "I'm a British native speaker, naturalised French citizen - I have direct experience of the challenge of learning another language to a high level.",
+      "intro_li_3": "I've taught English to adults from a wide range of nationalities and backgrounds, from beginner to advanced levels, in group and 1 on 1 contexts.",
+      "intro_li_4": "I strongly believe that a focus on effective communication and learner confidence can unlock rapid progress, no matter the starting point.",
+      "intro_li_5": "I can provide tech / business focused English lessons or coaching on a freelance basis, or integrate English teaching and support with ongoing work in a technical role."
     }
   },
   "Blog": {
@@ -88,7 +96,7 @@
         "vue_p1": "I have experience in large scale Vue development as part of the core team building the management system for the IS department of a major consultancy. Working with Vuex and Vuetify, I led the development of a system of stateful wrappers to extend the functionality of data tables and other complex components across the application.",
         "vue_p2": "I also developed new modular features for on-boarding, device management and automated support and worked on standardising code quality and testing practices.",
         "other_title": "other platforms",
-        "other_p1": "I've also worked on smaller projects with Angular, and have integrated static small business sites with CMSs including Wordpress and Webflow. Current personal project work includes learning and experimenting with Svelte and comparing the approach of SolidJS vs. Next. "
+        "other_p1": "I've also worked on smaller projects with Angular, and have integrated static small business sites with CMSs including Wordpress and Webflow. The site you're on now was built partly as a learning project to explore server components and actions in NextJS 13+"
       },
       "back": {
         "title": "API & Backend Service Development",
@@ -96,7 +104,7 @@
         "laravel_title": "Laravel / Lumen",
         "laravel_p1": "I've worked on a wide range of features for a large scale Laravel application, including authentication, modular API extension, automised alerts, template factories and testing suites. I've also led development of services integrating external APIs including MS Graph, Bot Framework and Adaptive Cards.",
         "node_title": "Node",
-        "node_p1": "I've designed and built a range of services using Node-based platforms like Express and Restify, including an extensive tech-support chatbot service integrating Botpress and OpenAI APIs and serving MS Teams, WhatsApp and Webchat channels.",
+        "node_p1": "I've designed and built a range of services using Node-based platforms like Express and Restify, including an extensive tech-support chatbot service integrating Botpress, OpenAI and MS Bot Framework APIs and serving MS Teams, WhatsApp and Webchat channels.",
         "postgres_title": "Postgres",
         "postgres_p1": "I've worked extensively with Postgres in a range of contexts, from simple storage to data modelling, complex querying, optimising search functions and extending natural language storage and processing with pgvector.",
         "other_title": "other platforms",

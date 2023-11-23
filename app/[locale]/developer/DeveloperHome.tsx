@@ -2,6 +2,8 @@
 import { Link } from '@/navigation';
 import { useTranslations } from 'next-intl';
 
+import ScrollToTopButton from '@/components/ScrollTopBtn';
+
 import CvSVG from '@/icons/svgs/iconscout/CvSVG';
 import HistorySVG from '@/icons/svgs/iconscout/HistorySVG';
 import SkillsSVG from '@/icons/svgs/iconscout/SkillsSVG';
@@ -56,7 +58,6 @@ export default function DeveloperHome() {
             <p className="mt-4 font-mono text-lg lg:text-base">cv_dev_en.pdf</p>
           </div>
         </div>
-        {/* <p className="mt-4 font-mono xl:hidden">cv_dev_en.pdf</p> */}
 
         <div className="bg-sky-700 hover:border border-white rounded-tl-3xl rounded-br-3xl hover:scale-110 origin-top-left transition-all ease-in duration-200">
           <button
@@ -72,7 +73,6 @@ export default function DeveloperHome() {
             <p className="mt-4 font-mono text-lg lg:text-base">skillset</p>
           </button>
         </div>
-        {/* <p className="mt-4 font-mono xl:hidden">skillset</p> */}
 
         <div className="bg-sky-700 hover:border border-white rounded-tl-3xl rounded-br-3xl hover:scale-110 origin-top-left transition-all ease-in duration-200">
           <button
@@ -89,7 +89,6 @@ export default function DeveloperHome() {
           </button>
         </div>
       </div>
-      {/* <p className="mt-4 font-mono xl:hidden">background</p> */}
 
       <div
         id="skills-section"
@@ -127,6 +126,7 @@ export default function DeveloperHome() {
           </Link>
         </div>
       </div>
+      <ScrollToTopButton />
     </div>
   );
 }
