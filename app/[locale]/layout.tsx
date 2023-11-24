@@ -5,6 +5,9 @@ import { Link } from '../../navigation';
 import { useTranslations } from 'next-intl';
 
 import LocaleSwitch from '@/components/LocaleSwitch';
+import GitHubSVG from '@/icons/svgs/social/GitHubSVG';
+import LinkedInSVG from '@/icons/svgs/social/LinkedInSVG';
+import BlogSVG from '@/icons/svgs/social/BlogSVG';
 
 const inter = Inter({ subsets: ['latin'] });
 const locales = ['en', 'fr'];
@@ -25,7 +28,7 @@ export default function LocaleLayout({ children, params: { locale } }: Props) {
     <html lang={locale}>
       <body className={inter.className}>
         <header className="sticky top-0 z-50">
-          <nav className="absolute bg-[#94a3b833] lg:bg-[#94a3b833] backdrop-blur-[128px] backdrop-brightness-90 lg:bg-transparent text-white font-bold flex flex-row justify-between w-full lg:h-16">
+          <nav className="absolute bg-[#94a3b833] lg:bg-[#94a3b833] backdrop-blur-[350px] backdrop-brightness-90 lg:bg-transparent text-white font-bold flex flex-row justify-between w-full lg:h-16">
             <div className="dropdown lg:dropdown-right lg:dropdown-end ml-2 mt-1 lg:mt-2">
               <label
                 tabIndex={0}
@@ -105,6 +108,52 @@ export default function LocaleLayout({ children, params: { locale } }: Props) {
           </nav>
         </header>
         <>{children}</>
+        <footer className="bg-sky-900 pt-4 pb-4 px-2 lg:px-8 self-start text-white text-xs flex flex-col items-center">
+          <div className="border-t border-white w-1/4 h-4"></div>
+          <div className="flex flex-row justify-center gap-10 mb-4 lg:mb-0">
+            <a
+              target="_blank"
+              href={`https://github.com/teasmade`}
+            >
+              <GitHubSVG
+                width={32}
+                height={32}
+                className=""
+              />
+            </a>
+            <a
+              target="_blank"
+              href={`https://www.linkedin.com/in/thomas-edward-allen/`}
+            >
+              <LinkedInSVG
+                width={32}
+                height={32}
+                className=""
+              />
+            </a>
+            <a
+              target="_blank"
+              href={`https://blog.teallen.com`}
+            >
+              <BlogSVG
+                width={32}
+                height={32}
+                className=""
+              />
+            </a>
+          </div>
+
+          <div className="w-full flex flex-row justify-between">
+            <div className="">
+              Design, Copyright © {new Date().getUTCFullYear()} dev.teallen
+            </div>
+            <div className="">
+              🌟SVGs🙏: <a href="https://devicon.dev">Devicon</a>,{' '}
+              <a href="https://iconscout.com">IconScout</a>,{' '}
+              <a href="https://undraw.co">Undraw</a>
+            </div>{' '}
+          </div>
+        </footer>
       </body>
     </html>
   );

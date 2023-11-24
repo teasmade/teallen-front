@@ -9,7 +9,7 @@ import LearnersOneSVG from '@/icons/svgs/undraw/LearnersOneSVG';
 export default function Skills() {
   const t = useTranslations('Home');
   return (
-    <section className="w-full flex-grow flex flex-col justify-around lg:grid lg:grid-cols-home lg:justify-items-center mt-4 lg:mt-4 lg:mt-8 2xl:mt-12 items-start text-white font-bold transition-all duration-700 ease-in-out">
+    <section className="w-full flex-grow flex flex-col justify-around lg:grid lg:grid-cols-home lg:justify-items-center mt-8 lg:mt-4 lg:mt-8 2xl:mt-12 items-start text-white font-bold transition-all duration-700 ease-in-out">
       {/* Dev subtitle */}
 
       <div className="hidden lg:block py-2 w-full text-6xl bg-sky-700 duration-700 text-center lg:opacity-0 group-hover:opacity-100">
@@ -28,7 +28,7 @@ export default function Skills() {
 
         {/* Dev info */}
 
-        <div className="text-sm lg:text-base lg:absolute mt-4 lg:mt-0 lg:left-0 pr-2 lg:px-8 lg:py-4 lg:rounded text-[0.775rem] lg:text-base lg:opacity-0 lg:group-hover/dev:opacity-100 lg:group-hover/dev:bg-sky-700 duration-[950ms] ease-in font-sans font-medium antialised">
+        <div className="text-sm lg:text-base lg:absolute mt-4 lg:mt-0 lg:left-0 pr-2 lg:px-8 lg:py-4 lg:rounded text-[0.775rem] lg:text-base lg:opacity-0 lg:group-hover/dev:opacity-100 lg:group-hover/dev:bg-sky-700 duration-[950ms] ease-in font-sans font-medium antialised mb-16 lg:mb-0">
           <div className="mb-8 lg:mb-4">{t('dev.p1')}</div>
           <div className="mb-8 lg:mb-4">{t('dev.p2')}</div>
           <div className="mb-4 lg:mb-4">{t('dev.p3')}</div>
@@ -62,7 +62,7 @@ export default function Skills() {
 
         {/* Teach info */}
 
-        <div className="lg:absolute mt-4 lg:mt-0 lg:left-0 pr-2 lg:px-8 lg:py-4 lg:rounded text-sm lg:text-base lg:opacity-0 lg:group-hover/teach:opacity-100 lg:group-hover/teach:bg-sky-700 duration-[950ms] ease-in font-sans font-medium antialiased mb-4 lg:mb-0">
+        <div className="lg:absolute mt-4 lg:mt-0 lg:left-0 pr-2 lg:px-8 lg:py-4 lg:rounded text-sm lg:text-base lg:opacity-0 lg:group-hover/teach:opacity-100 lg:group-hover/teach:bg-sky-700 duration-[950ms] ease-in font-sans font-medium antialiased mb-12 lg:mb-0">
           <div className="mb-8 lg:mb-4">{t('teach.p1')}</div>
           <div className="flex flex-row justify-around mt-6 mb-8">
             <TeachSVG className="h-20 w-40" />
