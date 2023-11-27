@@ -111,7 +111,12 @@
         "option_5": "other"
       },
       "message": "message *",
-      "submit": "send"
+      "submit": "send",
+      "thanks": {
+        "title": "Thanks for getting in touch.",
+        "content_1": "I'll get back to you as soon as possible.",
+        "back": "↩ home"
+      }
     }
   },
   "Developer": {

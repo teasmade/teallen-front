@@ -111,7 +111,12 @@
         "option_5": "autre"
       },
       "message": "message *",
-      "submit": "envoyer"
+      "submit": "envoyer",
+      "thanks": {
+        "title": "Merci de votre message.",
+        "content_1": "Je vous répondrai dès que possible.",
+        "back": "↩ accueil"
+      }
     }
   },
   "Developer": {
