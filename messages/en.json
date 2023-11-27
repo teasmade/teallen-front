@@ -45,15 +45,43 @@
     "layout": {
       "domain": ".teallen",
       "name": "Thomas",
-      "title": "/teacher"
+      "title": "/teacher",
+      "cta": "Interested ? Interesting ? Interact..."
     },
     "home": {
       "title": "In short...",
       "intro_li_1": "Before my career switch into tech, I studied languages and linguistics and worked teaching English as a foreign language.",
-      "intro_li_2": "I'm a British native speaker, naturalised French citizen - I have direct experience of the challenge of learning another language to a high level.",
+      "intro_li_2": "I'm a British native speaker, naturalised French citizen - I have direct experience of the challenges of learning another language to a high level.",
       "intro_li_3": "I've taught English to adults from a wide range of nationalities and backgrounds, from beginner to advanced levels, in group and 1 on 1 contexts.",
-      "intro_li_4": "I strongly believe that a focus on effective communication and learner confidence can unlock rapid progress, no matter the starting point.",
-      "intro_li_5": "I can provide tech / business focused English lessons or coaching on a freelance basis, or integrate English teaching and support with ongoing work in a technical role."
+      "intro_li_4": "I strongly believe that a focus on effective communication, applied interaction and learner confidence can unlock rapid progress, no matter the starting point.",
+      "intro_li_5": "I can provide tech / business focused English lessons or coaching on a freelance basis, or integrate English teaching and support with ongoing work in a technical role.",
+      "individuals": {
+        "button": "Individuals",
+        "title": "Unlock your English Communication",
+        "content_1": "Are you starting out in tech and worried about your English level? An experienced professional looking to boost your technical communication? Moving into a role that demands more international interaction?",
+        "content_2": "Whatever your career stage, improving your English language skills can be a game changer - and whatever your starting point, I can help you progress faster.",
+        "content_3": "I'm trained in the communicative approach to language learning, which means that I focus on using practical English skills in real world contexts. The best way to learn a language is to use it, and the best way to use it more is to build confidence in your ability to understand and communicate right now.",
+        "content_4": "Communication isn't about perfection, it's about connection. Rules and grammar are not the whole story. You can communicate and start making connections with the English you already have; turn this into a habit, and you'll be amazed at how quickly your skills develop.",
+        "content_5": "Through 1 on 1 lessons, coaching or conversation classes; whether you're preparing for job applications or interviews, looking for the right voice for your content or just working to improve your technical communication... I can help you unlock the benefits of more effective English."
+      },
+      "teams": {
+        "button": "Teams",
+        "title": "Group Learning, Group Development",
+        "content_1": "Effective communication is a key part of any team's success, and one of the best ways to improve communication is to share and support each other's learning. I can help you find the right approach to improve your team's English skills, through lessons, conversation classes or deeper integration of learning into your team's workflow.",
+        "content_2": "Shared English proficiency unlocks easier navigation of technical documentation, faster understanding of new tools and better collaboration on international projects. By focusing on these specific skills your team  can collaborate more effectively, communicate more clearly and adapt to new goals and projects more rapidly.",
+        "content_3": "But incorporating English training into a tech team's routine isn't just about language skills; it's about building a culture of communication, collaboration and support, where self development and team development can feed into each other. It's not easy to share what you don't know, ask for help or how to change your habits... tackling these learning challenges together without technical pressure can be a powerful way to build a stronger team.",
+        "content_4": "With a background in both tech and language teaching, I'm well placed to help find the right approach. I can provide one-off workshops, regular classes or work with you to design a bespoke English training programme.",
+        "content_5": "I can also bring this high-level English support to bear as an ongoing bonus when working longer-term in technical roles. In meetings, pitches and presentations; in crafting precise technical documentation; in facilitating clearer communication with partners: I bring together technical and linguistic development skills that can help your team reach its goals."
+      },
+      "orgs": {
+        "button": "Organisations",
+        "title": "New Scales, New Challenges, New Connections",
+        "content_1": "Is your organisation growing? Are you expanding into new markets or working with new partners?",
+        "content_2": "In a time when scope for building business across borders has never been more varied, truly effective communication takes on a new importance. Making the most of these opportunities means bridging language barriers not just with comprehension, but with confidence and clarity.",
+        "content_3": "As you move into these dynamic new contexts, the details of your English communication become key. It's no longer about just being understood, it's about building connections and presenting your ideas with the nuance and precision that they deserve.",
+        "content_4": "In the tech sector, where articulating complex concepts the right way at the right time can make or break a project, mastering these details can secure your progress, boost your pitches and put you ahead of the competition.",
+        "content_5": "I can work on a flexible basis to provide the bespoke English support your organisation needs. By bridging language learning and technical development, I can help you find the clarity and confidence that will let you make the most of these new opportunities."
+      }
     }
   },
   "Blog": {
@@ -68,13 +96,30 @@
       "domain": ".teallen",
       "name": "Thomas",
       "title": "/contact"
+    },
+    "form": {
+      "email": "email *",
+      "phone": "phone",
+      "firstname": "first name",
+      "lastname": "last name",
+      "interest": {
+        "label": "interested in",
+        "option_1": "",
+        "option_2": "developer",
+        "option_3": "teacher",
+        "option_4": "both",
+        "option_5": "other"
+      },
+      "message": "message *",
+      "submit": "send"
     }
   },
   "Developer": {
     "layout": {
       "domain": ".teallen",
       "name": "Thomas",
-      "title": "/developer"
+      "title": "/developer",
+      "cta": "Interested ? Interesting ? Interact..."
     },
     "home": {
       "title": "In short...",
@@ -87,7 +132,7 @@
     "skills": {
       "title": "dev.skills",
       "front": {
-        "title": "Modern JS/TS Web Application Development",
+        "title": "Modern JS/TS Web Development",
         "p1": "I have experience building responsive, accessible, and performant web applications at a range of scales, using:",
         "react_title": "React",
         "react_p1": "I've worked on a diverse range of projects using vanilla React, Gatsby and NextJS, with a range of technical goals from rapid app prototyping through external api integration and server component migration to scaffolding an extensible static site generator.",
@@ -130,7 +175,7 @@
         "title_3": "Collaboration, Teamwork & Support",
         "p4": "Personal skills and motivation are important, but they don't exist in isolation. I've seen how pupils in a classroom can thrive through interacting with and supporting each other; that sense of joint purpose, mutual aid and freedom to share problems is transformative and can bring just as much benefit as one on one time with a skilled teacher.",
         "p5": "I believe this spirit should be fostered as much as possible in all teamwork; it's a virtuous circle where self development and team development feed into each other. Willingness to communicate about what you don't know, learning through understanding others' perspectives and staying grounded in the human context are essential parts of this process.",
-        "title_4": "// PS:",
+        "title_4": "PS:",
         "p6": "I actively enjoy writing up specifications, documentation and commit messages 😱"
       }
     },
@@ -153,7 +198,7 @@
         "client": "Searocco x Onepoint",
         "dates": "2022 - 2023",
         "tech": "Vue,Vuetify",
-        "content_1": "I worked as part of a consultant developer team, working within the IT Department on development of their services & support platform interface (Vue, Vuex, Vuetify). ",
+        "content_1": "I worked as part of a consultant developer team, working within the IT Department on development of their services & support platform interface (Vue, Vuex, Vuetify).",
         "content_2": "I implemented new modules (onboarding, equipment management) from-scratch and worked on code quality and CI/CD pipelines.",
         "content_3": "I led work on improving developer experience by standardising component usage across the app. This involved refactoring the system of generic wrappers used for Vuetify library components; I then extended this system, linking component lifecycle to a dedicated Vuex store module. This allowed me to deliver completely new features in complex components such as data tables, including persistent per-user ui state, custom filtering and column selection."
       },
@@ -184,17 +229,17 @@
         "client": " - Imagination Machine",
         "dates": "2021",
         "tech": "React,Gatsby,Tailwind",
-        "content_1": "",
-        "content_2": ""
+        "content_1": "I worked on a full redesign of the site for a startup studio / accelerator, shadowing a lead dev on technical implementation and design decisions.",
+        "content_2": "The project ran on a React-Gatsby stack using Tailwind, connected to a headless CMS (Contentful) via GraphQL. A key focus was on site speed through static page generation and an extensible content model for adding new startups and sub-team members."
       },
       "Blind_Valet": {
-        "title": "Blind Valet",
+        "title": "Blind Valet Admin",
         "role": " - Developer (Intern)",
         "client": " - Brick River Labs",
         "dates": "2021",
         "tech": "Angular,Firebase,Tailwind",
-        "content_1": "",
-        "content_2": ""
+        "content_1": "I worked on developing and extending the back-office admin app for a development agency, as part of a mentored internship. The project ran on an Angular-Firebase stack using Tailwind.",
+        "content_2": "I developed and integrated new invoicing features in the app, using Google Cloud Functions to pull in time tracking data from Toggl, customer data from Stripe APIs, generating invoices, saving them to Google Cloud Storage and serving them to a new module in the app."
       },
       "Plus2Bad": {
         "title": "Plus2Bad Pricing System",
@@ -202,8 +247,8 @@
         "client": " - Plus2Bad",
         "dates": "2021",
         "tech": "React,Node,Express,MySql",
-        "content_1": "",
-        "content_2": ""
+        "content_1": "As the final project of my bootcamp, I worked in a team of 4 to develop a price control and ticketing system for a sports equipment business. The project ran on a React-Node (Express) stack using MySql.",
+        "content_2": "I took lead responsilibity for the backend portion of the project, designing and implementing the database structure and API for the project. This involved extensive work finding and parsing relevant data from a legacy Prestashop API serving xml, and converting it to a usable format for the new system."
       }
     }
   }

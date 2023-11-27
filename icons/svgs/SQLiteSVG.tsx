@@ -23,7 +23,7 @@ const SQLiteSVG: React.FunctionComponent<React.SVGProps<SVGSVGElement>> = ({
         gradientUnits="userSpaceOnUse"
       >
         <stop
-          stop-color="#95d7f4"
+          stopColor="#95d7f4"
           offset="0"
         ></stop>
         <stop

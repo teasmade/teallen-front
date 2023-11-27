@@ -45,7 +45,7 @@ export default function SkillDetails() {
               <div className="flex flex-row justify-around w-32">
                 <FrontSVG
                   width="72"
-                  height="72"
+                  height="84"
                 />
               </div>
               <p className="mt-4 font-mono">frontend</p>
@@ -69,7 +69,7 @@ export default function SkillDetails() {
               <div className="flex flex-row justify-around w-32">
                 <BackSVG
                   width="72"
-                  height="72"
+                  height="84"
                 />
               </div>
               <p className="mt-4 font-mono">backend</p>
@@ -93,7 +93,7 @@ export default function SkillDetails() {
               <div className="flex flex-row justify-around w-32">
                 <FullSVG
                   width="72"
-                  height="72"
+                  height="84"
                 />
               </div>
               <p className="mt-4 font-mono">fullstack</p>
@@ -117,7 +117,7 @@ export default function SkillDetails() {
               <div className="flex flex-row justify-around w-32">
                 <SoftSVG
                   width="72"
-                  height="72"
+                  height="84"
                 />
               </div>
               <p className="mt-4 font-mono">softskills</p>

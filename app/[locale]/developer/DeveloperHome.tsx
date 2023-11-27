@@ -97,7 +97,9 @@ export default function DeveloperHome() {
         <p className="text-3xl xl:pl-6 pl-2 pt-12 lg:pt-24 sm:pb-8 xl:pb-0 xl:pt-24 font-mono">
           {t('skills.title')}
         </p>
-        <SkillDetails />
+        <div className="flex flex-col items-center xl:block">
+          <SkillDetails />
+        </div>
       </div>
 
       <div
@@ -112,15 +114,15 @@ export default function DeveloperHome() {
 
       <div
         id="end-section"
-        className="flex w-full flex-grow flex flex-row justify-center pr-2 lg:pr-0 items-end justify-items-end lg:justify-items-center lg:items-start text-white font-bold"
+        className="flex w-full flex-grow flex flex-row justify-center pr-2 lg:pr-0 items-end justify-items-end lg:justify-items-center lg:items-start text-white font-bold pb-4"
       >
         <div className="lg:col-start-8 lg:col-end-12 text-sm lg:text-2xl lg:self-end pb-4 lg:pb-8 hover:scale-110 ease-in duration-[150ms]">
           <Link
-            className="lg:bg-sky-600 lg:btn-home-bottomnav rounded-tl-2xl rounded-br-2xl bg-sky-600 py-1 px-2"
+            className="lg:bg-sky-600 lg:btn-home-bottomnav rounded-tl-2xl rounded-br-2xl bg-sky-600 py-2 px-2"
             href="/contact"
           >
-            <span className="underline lg:no-underline lg:hover:underline font-mono font-semibold">
-              Interested ? Interesting ? Interact...
+            <span className="underline lg:no-underline lg:hover:underline font-mono font-semibold text-xl">
+              {t('layout.cta')}
             </span>
             <span> 📡</span>
           </Link>

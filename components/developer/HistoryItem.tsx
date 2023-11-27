@@ -70,19 +70,19 @@ export default function HistoryItem({ historyKey }: TechSVGProps) {
             </span>
           </div>
           {(hasContentKey('content_1') && (
-            <div className="lg:text-lg pt-4">{t('content_1')}</div>
+            <div className="lg:text-base pt-4">{t('content_1')}</div>
           )) ||
             null}
           {(hasContentKey('content_2') && (
-            <div className="lg:text-lg pt-4">{t('content_2')}</div>
+            <div className="lg:text-base pt-4">{t('content_2')}</div>
           )) ||
             null}
           {(hasContentKey('content_3') && (
-            <div className="lg:text-lg pt-4">{t('content_3')}</div>
+            <div className="lg:text-base pt-4">{t('content_3')}</div>
           )) ||
             null}
           {(hasContentKey('content_4') && (
-            <div className="lg:text-lg pt-4">{t('content_4')}</div>
+            <div className="lg:text-base pt-4">{t('content_4')}</div>
           )) ||
             null}
         </div>
