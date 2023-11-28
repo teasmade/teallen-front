@@ -1,3 +1,5 @@
+import { Link } from '../../navigation';
+
 import TypescriptSVG from '@/icons/svgs/TypescriptSVG';
 import ReactSVG from '@/icons/svgs/ReactSVG';
 import NextSVG from '@/icons/svgs/NextSVG';
@@ -181,7 +183,7 @@ export default function SkillcardDev() {
         {/* CTA Link */}
         <div className="flex flex-row col-start-5 col-end-8 justify-end items-center self-end -mr-2 lg:mr-0">
           <span className="bg-sky-600 py-4 lg:py-2 px-2 rounded-l-sm rounded-tl-2xl rounded-br-2xl text-[0.8rem] xl:text-base hover:scale-110 hover:-translate-x-2 ease-in duration-[150ms] underline lg:no-underline hover:underline hover:cursor-pointer hover:bg-sky-900 font-sans font-bold antialised">
-            {t('btn-cta')}
+            <Link href="/developer">{t('btn-cta')}</Link>
           </span>
         </div>
       </div>

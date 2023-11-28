@@ -1,41 +1,147 @@
+import { useTranslations, useLocale } from 'next-intl';
+
 export default function ContactPage() {
+  const t = useTranslations('Contact.form');
+  const action = () => 'https://getform.io/f/' + process.env.GETFORM_ID;
+  const locale = useLocale();
+  const appUri = process.env.APP_URI;
+  // Get date/time as e.g. 15:34 - 2021-10-01
+  const contactSubject = () => {
+    const dateTimeString = () => {
+      const now = new Date();
+      const date = now.toISOString().split('T')[0];
+      const time = now.toTimeString().split(' ')[0];
+      return `${time} - ${date}`;
+    };
+    const dateTime = dateTimeString();
+    return `teallen/contact @ ${dateTime}`;
+  };
+
+  const returnUri = () => {
+    return appUri + '/' + locale + '/contact/thanks';
+  };
+
   return (
     <div className="w-full">
-      <div>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet debitis
-        et asperiores est blanditiis. Dolorem eaque ab expedita, voluptatem
-        cupiditate necessitatibus doloremque provident nobis excepturi incidunt
-        vero alias voluptates qui. Mollitia ad laborum alias odit cumque
-        deleniti a consequuntur amet quisquam in dolor suscipit assumenda eius
-        hic sed expedita iusto, debitis voluptas dicta sequi nihil nesciunt
-        excepturi asperiores repellat. Quia. Ipsa eligendi laudantium mollitia
-        dolorum odit quibusdam pariatur at aut perspiciatis. Maiores alias
-        aliquam aliquid, accusamus, fugit corrupti aperiam enim recusandae
-        voluptas magni atque. Temporibus corrupti debitis asperiores omnis
-        dolorum! Expedita quasi facere veritatis quaerat cupiditate, eaque
-        similique error enim. Maxime blanditiis, sapiente quibusdam a, atque qui
-        delectus animi totam cum accusantium consectetur ea optio nobis at
-        eveniet laboriosam hic? Impedit a officia soluta autem, similique modi
-        quam corporis! Ducimus provident reiciendis temporibus eius, illum
-        magnam esse omnis, nihil praesentium quis quae enim voluptas iure
-        adipisci vel eaque earum nesciunt. Molestias consectetur numquam iure,
-        atque sed dicta! A accusantium alias, provident amet facilis cum eaque
-        accusamus architecto! Laborum, voluptatibus? Mollitia distinctio sit
-        voluptate eos provident sint harum dolores nulla? Reprehenderit! Natus
-        officiis hic aspernatur nisi laboriosam ipsum dolor. A, nemo, vel magni
-        dolor repellendus aut illum odit facere quod praesentium, corporis fuga!
-        Cum ab quaerat voluptas voluptate aut doloribus sunt? Beatae sequi,
-        dolor, earum, iure voluptates porro fugiat quam velit maxime soluta
-        natus iusto blanditiis possimus numquam? Distinctio, asperiores debitis
-        nostrum amet laudantium ipsa omnis quia libero, eum quae hic! Maxime
-        veritatis repellendus provident, doloribus quo incidunt aspernatur,
-        nobis, quidem magnam amet molestiae rem eligendi placeat ut quos
-        nesciunt aut officiis id commodi nostrum tenetur. Vitae minima
-        voluptatum dicta nesciunt. Iure nulla tempora, vero quam exercitationem
-        mollitia consequatur! Pariatur obcaecati sapiente amet reprehenderit
-        laudantium at repellendus vel? Quam sequi, doloribus at eaque, officia
-        optio officiis quisquam perspiciatis corrupti ipsa maiores?
-      </div>
+      <form
+        className="mt-4 flex flex-col items-center gap-4 form-control w-full"
+        action={action()}
+        method="POST"
+      >
+        <input
+          type="hidden"
+          name="_subject"
+          value={contactSubject()}
+        ></input>
+        <input
+          type="hidden"
+          name="_next"
+          value={returnUri()}
+        ></input>
+        <div className="">
+          <label
+            className="label"
+            htmlFor="frm-email"
+          >
+            {t('email')}
+          </label>
+          <input
+            id="frm-email"
+            type="email"
+            name="email"
+            autoComplete="email"
+            required
+            className="input input-bordered bg-sky-700 rounded-2xl rounded-tr-none rounded-bl-none "
+          />
+        </div>
+        <div className="">
+          <label
+            className="label"
+            htmlFor=""
+          >
+            {t('phone')}
+          </label>
+          <input
+            id="frm-phone"
+            type="text"
+            name="phone"
+            autoComplete="tel"
+            className="input input-bordered bg-sky-700 rounded-2xl rounded-tr-none rounded-bl-none "
+          />
+        </div>
+        <div>
+          <label
+            className="label"
+            htmlFor="frm-first"
+          >
+            {t('firstname')}
+          </label>
+          <input
+            id="frm-first"
+            type="text"
+            name="first"
+            autoComplete="given-name"
+            className="input input-bordered bg-sky-700 rounded-2xl rounded-tr-none rounded-bl-none "
+          />
+        </div>
+        <div className="">
+          <label
+            className="label"
+            htmlFor="frm-last"
+          >
+            {t('lastname')}
+          </label>
+          <input
+            id="frm-last"
+            type="text"
+            name="last"
+            autoComplete="family-name"
+            className="input input-bordered bg-sky-700 rounded-2xl rounded-tr-none rounded-bl-none "
+          />
+        </div>
+        <div className="w-full max-w-xs flex flex-col px-8">
+          <label
+            className="label"
+            htmlFor="frm-interest"
+          >
+            {t('interest.label')}
+          </label>
+          <select
+            id="frm-interest"
+            name="interest"
+            className="select select-bordered rounded-2xl rounded-tr-none rounded-bl-none bg-sky-700 w-full max-w-xs"
+          >
+            <option value="none">{t('interest.option_1')}</option>
+            <option value="teacher">{t('interest.option_2')}</option>
+            <option value="developer">{t('interest.option_3')}</option>
+            <option value="both">{t('interest.option_4')}</option>
+            <option value="other">{t('interest.option_5')}</option>
+          </select>
+        </div>
+        <div className="w-full max-w-xs flex flex-col px-8">
+          <label
+            htmlFor="frm-message"
+            className="label"
+          >
+            {t('message')}
+          </label>
+          <textarea
+            id="frm-message"
+            name="message"
+            required
+            rows={6}
+            className="textarea textarea-bordered bg-sky-700 w-full rounded-2xl rounded-tr-none rounded-bl-none "
+          ></textarea>
+        </div>
+        <div className="">
+          <button
+            className="btn bg-sky-950 border-none text-white w-1/3 w-full max-w-xs px-16 rounded-2xl rounded-tr-none rounded-bl-none lowercase text-xl hover:scale-110 ease-in duration-[150ms] hover:bg-sky-700"
+            type="submit"
+          >
+            {t('submit')}
+          </button>
+        </div>
+      </form>
     </div>
   );
 }

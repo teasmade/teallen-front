@@ -22,9 +22,9 @@ export default function SkillContent({
   const t = useTranslations();
 
   const containerStyle =
-    'xl:ml-16 xl:mr-4 2xl:mr-36 relative flex items-center justify-center w-full h-full';
+    'xl:ml-12 2xl:ml-16 xl:mr-4 2xl:mr-36 relative flex items-center justify-center w-full h-full';
   const childStyle =
-    'absolute w-full h-full flex items-start xl:items-center bottom-12 xl:bottom-0 justify-start pr-2 lg:pr-8';
+    'absolute w-full h-full flex items-start xl:items-center bottom-12 xl:bottom-0 justify-start pr-2 lg:pr-8 pt-8 xl:pt-0';
 
   const transition = {
     x: { type: 'spring', stiffness: 300, damping: 30 },
@@ -47,7 +47,7 @@ export default function SkillContent({
               transition={transition}
               className={
                 childStyle +
-                ' text-xs md:text-sm mb-8 xl:mb-0 xl:text-xl text-[#ffffff55] xl:w-1/8 xl:block -ml-28 xl:ml-0 pt-12 lg:pt-0'
+                ' text-xs md:text-sm mb-8 xl:mb-0 xl:text-xl text-[#ffffff55] xl:w-1/8 xl:block -ml-28 sm:-ml-12 xl:ml-0 pt-12 xl:pt-8'
               }
             >
               {`

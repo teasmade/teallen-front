@@ -45,7 +45,43 @@
     "layout": {
       "domain": ".teallen",
       "name": "Thomas",
-      "title": "/professeur"
+      "title": "/professeur",
+      "cta": "Intéressant ? Intéressé ? Interagir..."
+    },
+    "home": {
+      "title": "En bref...",
+      "intro_li_1": "Avant de me reconvertir dans la tech, j'ai étudié les langues et la linguistique et j'ai enseigné l'anglais en tant que langue étrangère.",
+      "intro_li_2": "De langue maternelle britannique et naturalisé français, j'ai une expérience directe des défis que pose l'apprentissage d'une autre langue à un niveau élevé.",
+      "intro_li_3": "J'ai enseigné l'anglais à des adultes de nationalités et d'origines diverses, du niveau débutant au niveau avancé, en groupe et individuellement.",
+      "intro_li_4": "Je suis convaincue qu'en mettant l'accent sur une communication efficace, de l'interaction réaliste et la confiance de l'élève, on peut réaliser des progrès rapides, quel que soit le point de départ.",
+      "intro_li_5": "Je peux proposer des cours ou un coaching en anglais, axés tech ou business, en freelance, ou intégrer l'enseignement et le soutien en anglais dans le cadre du travail dans un rôle technique.",
+      "individuals": {
+        "button": "Particuliers",
+        "title": "Débloquez votre communication en anglais",
+        "content_1": "Vous débutez dans la technologie et vous vous inquiétez de votre niveau d'anglais ? Vous êtes un professionnel expérimenté qui cherche à améliorer sa communication technique ? Votre poste évolue et exige davantage d'interactions internationales ?",
+        "content_2": "Quelle que soit l'étape de votre carrière, l'amélioration de vos compétences en anglais peut changer la donne - et quel que soit votre point de départ, je peux vous aider à progresser plus rapidement.",
+        "content_3": "Je suis formée à l'approche communicative de l'apprentissage des langues, ce qui signifie que je me concentre sur l'utilisation de compétences d'anglais pratiques dans des contextes réels. La meilleure façon d'apprendre une langue est de l'utiliser, et la meilleure façon de l'utiliser davantage est de prendre confiance en votre capacité à comprendre et à communiquer dès maintenant.",
+        "content_4": "La communication n'est pas une question de perfection, mais de connexion. Les règles et la grammaire ne font pas tout. Vous pouvez communiquer et commencer à interagir avec l'anglais que vous possédez déjà ; faites-en une habitude et vous serez surpris de la rapidité avec laquelle vos compétences se développeront.",
+        "content_5": "Par le biais de cours individuels, de coaching ou de cours de conversation, que vous vous prépariez à des candidatures ou à des entretiens d'embauche, que vous cherchiez la bonne voix pour votre contenu ou que vous souhaitiez simplement améliorer votre communication technique... Je peux vous aider à découvrir les avantages d'un anglais plus confiant et plus efficace."
+      },
+      "teams": {
+        "button": "Équipes",
+        "title": "Apprentissage Collectif, Développement Ensemble",
+        "content_1": "Une communication efficace est un élément clé du succès de toute équipe, et l'un des meilleurs moyens d'améliorer la communication est de partager et de soutenir l'apprentissage de chacun. Je peux vous aider à trouver la bonne approche pour améliorer les compétences en anglais de votre équipe, par le biais de leçons, de cours de conversation ou d'une intégration de l'apprentissage dans le flux de travail de votre équipe.",
+        "content_2": "Une maîtrise partagée de l'anglais permet de naviguer plus facilement dans la documentation technique, de comprendre plus rapidement les nouveaux outils et d'améliorer la collaboration dans les projets internationaux. En se concentrant sur ces compétences spécifiques, votre équipe peut collaborer plus efficacement, communiquer plus clairement et s'adapter plus rapidement à de nouveaux objectifs et projets.",
+        "content_3": "Mais l'intégration d'une formation à l'anglais dans une équipe technique n'est pas seulement une question de compétences linguistiques ; il s'agit de renforcer une culture de la communication, de la collaboration et du soutien, où le développement personnel et le développement de l'équipe peuvent se nourrir l'un l'autre. Il n'est pas facile de partager autour de ce que l'on ne sait pas, de demander de l'aide ou de changer ses habitudes... Relever ces défis d'apprentissage ensemble, sans pression technique, peut être un moyen puissant de construire une équipe plus solide et solidaire.",
+        "content_4": "Avec une expérience à la fois dans la technologie et dans l'enseignement des langues, je suis bien placé pour vous aider à trouver la bonne approche. Je peux proposer des ateliers ponctuels, des cours réguliers ou travailler avec vous pour concevoir un programme de formation à l'anglais sur mesure.",
+        "content_5": "Je peux également apporter ce soutien de haut niveau en anglais en tant que bonus permanent lorsque je travaille à plus long terme dans une poste technique. Lors de réunions, de discours et de présentations ; pour élaborer une documentation technique précise ; pour faciliter une communication plus claire avec les partenaires ... j'associe des compétences techniques et linguistiques qui peuvent aider votre équipe à atteindre ses objectifs."
+      },
+      "orgs": {
+        "button": "Organisations",
+        "title": "Nouvelles échelles, nouveaux défis, nouvelles connexions",
+        "content_1": "Votre structure est-elle en pleine croissance ? Vous étendez-vous à de nouveaux marchés ou de la collaboration avec de nouveaux partenaires ?",
+        "content_2": "À une époque où les possibilités de développer des affaires au-delà des frontières n'ont jamais été aussi variées, une communication véritablement efficace revêt une importance nouvelle. Pour tirer le meilleur parti de ces opportunités, il faut franchir les barrières linguistiques non seulement avec compréhension, mais aussi avec confiance et clarté.",
+        "content_3": "Au fur et à mesure que vous évoluez dans ces contextes internationaux dynamiques, les détails de votre communication en anglais deviennent essentiels. Il ne s'agit plus seulement de se faire comprendre, mais de créer des liens et de présenter ses idées avec la nuance et la précision qu'elles méritent.",
+        "content_4": "Dans le secteur technologique, où l'articulation de concepts complexes de la bonne manière et au bon moment peut faire la différence entre un projet et son échec, la maîtrise de ces détails peut vous permettre de progresser, d'améliorer vos présentations et de prendre de l'avance sur vos concurrents.",
+        "content_5": "Je peux travailler sur une base flexible pour fournir le soutien en anglais sur mesure dont votre organisation a besoin. En faisant le lien entre l'apprentissage de la langue et le développement technique, je peux vous aider à trouver la clarté et la confiance qui vous permettront de tirer le meilleur parti de ces nouvelles opportunités."
+      }
     }
   },
   "Blog": {
@@ -60,13 +96,35 @@
       "domain": ".teallen",
       "name": "Thomas",
       "title": "/contact"
+    },
+    "form": {
+      "email": "email *",
+      "phone": "tél.",
+      "firstname": "prénom",
+      "lastname": "nom",
+      "interest": {
+        "label": "sujet",
+        "option_1": "",
+        "option_2": "développeur",
+        "option_3": "professeur",
+        "option_4": "les deux",
+        "option_5": "autre"
+      },
+      "message": "message *",
+      "submit": "envoyer",
+      "thanks": {
+        "title": "Merci de votre message.",
+        "content_1": "Je vous répondrai dès que possible.",
+        "back": "↩ accueil"
+      }
     }
   },
   "Developer": {
     "layout": {
       "domain": ".teallen",
       "name": "Thomas",
-      "title": "/développeur"
+      "title": "/développeur",
+      "cta": "Intéressant ? Intéressé ? Interagir..."
     },
     "home": {
       "title": "En bref...",
@@ -74,15 +132,16 @@
       "intro_li_2": "Je me suis reconverti dans la tech après une carrière dans la gestion des ventes et l'enseignement de l'anglais;",
       "intro_li_3": "Cette expérience de la communication en langue naturelle renforce et augmente mes compétences techniques;",
       "intro_li_4": "La découverte de nouveaux contextes techniques et humains motive mon passion du développement et de l'apprentissage;",
-      "intro_li_5": "Je suis toujours ouverte à de nouveaux projets intéressants, disponible en tant que freelance ou pour des contrats à plus long terme."
+      "intro_li_5": "Je suis toujours ouverte à de nouveaux projets intéressants, disponible en tant que freelance ou pour des contrats à plus long terme.",
+      "cv_btn": "cv_dev_fr.pdf"
     },
     "skills": {
       "title": "skillset:",
       "front": {
-        "title": "Développement d'applications web modernes JS/TS",
+        "title": "Développement web moderne JS/TS",
         "p1": "J'ai de l'expérience dans la construction d'applications web réactives, accessibles et performantes à différentes échelles, en utilisant :",
         "react_title": "React",
-        "react_p1": "J'ai travaillé sur une gamme variée de projets utilisant React vanille, Gatsby et NextJS, avec un éventail d'objectifs techniques allant du prototypage rapide d'applications à l'intégration d'api externes, la migration de composants serveur à l'échafaudage d'un générateur de site statique extensible.",
+        "react_p1": "J'ai travaillé sur une gamme variée de projets utilisant React, Gatsby et NextJS, avec un éventail d'objectifs techniques allant du prototypage rapide d'applications à l'intégration d'api externes, la migration de composants serveur à l'échafaudage d'un générateur de site statique extensible.",
         "react_p2": "Cela a impliqué un travail avec diverses technologies de soutien, notamment Tailwind, Contentful, GraphQL, Firebase, Google Cloud et Stripe.",
         "vue_title": "Vue",
         "vue_p1": "J'ai de l'expérience dans le développement Vue à grande échelle en tant que membre de l'équipe principale qui construit le système de gestion pour la DSI d'une grande société de conseil. En travaillant avec Vuex et Vuetify, j'ai dirigé le développement d'un système de wrappers avec état pour étendre la fonctionnalité des tables de données et d'autres composants complexes à travers l'application",
@@ -103,7 +162,7 @@
         "other_p1": "J'ai également travaillé sur des projets utilisant MySQL, Firebase et Google Cloud Functions. J'ai récemment acquis une expérience substantielle dans le développement de services de chatbot utilisant Botpress, OpenAI et MS Bot Framework."
       },
       "full": {
-        "title": "Conception, développement et déploiement",
+        "title": "Conception, développement, déploiement",
         "p1": "En plus de développer mon expérience dans le contexte de technologies spécifiques, j'ai également travaillé en tant que module lead sur l'ensemble du processus de conception, de design, de développement et de déploiement d'un service de chatbot d'assistance technique pour un grand cabinet de conseil",
         "p2": "Il s'agissait d'une benchmark technologique, de concevoir et de construire le service en utilisant Botpress / Node / Express, de brancher le service sur une API Laravel existante et un frontend Vue, d'intégrer des API dans le système, y compris MS Graph, OpenAI et Adaptive Cards et de connecter le tout aux canaux MS Teams, WhatsApp et Webchat. J'ai également géré le processus de déploiement et de migration de ce projet d'un environnement de développement à un environnement de production",
         "apache_title": "Apache",
@@ -119,11 +178,91 @@
         "p2": "Le travail de production du code propre qui réponde aux spécifications comporte, en fin de compte, des connexions humaines qui entrent et sortent et se tissent à travers tout le processus. De la même manière qu'un bon professeur construit un pont entre un étudiant et ses futures capacités, un bon développeur construit un pont entre les idées et leurs futurs utilisateurs.",
         "title_2": "Communication claire et efficace",
         "p3": "Concrètement, cela fait de moi un communicateur efficace, capable de s'adapter à une diversité de contextes et de publics. Mon expérience en classe se traduit par une forte capacité à vulgariser des concepts complexes, et mon expérience de la vente signifie que je suis à l'aise en travail avec des clients, des acteurs et des utilisateurs finaux afin de comprendre et de répondre à leurs besoins",
-        "title_3": "Collaboration, travail d'équipe et soutien",
-        "p4": "Les compétences et la motivation personelle sont importantes, mais elles ne sont pas isolées. J'ai vu comment les élèves peuvent s'épanouir en interagissant les uns avec les autres et en se soutenant mutuellement; cet esprit d'objectif commun, d'entraide et de partage de problèmes est transformateur, et peut apporter autant de bénéfices que les cours en solo avec un enseignant.",
-        "p5": "Je crois que cet esprit devrait être encouragé dans tout travail d'équipe ; c'est un cercle vertueux où le développement personnel et le développement de l'équipe se nourrissent l'un l'autre. La volonté de communiquer sur ce que l'on ne sait pas, d'apprendre en comprenant le point de vue des autres et de rester ancré dans le contexte humain sont des éléments clés de ce processus",
-        "title_4": "// PS :",
-        "p6": "J'aime très sincèrement rédiger des spécifications, de la documentation et des messages de commit 😱"
+        "title_3": "Collaboration, partage, soutien",
+        "p4": "Les compétences et la motivation personelle sont importantes, mais elles ne sont pas isolées. J'ai vu comment les élèves peuvent s'épanouir en interagissant les uns avec les autres et en se soutenant mutuellement; cet esprit du travail commun, d'entraide et de partage de problèmes est transformateur; il apporte autant de bénéfices que les cours en solo avec un enseignant.",
+        "p5": "Je crois que cet esprit devrait être encouragé dans tout travail d'équipe ; c'est un cercle vertueux où le développement personnel et celui de l'équipe se nourrissent l'un l'autre. La volonté de communiquer sur ce que l'on ne sait pas, d'apprendre en comprenant le point de vue des autres et de rester ancré dans le contexte humain sont des éléments clés de ce processus.",
+        "title_4": "PS:",
+        "p6": "J'aime (sincèrement) rédiger des spécifications, de la documentation et des messages de commit 😱"
+      }
+    },
+    "history": {
+      "keys": "Connect_bot,Flwid,Connect,Connect_api,IM_Site,Blind_Valet,Plus2Bad",
+      "Connect_bot": {
+        "title": "Connect.bot",
+        "role": " - Module Lead",
+        "client": " - Searocco x Onepoint",
+        "dates": "2022-2023",
+        "tech": "Node,Express,Botpress,SQLite,Postgres,OpenAI,Teams,Apache",
+        "content_1": "J'ai dirigé le développement d'un module de chatbot conversationnel pour l'assistance technique / le ticketing automatisé pour la DSI d'un ESN.",
+        "content_2": "Il s'agissait d'un projet fullstack, de bout en bout, comprenant un benchmark technologique, la conception du système, la validation du concept, le développement itératif de cas d'utilisation, l'intégration avec les systèmes existants, la gestion du déploiement, la migration des environnements de développement (SQLite) vers les environnements de production (Postgres) et la documentation pour le transfert à l'équipe de développeurs internes du client.",
+        "content_3": "Le service principal du système a été construit en utilisant Botpress, Node et Express, intégré avec une API Laravel existante et un frontend Vue. Le chat est servi dans les canaux MS Teams, WhatsApp et Webchat. Le système a été étendu avec des fonctionnalités d'API tierces - MS Graph pour gestion des calendriers et des données d'appareils, OpenAI pour le traitement du langage naturel et Adaptive Cards pour un contenu riche en templates adaptés à MS Teams.",
+        "content_4": "Un environnement de développement à distance avec connexions sécurisées aux instances MS Teams / Azure et aux services API derrière un VPN d'entreprise a été mis en place en utilisant Ngrok et Apache en proxy inversé https."
+      },
+      "Connect": {
+        "title": "Connect",
+        "role": " - Développeur Frontend",
+        "client": "Searocco x Onepoint",
+        "dates": "2022 - 2023",
+        "tech": "Vue,Vuetify",
+        "content_1": "Je faisais partie d'une équipe de développeurs consultants, travaillant au sein d'une DSI sur le développement de l'interface de leur plateforme de services et de soutien (Vue, Vuex, Vuetify).",
+        "content_2": "J'ai implémenté de nouveaux modules (onboarding, gestion des équipements) à partir de zéro et j'ai travaillé sur la qualité du code et les pipelines CI/CD.",
+        "content_3": "J'ai dirigé les travaux d'amélioration d'expérience des développeurs en standardisant l'utilisation des composants dans l'application. Cela a impliqué la refonte du système de wrappers génériques utilisés pour les composants de la bibliothèque Vuetify ; j'ai ensuite étendu ce système, en liant le cycle de vie des composants à un module du store Vuex dédié. Cela m'a permis d'ajouter de nouvelles fonctionnalités dans des composants complexes tels que les tableaux de données, y compris l'état persistant de l'interface utilisateur, le filtrage personnalisé et la sélection des colonnes.",
+        "content_4": ""
+      },
+      "Connect_api": {
+        "title": "Connect.api",
+        "role": " - Développeur API",
+        "client": " - Searocco x Onepoint",
+        "dates": "2022 - 2023",
+        "tech": "Php,Laravel,Postgres",
+        "content_1": "J'ai travaillé au sein d'une équipe de développeurs consultants, développant l'API (Laravel / Postgres) pour une plateforme de services et d'assistance d'une DSI d'ESN.",
+        "content_2": "J'ai conçu et mis en œuvre de la nouvelle structure de base de données et des modules API pour servir une gamme de données de plate-forme (des milliers d'utilisateurs / appareils, des dizaines de milliers de tickets d'assistance), et j'ai étendu l'API avec des services se connectant à MS Bot Framework et MS Graph.",
+        "content_3": "J'ai dirigé un travail d'extension de la fonctionnalité d'alertes (MS Teams, email) et des services de logging, ainsi que l'élaboration de tests fonctionnels et unitaires à partir de zéro pour le code legacy du projet.",
+        "content_4": ""
+      },
+      "Flwid": {
+        "title": "FLWID",
+        "role": " - Développeur Fullstack",
+        "client": " - Searocco",
+        "dates": "2023",
+        "tech": "React,Next,OpenAI,Laravel,Postgres,Tailwind",
+        "content_1": "J'ai travaillé au sein d'une équipe mixte web/data pour développer une plateforme de partage social, de discussion et d'analyse de le la veille technologique et des médias associées, assistée par une service IA / chatbot.",
+        "content_2": "Le projet comprenait un backend Laravel / Postgres collectant et traitant les données d'un serveur Discord, et un frontend React (NextJS) fournissant une interface pour le partage et l'analyse des liens et des médias postés sur les canaux Discord.",
+        "content_3": "J'ai complété l'interface frontale par un service de chatbot utilisant les apis OpenAI pour fournir des conversations personnalisées avec une série d'agents IA prédéfinis.",
+        "content_4": "J'ai également mis en place un service de recherche de mots-clés dans l'historique des conversations en utilisant les fonctions tsvector / tsquery de Postgres."
+      },
+      "IM_Site": {
+        "title": "Imagination Machine",
+        "role": " - Développeur-stagiare",
+        "client": " - Imagination Machine",
+        "dates": "2021",
+        "tech": "React,Gatsby,Tailwind",
+        "content_1": "J'ai travaillé sur la refonte complète du site d'un studio de création d'entreprise / d'un accélérateur, en accompagnant un développeur principal sur la mise en œuvre technique et les décisions de conception.",
+        "content_2": "Le projet s'est déroulé sur un stack React-Gatsby utilisant Tailwind, connectée à un CMS headless (Contentful) via GraphQL. L'accent a été mis sur la vitesse du site grâce à la génération de pages statiques et à un modèle de contenu extensible pour l'ajout de nouvelles startups et de membres de sous-équipes.",
+        "content_3": "",
+        "content_4": ""
+      },
+      "Blind_Valet": {
+        "title": "Blind Valet Admin",
+        "role": " - Développeur-stagiare",
+        "client": " - Brick River Labs",
+        "dates": "2021",
+        "tech": "Angular,Firebase,Tailwind",
+        "content_1": "J'ai travaillé sur le développement et l'extension de l'application d'administration du back-office pour une agence de développement, dans le cadre d'un stage encadré. Le projet s'est déroulé sur un stack Angular-Firebase utilisant Tailwind.",
+        "content_2": "J'ai développé et intégré de nouvelles fonctionnalités de facturation dans l'application, en utilisant Google Cloud Functions pour récupérer les données de suivi du temps de Toggl, les données clients des API Stripe, générer des factures, les enregistrer dans Google Cloud Storage et les servir à un nouveau module dans l'application.",
+        "content_3": "",
+        "content_4": ""
+      },
+      "Plus2Bad": {
+        "title": "Plus2Bad Pricing System",
+        "role": " - Étudiant développeur",
+        "client": " - Plus2Bad",
+        "dates": "2021",
+        "tech": "React,Node,Express,MySql",
+        "content_1": "Le projet final de mon bootcamp; j'ai travaillé dans une équipe de 4 personnes pour développer un système de contrôle des prix et d'étiquettage pour une entreprise d'équipement sportif. Le projet s'est déroulé sur un stack React-Node (Express) utilisant MySql.",
+        "content_2": "J'ai pris la responsabilité principale de la partie backend du projet, en concevant et en mettant en œuvre la structure de la base de données et l'API pour le projet. Cela a impliqué un travail considérable de recherche et d'analyse des données à partir d'une ancienne API xml Prestashop, et de leur conversion dans un format utilisable pour le nouveau système.",
+        "content_3": "",
+        "content_4": ""
       }
     }
   }

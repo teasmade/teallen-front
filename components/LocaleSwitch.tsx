@@ -26,8 +26,8 @@ export default function LocaleSwitch() {
           <Image
             src={enPng}
             alt="English"
-            width={24}
-            height={24}
+            width={30}
+            height={30}
           />
         </Link>
       </button>
@@ -46,8 +46,8 @@ export default function LocaleSwitch() {
           <Image
             src={frPng}
             alt="Français"
-            width={24}
-            height={24}
+            width={30}
+            height={30}
           />
         </Link>
       </button>
