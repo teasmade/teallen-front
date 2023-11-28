@@ -48,11 +48,11 @@ const TeamsSVG: React.FunctionComponent<React.SVGProps<SVGSVGElement>> = ({
     >
       <stop
         offset="0"
-        stop-color="#5961c3"
+        stopColor="#5961c3"
       />
       <stop
         offset="1"
-        stop-color="#3a41ac"
+        stopColor="#3a41ac"
       />
     </linearGradient>
     <path

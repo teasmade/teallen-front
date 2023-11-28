@@ -139,8 +139,8 @@ const OrgSVG: React.FunctionComponent<React.SVGProps<SVGSVGElement>> = ({
       transform="translate(-11.69692 -13.01074)"
       fill="none"
       stroke="#0284c7"
-      stroke-miterlimit="10"
-      stroke-width="2"
+      strokeMiterlimit="10"
+      strokeWidth="2"
       opacity="0.8"
     />
     <path
@@ -148,8 +148,8 @@ const OrgSVG: React.FunctionComponent<React.SVGProps<SVGSVGElement>> = ({
       transform="translate(-11.69692 -13.01074)"
       fill="none"
       stroke="#0284c7"
-      stroke-miterlimit="10"
-      stroke-width="2"
+      strokeMiterlimit="10"
+      strokeWidth="2"
       opacity="0.8"
     />
     <circle

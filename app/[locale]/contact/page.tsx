@@ -2,7 +2,7 @@ import { useTranslations, useLocale } from 'next-intl';
 
 export default function ContactPage() {
   const t = useTranslations('Contact.form');
-  const action = () => 'https://formsubmit.co/' + process.env.FORMSUBMIT_ID;
+  const action = () => 'https://getform.io/f/' + process.env.GETFORM_ID;
   const locale = useLocale();
   const appUri = process.env.APP_URI;
   // Get date/time as e.g. 15:34 - 2021-10-01

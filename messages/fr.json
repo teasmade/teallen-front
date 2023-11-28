@@ -206,7 +206,8 @@
         "tech": "Vue,Vuetify",
         "content_1": "Je faisais partie d'une équipe de développeurs consultants, travaillant au sein d'une DSI sur le développement de l'interface de leur plateforme de services et de soutien (Vue, Vuex, Vuetify).",
         "content_2": "J'ai implémenté de nouveaux modules (onboarding, gestion des équipements) à partir de zéro et j'ai travaillé sur la qualité du code et les pipelines CI/CD.",
-        "content_3": "J'ai dirigé les travaux d'amélioration d'expérience des développeurs en standardisant l'utilisation des composants dans l'application. Cela a impliqué la refonte du système de wrappers génériques utilisés pour les composants de la bibliothèque Vuetify ; j'ai ensuite étendu ce système, en liant le cycle de vie des composants à un module du store Vuex dédié. Cela m'a permis d'ajouter de nouvelles fonctionnalités dans des composants complexes tels que les tableaux de données, y compris l'état persistant de l'interface utilisateur, le filtrage personnalisé et la sélection des colonnes."
+        "content_3": "J'ai dirigé les travaux d'amélioration d'expérience des développeurs en standardisant l'utilisation des composants dans l'application. Cela a impliqué la refonte du système de wrappers génériques utilisés pour les composants de la bibliothèque Vuetify ; j'ai ensuite étendu ce système, en liant le cycle de vie des composants à un module du store Vuex dédié. Cela m'a permis d'ajouter de nouvelles fonctionnalités dans des composants complexes tels que les tableaux de données, y compris l'état persistant de l'interface utilisateur, le filtrage personnalisé et la sélection des colonnes.",
+        "content_4": ""
       },
       "Connect_api": {
         "title": "Connect.api",
@@ -216,7 +217,8 @@
         "tech": "Php,Laravel,Postgres",
         "content_1": "J'ai travaillé au sein d'une équipe de développeurs consultants, développant l'API (Laravel / Postgres) pour une plateforme de services et d'assistance d'une DSI d'ESN.",
         "content_2": "J'ai conçu et mis en œuvre de la nouvelle structure de base de données et des modules API pour servir une gamme de données de plate-forme (des milliers d'utilisateurs / appareils, des dizaines de milliers de tickets d'assistance), et j'ai étendu l'API avec des services se connectant à MS Bot Framework et MS Graph.",
-        "content_3": "J'ai dirigé un travail d'extension de la fonctionnalité d'alertes (MS Teams, email) et des services de logging, ainsi que l'élaboration de tests fonctionnels et unitaires à partir de zéro pour le code legacy du projet."
+        "content_3": "J'ai dirigé un travail d'extension de la fonctionnalité d'alertes (MS Teams, email) et des services de logging, ainsi que l'élaboration de tests fonctionnels et unitaires à partir de zéro pour le code legacy du projet.",
+        "content_4": ""
       },
       "Flwid": {
         "title": "FLWID",
@@ -236,7 +238,9 @@
         "dates": "2021",
         "tech": "React,Gatsby,Tailwind",
         "content_1": "J'ai travaillé sur la refonte complète du site d'un studio de création d'entreprise / d'un accélérateur, en accompagnant un développeur principal sur la mise en œuvre technique et les décisions de conception.",
-        "content_2": "Le projet s'est déroulé sur un stack React-Gatsby utilisant Tailwind, connectée à un CMS headless (Contentful) via GraphQL. L'accent a été mis sur la vitesse du site grâce à la génération de pages statiques et à un modèle de contenu extensible pour l'ajout de nouvelles startups et de membres de sous-équipes."
+        "content_2": "Le projet s'est déroulé sur un stack React-Gatsby utilisant Tailwind, connectée à un CMS headless (Contentful) via GraphQL. L'accent a été mis sur la vitesse du site grâce à la génération de pages statiques et à un modèle de contenu extensible pour l'ajout de nouvelles startups et de membres de sous-équipes.",
+        "content_3": "",
+        "content_4": ""
       },
       "Blind_Valet": {
         "title": "Blind Valet Admin",
@@ -245,7 +249,9 @@
         "dates": "2021",
         "tech": "Angular,Firebase,Tailwind",
         "content_1": "J'ai travaillé sur le développement et l'extension de l'application d'administration du back-office pour une agence de développement, dans le cadre d'un stage encadré. Le projet s'est déroulé sur un stack Angular-Firebase utilisant Tailwind.",
-        "content_2": "J'ai développé et intégré de nouvelles fonctionnalités de facturation dans l'application, en utilisant Google Cloud Functions pour récupérer les données de suivi du temps de Toggl, les données clients des API Stripe, générer des factures, les enregistrer dans Google Cloud Storage et les servir à un nouveau module dans l'application."
+        "content_2": "J'ai développé et intégré de nouvelles fonctionnalités de facturation dans l'application, en utilisant Google Cloud Functions pour récupérer les données de suivi du temps de Toggl, les données clients des API Stripe, générer des factures, les enregistrer dans Google Cloud Storage et les servir à un nouveau module dans l'application.",
+        "content_3": "",
+        "content_4": ""
       },
       "Plus2Bad": {
         "title": "Plus2Bad Pricing System",
@@ -253,8 +259,10 @@
         "client": " - Plus2Bad",
         "dates": "2021",
         "tech": "React,Node,Express,MySql",
-        "content_1": "Comme projet final de mon bootcamp, j'ai travaillé dans une équipe de 4 personnes pour développer un système de contrôle des prix et d'étiquettage pour une entreprise d'équipement sportif. Le projet s'est déroulé sur un stack React-Node (Express) utilisant MySql.",
-        "content_2": "J'ai pris la responsabilité principale de la partie backend du projet, en concevant et en mettant en œuvre la structure de la base de données et l'API pour le projet. Cela a impliqué un travail considérable de recherche et d'analyse des données à partir d'une ancienne API xml Prestashop, et de leur conversion dans un format utilisable pour le nouveau système."
+        "content_1": "Le projet final de mon bootcamp; j'ai travaillé dans une équipe de 4 personnes pour développer un système de contrôle des prix et d'étiquettage pour une entreprise d'équipement sportif. Le projet s'est déroulé sur un stack React-Node (Express) utilisant MySql.",
+        "content_2": "J'ai pris la responsabilité principale de la partie backend du projet, en concevant et en mettant en œuvre la structure de la base de données et l'API pour le projet. Cela a impliqué un travail considérable de recherche et d'analyse des données à partir d'une ancienne API xml Prestashop, et de leur conversion dans un format utilisable pour le nouveau système.",
+        "content_3": "",
+        "content_4": ""
       }
     }
   }

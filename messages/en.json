@@ -206,7 +206,8 @@
         "tech": "Vue,Vuetify",
         "content_1": "I worked as part of a consultant developer team, working within the IT Department on development of their services & support platform interface (Vue, Vuex, Vuetify).",
         "content_2": "I implemented new modules (onboarding, equipment management) from-scratch and worked on code quality and CI/CD pipelines.",
-        "content_3": "I led work on improving developer experience by standardising component usage across the app. This involved refactoring the system of generic wrappers used for Vuetify library components; I then extended this system, linking component lifecycle to a dedicated Vuex store module. This allowed me to deliver completely new features in complex components such as data tables, including persistent per-user ui state, custom filtering and column selection."
+        "content_3": "I led work on improving developer experience by standardising component usage across the app. This involved refactoring the system of generic wrappers used for Vuetify library components; I then extended this system, linking component lifecycle to a dedicated Vuex store module. This allowed me to deliver completely new features in complex components such as data tables, including persistent per-user ui state, custom filtering and column selection.",
+        "content_4": ""
       },
       "Connect_api": {
         "title": "Connect.api",
@@ -216,7 +217,8 @@
         "tech": "Php,Laravel,Postgres",
         "content_1": "I worked as part of a consultant developer team, expanding the API (Laravel / Postgres) for an IT department services & support platform.",
         "content_2": "I designed & implemented new database structure & API modules to serve a range of platform data (thousands of users / devices, tens of thousands of support tickets), and extended the API with services connecting to MS Bot Framework & MS Graph.",
-        "content_3": "I led work extending alerting (MS Teams, email) functionality and logging services, and scaffolding functional and unit testing from scratch for the project's legacy code."
+        "content_3": "I led work extending alerting (MS Teams, email) functionality and logging services, and scaffolding functional and unit testing from scratch for the project's legacy code.",
+        "content_4": ""
       },
       "Flwid": {
         "title": "FLWID",
@@ -236,7 +238,9 @@
         "dates": "2021",
         "tech": "React,Gatsby,Tailwind",
         "content_1": "I worked on a full redesign of the site for a startup studio / accelerator, shadowing a lead dev on technical implementation and design decisions.",
-        "content_2": "The project ran on a React-Gatsby stack using Tailwind, connected to a headless CMS (Contentful) via GraphQL. A key focus was on site speed through static page generation and an extensible content model for adding new startups and sub-team members."
+        "content_2": "The project ran on a React-Gatsby stack using Tailwind, connected to a headless CMS (Contentful) via GraphQL. A key focus was on site speed through static page generation and an extensible content model for adding new startups and sub-team members.",
+        "content_3": "",
+        "content_4": ""
       },
       "Blind_Valet": {
         "title": "Blind Valet Admin",
@@ -245,7 +249,9 @@
         "dates": "2021",
         "tech": "Angular,Firebase,Tailwind",
         "content_1": "I worked on developing and extending the back-office admin app for a development agency, as part of a mentored internship. The project ran on an Angular-Firebase stack using Tailwind.",
-        "content_2": "I developed and integrated new invoicing features in the app, using Google Cloud Functions to pull in time tracking data from Toggl, customer data from Stripe APIs, generating invoices, saving them to Google Cloud Storage and serving them to a new module in the app."
+        "content_2": "I developed and integrated new invoicing features in the app, using Google Cloud Functions to pull in time tracking data from Toggl, customer data from Stripe APIs, generating invoices, saving them to Google Cloud Storage and serving them to a new module in the app.",
+        "content_3": "",
+        "content_4": ""
       },
       "Plus2Bad": {
         "title": "Plus2Bad Pricing System",
@@ -254,7 +260,9 @@
         "dates": "2021",
         "tech": "React,Node,Express,MySql",
         "content_1": "As the final project of my bootcamp, I worked in a team of 4 to develop a price control and ticketing system for a sports equipment business. The project ran on a React-Node (Express) stack using MySql.",
-        "content_2": "I took lead responsilibity for the backend portion of the project, designing and implementing the database structure and API for the project. This involved extensive work finding and parsing relevant data from a legacy Prestashop API serving xml, and converting it to a usable format for the new system."
+        "content_2": "I took lead responsilibity for the backend portion of the project, designing and implementing the database structure and API for the project. This involved extensive work finding and parsing relevant data from a legacy Prestashop API serving xml, and converting it to a usable format for the new system.",
+        "content_3": "",
+        "content_4": ""
       }
     }
   }
