@@ -29,7 +29,7 @@ export default function LocaleLayout({ children, params: { locale } }: Props) {
       <body className={inter.className}>
         <header className="sticky top-0 z-50">
           <nav className="absolute bg-[#94a3b833] lg:bg-[#94a3b833] backdrop-blur-[350px] backdrop-brightness-90 lg:bg-transparent text-white font-bold flex flex-row justify-between w-full lg:h-16">
-            <div className="dropdown lg:dropdown-right lg:dropdown-end ml-2 mt-1 lg:mt-2">
+            <div className="dropdown lg:dropdown-right lg:dropdown-end ml-2 mt-1.5 lg:mt-2">
               <label
                 tabIndex={0}
                 className="btn btn-sm lg:btn-md btn-ghost btn-circle bg-[#64748bee] lg:bg-[#5d728bcc]"
@@ -51,9 +51,9 @@ export default function LocaleLayout({ children, params: { locale } }: Props) {
               </label>
               <ul
                 tabIndex={0}
-                className="flex flex-col lg:flex-row lg:h-full lg:items-center dropdown-content z-[1] p-2 pr-4 bg-[#94a3b8dd] lg:bg-transparent rounded-br-lg rounded-l-sm -ml-2 lg:ml-0 mt-[3px] lg:mt-0"
+                className="flex flex-col lg:flex-row lg:h-full lg:items-center dropdown-content z-[1] p-2 pr-4 bg-[#94a3b8dd] lg:bg-transparent rounded-br-2xl rounded-tl-2xl ml-2 lg:ml-0 mt-[3px] lg:-mt-1"
               >
-                <li className="mt-0 mb-2 pb-1  lg:my-0 mr-4 text-xl underline lg:no-underline lg:hover:underline btn-ghost bg-[#64748b88] rounded-br-lg rounded-l-sm lg:rounded-none flex lg:mx-0">
+                <li className="mt-0 mb-2 pb-1  lg:my-0 mr-4 text-xl underline lg:no-underline lg:hover:underline btn-ghost bg-[#64748b88] rounded-br-lg rounded-l-sm lg:rounded-none lg:rounded-tl-2xl flex lg:mx-0">
                   <Link
                     className="mx-2 lg:inline lg:px-4 w-full flex-grow lg:mx-0"
                     href={'/'}
@@ -77,7 +77,7 @@ export default function LocaleLayout({ children, params: { locale } }: Props) {
                     {t('teacher')}
                   </Link>
                 </li>
-                <li className="mt-2 mb-2 pb-1  lg:my-0 mr-4 text-xl underline lg:no-underline lg:hover:underline btn-ghost bg-[#64748b88] rounded-br-lg rounded-l-sm lg:rounded-none flex lg:mx-0">
+                <li className="mt-2 mb-2 pb-1  lg:my-0 mr-4 text-xl underline lg:no-underline lg:hover:underline btn-ghost bg-[#64748b88] rounded-br-lg rounded-l-sm lg:rounded-none lg:rounded-br-2xl flex lg:mx-0">
                   <Link
                     className="mx-2 lg:inline lg:px-4 w-full flex-grow lg:mx-0"
                     href={`/contact`}

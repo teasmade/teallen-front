@@ -1,6 +1,6 @@
 'use client';
 import { Link } from '@/navigation';
-import { useTranslations } from 'next-intl';
+import { useTranslations, useLocale } from 'next-intl';
 
 import ScrollToTopButton from '@/components/ScrollTopBtn';
 
@@ -12,6 +12,11 @@ import History from '@/components/developer/History';
 
 export default function DeveloperHome() {
   const t = useTranslations();
+  const locale = useLocale();
+
+  const cvPath = () => {
+    return `/ALLEN_TE_CV_DEV_${locale.toUpperCase()}_WEB.pdf`;
+  };
 
   const scrollToSection = (sectionId: string) => {
     const section = document.getElementById(sectionId);
@@ -48,15 +53,22 @@ export default function DeveloperHome() {
         className="mt-12 xl:mt-24 flex flex-row justify-center gap-8 xl:gap-32 scale-[0.7] lg:scale-100"
       >
         <div className="bg-sky-700 hover:border border-white rounded-tl-3xl rounded-br-3xl hover:scale-110 origin-top-left transition-all ease-in duration-200">
-          <div className="border border-white rounded-tl-3xl rounded-br-3xl p-4 bg-sky-700 hover:bg-sky-800 hover:scale-110 hover:translate-x-2 hover:translate-y-2 origin-top-left transition-all ease-in duration-200">
-            <div className="flex flex-row justify-around w-32">
-              <CvSVG
-                width="72"
-                height="72"
-              />
+          <a
+            href={cvPath()}
+            target="_blank"
+          >
+            <div className="border border-white rounded-tl-3xl rounded-br-3xl p-4 bg-sky-700 hover:bg-sky-800 hover:scale-110 hover:translate-x-2 hover:translate-y-2 origin-top-left transition-all ease-in duration-200">
+              <div className="flex flex-row justify-around w-32">
+                <CvSVG
+                  width="72"
+                  height="72"
+                />
+              </div>
+              <p className="mt-4 font-mono text-lg lg:text-base">
+                {t('home.cv_btn')}
+              </p>
             </div>
-            <p className="mt-4 font-mono text-lg lg:text-base">cv_dev_en.pdf</p>
-          </div>
+          </a>
         </div>
 
         <div className="bg-sky-700 hover:border border-white rounded-tl-3xl rounded-br-3xl hover:scale-110 origin-top-left transition-all ease-in duration-200">

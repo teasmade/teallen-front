@@ -132,7 +132,8 @@
       "intro_li_2": "I moved into tech following careers in sales management and English language teaching;",
       "intro_li_3": "This background in natural language communication strengthens and augments my tech skills;",
       "intro_li_4": "Self-discovery through new technical and human contexts drives my love of development and learning;",
-      "intro_li_5": "I'm always open to interesting new projects and can work on a flexible freelance or longer-term contract basis."
+      "intro_li_5": "I'm always open to interesting new projects and can work on a flexible freelance or longer-term contract basis.",
+      "cv_btn": "cv_dev_en.pdf"
     },
     "skills": {
       "title": "dev.skills",
@@ -140,7 +141,7 @@
         "title": "Modern JS/TS Web Development",
         "p1": "I have experience building responsive, accessible, and performant web applications at a range of scales, using:",
         "react_title": "React",
-        "react_p1": "I've worked on a diverse range of projects using vanilla React, Gatsby and NextJS, with a range of technical goals from rapid app prototyping through external api integration and server component migration to scaffolding an extensible static site generator.",
+        "react_p1": "I've worked on a diverse range of projects using React, Gatsby and NextJS, with a range of technical goals from rapid app prototyping through external api integration and server component migration to scaffolding an extensible static site generator.",
         "react_p2": "This has involved work with supporting technologies including Tailwind, Contentful, GraphQL, Firebase, Google Cloud and Stripe.",
         "vue_title": "Vue",
         "vue_p1": "I have experience in large scale Vue development as part of the core team building the management system for the IS department of a major consultancy. Working with Vuex and Vuetify, I led the development of a system of stateful wrappers to extend the functionality of data tables and other complex components across the application.",
