@@ -1,10 +1,10 @@
 version: '3.8'
 services:
-  nextapp:
+  test-nextapp:
     build: . # use the local Dockerfile
     restart: unless-stopped
     ports:
-      - "3000:3000"
+      - "3003:3000"
     environment:
       NODE_ENV: production
     networks:
