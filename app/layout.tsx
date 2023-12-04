@@ -5,8 +5,10 @@ import Link from 'next/link';
 
 const inter = Inter({ subsets: ['latin'] });
 
+const testTitleFlag = process.env.APP_ENV === 'testing' ? 'TESTING ' : '';
+
 export const metadata: Metadata = {
-  title: 'TESTING teallen.com',
+  title: testTitleFlag + 'teallen.com',
   description: 'software developer, language teacher, EN/FR',
 };
 
