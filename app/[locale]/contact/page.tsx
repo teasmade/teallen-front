@@ -1,11 +1,46 @@
 import { useTranslations, useLocale } from 'next-intl';
+import { PrismaClient } from '@prisma/client';
+import { redirect } from 'next/navigation';
+
+interface FormDataFields {
+  email: string;
+  phone: string;
+  first: string;
+  last: string;
+  interest: string;
+  message: string;
+  _next: string;
+}
+const prisma = new PrismaClient();
 
 export default function ContactPage() {
+  async function action(formData: FormData) {
+    'use server';
+    const data = Object.fromEntries(formData) as unknown as FormDataFields;
+    try {
+      const results = await prisma.form.create({
+        data: {
+          email: data?.email,
+          phone: data?.phone,
+          firstName: data?.first,
+          lastName: data?.last,
+          interest: data?.interest,
+          message: data?.message,
+        },
+      });
+    } catch (error) {
+      console.error(error);
+      // TODO: handle error
+    } finally {
+      redirect(data._next);
+    }
+  }
+
   const t = useTranslations('Contact.form');
-  const action = () => 'https://getform.io/f/' + process.env.GETFORM_ID;
   const locale = useLocale();
-  const appUri = process.env.APP_URI;
-  // Get date/time as e.g. 15:34 - 2021-10-01
+  const returnUri = () => {
+    return `/${locale}/contact/thanks`;
+  };
   const contactSubject = () => {
     const dateTimeString = () => {
       const now = new Date();
@@ -17,15 +52,11 @@ export default function ContactPage() {
     return `teallen/contact @ ${dateTime}`;
   };
 
-  const returnUri = () => {
-    return appUri + '/' + locale + '/contact/thanks';
-  };
-
   return (
     <div className="w-full">
       <form
         className="mt-4 flex flex-col items-center gap-4 form-control w-full"
-        action={action()}
+        action={action}
         method="POST"
       >
         <input
