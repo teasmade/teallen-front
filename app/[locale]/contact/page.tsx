@@ -3,7 +3,7 @@ import { PrismaClient } from '@prisma/client';
 import { redirect } from 'next/navigation';
 import nodemailer from 'nodemailer';
 import Mail from 'nodemailer/lib/mailer';
-import Submit from './Submit';
+// import Submit from './Submit';
 
 interface FormDataFields {
   email: string;
@@ -223,7 +223,7 @@ export default function ContactPage() {
           >
             {t('submit')}
           </button>
-          <Submit />
+          {/* <Submit /> */}
         </div>
       </form>
     </div>
