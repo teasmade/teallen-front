@@ -42,7 +42,7 @@ export default function Title({
         <span className={`opacity-100 absolute lg:left-[14px] mx-2`}>
           {t('domain')}
           <span
-            className={`text-2xl lg:text-4xl font-semibold ${fontVariants[contentSection]}`}
+            className={`text-2xl lg:text-4xl font-semibold absolute bottom-0 whitespace-nowrap ${fontVariants[contentSection]}`}
           >
             {t('title')}
           </span>
