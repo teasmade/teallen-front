@@ -144,10 +144,10 @@
         "react_p1": "J'ai travaillé sur une gamme variée de projets utilisant React, Gatsby et NextJS, avec un éventail d'objectifs techniques allant du prototypage rapide d'applications à l'intégration d'api externes, la migration de composants serveur à l'échafaudage d'un générateur de site statique extensible.",
         "react_p2": "Cela a impliqué un travail avec diverses technologies de soutien, notamment Tailwind, Contentful, GraphQL, Firebase, Google Cloud et Stripe.",
         "vue_title": "Vue",
-        "vue_p1": "J'ai de l'expérience dans le développement Vue à grande échelle en tant que membre de l'équipe principale qui construit le système de gestion pour la DSI d'une grande société de conseil. En travaillant avec Vuex et Vuetify, j'ai dirigé le développement d'un système de wrappers avec état pour étendre la fonctionnalité des tables de données et d'autres composants complexes à travers l'application",
+        "vue_p1": "J'ai de l'expérience dans le développement Vue à grande échelle en tant que membre de l'équipe principale qui construit le système de gestion pour la DSI d'une grande société de conseil. En travaillant avec Vuex et Vuetify, j'ai dirigé le développement d'un système de wrappers avec état pour étendre la fonctionnalité des tables de données et d'autres composants complexes à travers l'application.",
         "vue_p2": "J'ai également développé de nouvelles fonctionnalités modulaires pour onboarding, la gestion des appareils et l'assistance technique automatisée, et j'ai travaillé à la normalisation de la qualité du code et des pratiques de test.",
         "other_title": "autres plateformes",
-        "other_p1": "J'ai également travaillé sur des projets plus petits avec Angular, et j'ai intégré des sites statiques de PME avec des CMS, y compris Wordpress et Webflow. Mes projets personnels actuels comportent de l'apprentissage et de l'expérimentation en Svelte et une comparaison de SolidJS vs. Next. "
+        "other_p1": "J'ai également travaillé sur des projets plus petits avec Angular, et j'ai intégré des sites statiques de PME avec des CMS, y compris Wordpress et Webflow. Le site sur lequel vous vous trouvez actuellement a été construit en partie comme projet d'apprentissage pour explorer les server components / actions du NextJS 13+."
       },
       "back": {
         "title": "Développement API et backend",

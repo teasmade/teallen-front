@@ -147,7 +147,7 @@
         "vue_p1": "I have experience in large scale Vue development as part of the core team building the management system for the IS department of a major consultancy. Working with Vuex and Vuetify, I led the development of a system of stateful wrappers to extend the functionality of data tables and other complex components across the application.",
         "vue_p2": "I also developed new modular features for on-boarding, device management and automated support and worked on standardising code quality and testing practices.",
         "other_title": "other platforms",
-        "other_p1": "I've also worked on smaller projects with Angular, and have integrated static small business sites with CMSs including Wordpress and Webflow. The site you're on now was built partly as a learning project to explore server components and actions in NextJS 13+"
+        "other_p1": "I've also worked on smaller projects with Angular, and have integrated static small business sites with CMSs including Wordpress and Webflow. The site you're on now was built partly as a learning project to explore server components and actions in NextJS 13+."
       },
       "back": {
         "title": "API & Backend Service Development",
