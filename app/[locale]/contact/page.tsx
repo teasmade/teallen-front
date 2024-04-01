@@ -2,7 +2,8 @@ import { useTranslations, useLocale } from 'next-intl';
 
 export default function ContactPage() {
   const t = useTranslations('Contact.form');
-  const action = () => 'https://getform.io/f/' + process.env.GETFORM_ID;
+  const action = () => 'https://api.web3forms.com/submit';
+  const web3Key = () => process.env.WEB3FORMS_ID;
   const locale = useLocale();
   const appUri = process.env.APP_URI;
   // Get date/time as e.g. 15:34 - 2021-10-01
@@ -30,12 +31,23 @@ export default function ContactPage() {
       >
         <input
           type="hidden"
-          name="_subject"
+          name="access_key"
+          value={web3Key()}
+        ></input>
+        <input
+          type="checkbox"
+          name="botcheck"
+          className="hidden"
+          style={{ display: 'none' }}
+        ></input>
+        <input
+          type="hidden"
+          name="subject"
           value={contactSubject()}
         ></input>
         <input
           type="hidden"
-          name="_next"
+          name="redirect"
           value={returnUri()}
         ></input>
         <div className="">
@@ -53,6 +65,11 @@ export default function ContactPage() {
             required
             className="input input-bordered bg-sky-700 rounded-2xl rounded-tr-none rounded-bl-none "
           />
+          <input
+            type="hidden"
+            name="from_name"
+            value="teallen_contact_form"
+          ></input>
         </div>
         <div className="">
           <label
