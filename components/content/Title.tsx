@@ -33,13 +33,13 @@ export default function Title({
 
   return (
     <div
-      className={`mt-0 pt-12 lg:pt-0 lg:mt-4 lg:pb-2 lg:grid lg:grid-cols-3 lg:justify-items-center ${colorVariants[sectionColor]}`}
+      className={`mt-0 pt-12 lg:pt-0 lg:mt-4 lg:pb-6 lg:grid lg:grid-cols-3 lg:justify-items-center ${colorVariants[sectionColor]}`}
     >
       <span className="hidden lg:inline justify-self-end self-end text-5xl font-extrabold opacity-0 -mr-3 pb-1">
         {''}
       </span>
-      <h1 className="justify-self-center relative text-5xl lg:text-7xl font-extrabold">
-        <span className={`opacity-100 absolute lg:left-[14px] mx-2`}>
+      <h1 className="justify-self-center relative text-5xl lg:text-7xl font-extrabold pt-4">
+        <span className={`opacity-100 absolute lg:left-[8px] mx-2`}>
           {t('domain')}
           <span
             className={`text-2xl lg:text-4xl font-semibold absolute bottom-0 whitespace-nowrap ${fontVariants[contentSection]}`}
