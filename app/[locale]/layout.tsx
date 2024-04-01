@@ -26,7 +26,7 @@ export default function LocaleLayout({ children, params: { locale } }: Props) {
 
   return (
     <html lang={locale}>
-      <body className={inter.className}>
+      <body className={inter.className + ' overflow-x-hidden'}>
         <header className="sticky top-0 z-50">
           <nav className="absolute bg-[#94a3b833] lg:bg-[#94a3b833] backdrop-blur-[350px] backdrop-brightness-90 lg:bg-transparent text-white font-bold flex flex-row justify-between w-full lg:h-16">
             <div className="dropdown lg:dropdown-right lg:dropdown-end ml-2 mt-1.5 lg:mt-2">
