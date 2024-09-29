@@ -9,7 +9,7 @@ import LearnersOneSVG from '@/icons/svgs/undraw/LearnersOneSVG';
 export default function Skills() {
   const t = useTranslations('Home');
   return (
-    <section className="w-full flex-grow flex flex-col justify-around lg:grid lg:grid-cols-home lg:justify-items-center mt-8 lg:mt-4 lg:mt-8 2xl:mt-12 items-start text-white font-bold transition-all duration-700 ease-in-out">
+    <section className="w-full flex-grow flex flex-col justify-around lg:grid lg:grid-cols-home lg:justify-items-center mt-2 2xl:mt-4 items-start text-white font-bold transition-all duration-700 ease-in-out">
       {/* Dev subtitle */}
 
       <div className="hidden lg:block py-2 w-full text-6xl bg-sky-700 duration-700 text-center lg:opacity-100 group-hover:opacity-100">
