@@ -16,7 +16,7 @@ export default function BottomNav() {
           <span> 📜</span>
         </Link>
       </div> */}
-      <div className="lg:col-start-8 lg:col-end-12 text-sm lg:text-2xl lg:self-end pb-4 lg:pb-8 hover:scale-110 ease-in duration-[150ms]">
+      <div className="hidden z-10 relative top-4 lg:col-start-8 lg:col-end-12 text-sm lg:text-2xl lg:self-end pb-4 lg:pb-8 hover:scale-110 ease-in duration-[150ms]">
         <Link
           className="lg:bg-sky-600 lg:btn-home-bottomnav rounded-tl-2xl rounded-br-2xl bg-sky-600 py-1 px-2"
           href="/contact"

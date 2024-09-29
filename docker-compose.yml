@@ -3,8 +3,9 @@ services:
   nextapp:
     build: . # use the local Dockerfile
     restart: unless-stopped
+    container_name: ${NEXTAPP_CONTAINER_NAME}
     ports:
-      - "3000:3000"
+      - ${NEXTAPP_DOCKER_PORTS}
     environment:
       NODE_ENV: production
     networks:
